@@ -26,9 +26,19 @@
 
    **Variable 2:**
    - **Name:** `RESEND_FROM_EMAIL`
-   - **Value:** `noreply@eufta.in`
+   - **Value:** `info@eufta.in`
    - **Environment:** Select all (Production, Preview, Development)
    - Click "Save"
+   
+   **Important:** 
+   - You need to verify `eufta.in` domain in Resend for this to work
+   - Go to https://resend.com/domains and add your domain
+   - Add the DNS records they provide
+   - Once verified, emails will send from info@eufta.in
+   
+   **Alternative (for immediate testing):**
+   - Use `onboarding@resend.dev` if domain verification takes time
+   - This works immediately without domain setup
 
 ### 3. Redeploy (if already deployed)
 
