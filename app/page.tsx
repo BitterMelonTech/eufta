@@ -90,7 +90,7 @@ export default function Home() {
                   key={stat.label}
                   className="rounded-lg bg-slate-50 p-6 text-center"
                 >
-                  <p className="text-2xl font-bold text-emerald-600">
+                  <p className="text-2xl font-bold text-cyan-600">
                     {stat.value}
                   </p>
                   <p className="mt-2 text-sm text-slate-600">{stat.label}</p>
@@ -116,7 +116,7 @@ export default function Home() {
                 </h3>
                 <ul className="space-y-3 text-sm text-slate-600">
                   <li className="flex items-start gap-3">
-                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                       <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -126,7 +126,7 @@ export default function Home() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                       <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -136,7 +136,7 @@ export default function Home() {
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                       <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -144,7 +144,7 @@ export default function Home() {
                     <span>Net effect on cash flow: Zero upfront burden</span>
                   </li>
                   <li className="flex items-start gap-3">
-                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                       <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
@@ -174,13 +174,13 @@ export default function Home() {
                   Multimodal Connectivity
                 </h3>
                 <p className="mt-4 text-slate-600">
-                  Reach <strong className="text-emerald-600">170 million consumers</strong> within 24 hours of docking at Rotterdam port. Our strategic location provides the fastest access to Western European markets.
+                  Reach <strong className="text-cyan-600">170 million consumers</strong> within 24 hours of docking at Rotterdam port. Our strategic location provides the fastest access to Western European markets.
                 </p>
-                <div className="mt-6 rounded-lg bg-emerald-50 p-4">
-                  <p className="text-sm font-semibold text-emerald-900">
+                <div className="mt-6 rounded-lg bg-cyan-50 p-4">
+                  <p className="text-sm font-semibold text-cyan-900">
                     Green & Digital Shipping Corridor
                   </p>
-                  <p className="mt-2 text-sm text-emerald-800">
+                  <p className="mt-2 text-sm text-cyan-800">
                     Prioritized flow via the newly established India-Netherlands Green and Digital Shipping Corridor, supporting hydrogen and ammonia-fueled logistics for sustainable trade.
                   </p>
                 </div>
@@ -254,14 +254,14 @@ export default function Home() {
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-slate-600">New Duty:</span>
-                      <span className="font-semibold text-emerald-600">
+                      <span className="font-semibold text-cyan-600">
                         {item.newDuty}
                       </span>
                     </div>
                     <p className="mt-2 text-xs text-slate-500">
                       {item.timeline}
-                    </p>
-                  </div>
+          </p>
+        </div>
                 </div>
               ))}
             </div>
@@ -300,14 +300,14 @@ export default function Home() {
             <div className="mt-8">
               <a
                 href="mailto:info@eufta.in"
-                className="rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-emerald-500"
+                className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
               >
                 Contact Us
-              </a>
-            </div>
+          </a>
+        </div>
           </div>
         </section>
-      </div>
+    </div>
     </>
   );
 }

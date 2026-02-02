@@ -30,10 +30,10 @@ export default function ProfessionalMobility() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             whileHover={{ y: -8, transition: { duration: 0.2 } }}
-            className="group relative rounded-2xl border border-emerald-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-xl hover:shadow-2xl transition-all duration-300"
+            className="group relative rounded-2xl border border-cyan-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-xl hover:shadow-2xl transition-all duration-300"
           >
             <div className="flex items-center gap-4 mb-6">
-              <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg">
+              <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 text-white shadow-lg">
                 <IconGraduation />
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
@@ -48,7 +48,7 @@ export default function ProfessionalMobility() {
             </p>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                   <IconCheck />
                 </div>
                 <span className="text-slate-700">
@@ -57,7 +57,7 @@ export default function ProfessionalMobility() {
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                   <IconCheck />
                 </div>
                 <span className="text-slate-700">
@@ -66,7 +66,7 @@ export default function ProfessionalMobility() {
                 </span>
               </li>
               <li className="flex items-start gap-3">
-                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-100 text-cyan-600 flex-shrink-0 mt-0.5">
                   <IconCheck />
                 </div>
                 <span className="text-slate-700">

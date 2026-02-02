@@ -148,7 +148,7 @@ export default function SectorImpact2026() {
                 placeholder="Search sectors..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full rounded-md border border-slate-300 px-4 py-2 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20"
+                className="w-full rounded-md border border-slate-300 px-4 py-2 text-sm focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/20"
               />
             </div>
             <div className="flex gap-2">
@@ -156,7 +156,7 @@ export default function SectorImpact2026() {
                 onClick={() => setSelectedCategory("all")}
                 className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
                   selectedCategory === "all"
-                    ? "bg-emerald-600 text-white"
+                    ? "bg-cyan-600 text-white"
                     : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
@@ -166,7 +166,7 @@ export default function SectorImpact2026() {
                 onClick={() => setSelectedCategory("export")}
                 className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
                   selectedCategory === "export"
-                    ? "bg-emerald-600 text-white"
+                    ? "bg-cyan-600 text-white"
                     : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
@@ -176,7 +176,7 @@ export default function SectorImpact2026() {
                 onClick={() => setSelectedCategory("import")}
                 className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
                   selectedCategory === "import"
-                    ? "bg-emerald-600 text-white"
+                    ? "bg-cyan-600 text-white"
                     : "bg-slate-100 text-slate-700 hover:bg-slate-200"
                 }`}
               >
@@ -227,7 +227,7 @@ export default function SectorImpact2026() {
                         <span
                           className={`ml-2 inline-flex rounded-full px-2 py-0.5 text-xs font-medium ${
                             sector.category === "export"
-                              ? "bg-emerald-100 text-emerald-800"
+                              ? "bg-cyan-100 text-cyan-800"
                               : "bg-blue-100 text-blue-800"
                           }`}
                         >
@@ -244,7 +244,7 @@ export default function SectorImpact2026() {
                       </span>
                     </td>
                     <td className="whitespace-nowrap px-6 py-4">
-                      <span className="text-sm font-bold text-emerald-600">
+                      <span className="text-sm font-bold text-cyan-600">
                         {sector.newDuty}
                       </span>
                     </td>
@@ -298,11 +298,11 @@ export default function SectorImpact2026() {
                       {sector.oldDuty}
                     </p>
                   </div>
-                  <div className="rounded-md bg-emerald-50 p-3">
-                    <p className="text-xs font-medium text-emerald-700 mb-1">
+                  <div className="rounded-md bg-cyan-50 p-3">
+                    <p className="text-xs font-medium text-cyan-700 mb-1">
                       New Duty (FTA 2026)
                     </p>
-                    <p className="text-lg font-bold text-emerald-600">
+                    <p className="text-lg font-bold text-cyan-600">
                       {sector.newDuty}
                     </p>
                   </div>
@@ -338,7 +338,7 @@ export default function SectorImpact2026() {
             </p>
             <Link
               href="/final-text"
-              className="inline-flex items-center rounded-md border-2 border-emerald-600 px-6 py-3 text-base font-semibold text-emerald-600 hover:bg-emerald-50 transition-colors"
+              className="inline-flex items-center rounded-md border-2 border-cyan-600 px-6 py-3 text-base font-semibold text-cyan-600 hover:bg-cyan-50 transition-colors"
             >
               View Final Agreement Text
               <IconArrow />

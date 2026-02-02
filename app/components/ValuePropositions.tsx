@@ -34,8 +34,8 @@ export default function ValuePropositions() {
       description:
         "Servicing the surging Indian demand for European luxury, food, and machinery.",
       icon: IconArrow,
-      gradient: "from-emerald-500 to-emerald-600",
-      bgGradient: "from-emerald-50 to-emerald-100/50",
+      gradient: "from-cyan-500 to-cyan-600",
+      bgGradient: "from-cyan-50 to-cyan-100/50",
     },
   ];
 

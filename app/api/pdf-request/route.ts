@@ -29,7 +29,7 @@ function drawDutyGraph(
   
   doc.setFillColor(248, 250, 252);
   doc.roundedRect(x, y, width, height, 3, 3, "F");
-  doc.setDrawColor(16, 185, 129);
+  doc.setDrawColor(8, 145, 178);  // Cyan-600
   doc.setLineWidth(1);
   doc.roundedRect(x, y, width, height, 3, 3, "D");
   
@@ -63,7 +63,7 @@ function drawDutyGraph(
     points.push({ x: pointX, y: pointY, duty: point.duty });
   });
   
-  doc.setDrawColor(16, 185, 129);
+  doc.setDrawColor(8, 145, 178);  // Cyan-600
   doc.setLineWidth(2);
   for (let i = 0; i < points.length - 1; i++) {
     doc.line(points[i].x, points[i].y, points[i + 1].x, points[i + 1].y);
@@ -73,7 +73,7 @@ function drawDutyGraph(
     if (index === 0) {
       doc.setFillColor(220, 38, 38);
     } else {
-      doc.setFillColor(16, 185, 129);
+      doc.setFillColor(8, 145, 178);  // Cyan-600
     }
     doc.circle(point.x, point.y, 2, "F");
     doc.setDrawColor(255, 255, 255);
@@ -81,7 +81,7 @@ function drawDutyGraph(
     doc.circle(point.x, point.y, 2, "D");
     
     doc.setFontSize(8);
-    doc.setTextColor(16, 185, 129);
+    doc.setTextColor(8, 145, 178);  // Cyan-600
     doc.setFont("helvetica", "bold");
     doc.text(`${point.duty.toFixed(1)}%`, point.x, point.y - 5, { align: "center" });
   });
@@ -124,14 +124,14 @@ function generateSectorPages(
   drawDutyGraph: any,
   colors: any
 ): void {
-  const { navyBlue, emeraldGreen, lightGray, darkGray, red } = colors;
+  const { navyBlue, cyanBlue, cyanLight, lightGray, darkGray, red } = colors;
   
   // Helper to add page header
   const addPageHeader = (title: string) => {
     doc.addPage();
     doc.setFillColor(navyBlue[0], navyBlue[1], navyBlue[2]);
     doc.rect(0, 0, pageWidth, 35, "F");
-    doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.rect(0, 0, 6, 35, "F");
     doc.setTextColor(255, 255, 255);
     doc.setFontSize(18);
@@ -148,8 +148,8 @@ function generateSectorPages(
       yPos = addPageHeader("Product Catalog (continued)");
     }
     
-    drawRoundedBox(18, yPos - 5, pageWidth - 36, 28, lightGray, emeraldGreen, 0.6);
-    doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    drawRoundedBox(18, yPos - 5, pageWidth - 36, 28, lightGray, cyanBlue, 0.6);
+    doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.rect(18, yPos - 5, 3, 28, "F");
     
     doc.setFontSize(12);
@@ -174,12 +174,12 @@ function generateSectorPages(
     doc.text(`${product.oldDuty}%`, 28, yPos + 14);
     doc.setTextColor(100, 100, 100);
     doc.text("→", 40, yPos + 14);
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text(`${product.newDuty}%`, 45, yPos + 14);
     
     doc.setFontSize(8);
     doc.setFont("helvetica", "bold");
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text(`Export Value: ${product.exportValue}`, 90, yPos + 2);
     
     doc.setFontSize(8);
@@ -193,12 +193,12 @@ function generateSectorPages(
   // PAGE 4: Duty Reduction Graph & Timeline
   yPos = addPageHeader("Duty Reduction Analysis & Timeline");
   
-  drawDutyGraph(doc, sector.timeline, 20, yPos, pageWidth - 40, 100);
+  drawDutyGraph(doc, sector.timeline, 20, yPos, pageWidth - 40, 100, cyanBlue);
   
   yPos = 160;
   
-  drawRoundedBox(18, yPos, pageWidth - 36, 110, lightGray, emeraldGreen, 0.8);
-  doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+  drawRoundedBox(18, yPos, pageWidth - 36, 110, lightGray, cyanBlue, 0.8);
+  doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
   doc.rect(18, yPos, 4, 110, "F");
   
   doc.setFontSize(14);
@@ -213,7 +213,7 @@ function generateSectorPages(
   let timelineY = yPos + 20;
   sector.timeline.forEach((point) => {
     doc.setFont("helvetica", "bold");
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text(`${point.label}: ${point.duty}%`, 25, timelineY);
     doc.setFont("helvetica", "normal");
     doc.setTextColor(60, 60, 60);
@@ -236,8 +236,8 @@ function generateSectorPages(
       [254, 242, 242],
     ];
     
-    drawRoundedBox(18, yPos - 5, pageWidth - 36, 50, colors[index % colors.length] as number[], emeraldGreen, 0.6);
-    doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    drawRoundedBox(18, yPos - 5, pageWidth - 36, 50, colors[index % colors.length] as number[], cyanBlue, 0.6);
+    doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.rect(18, yPos - 5, 3, 50, "F");
     
     doc.setFontSize(12);
@@ -257,7 +257,7 @@ function generateSectorPages(
     
     doc.setFontSize(7);
     doc.setFont("helvetica", "bold");
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text("Key Requirements:", 25, yPos + 3);
     
     doc.setFontSize(7);
@@ -291,8 +291,8 @@ function generateSectorPages(
       yPos = 50;
     }
     
-    drawRoundedBox(18, yPos - 5, pageWidth - 36, 35, lightGray, emeraldGreen, 0.6);
-    doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    drawRoundedBox(18, yPos - 5, pageWidth - 36, 35, lightGray, cyanBlue, 0.6);
+    doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.rect(18, yPos - 5, 3, 35, "F");
     
     doc.setFontSize(11);
@@ -307,7 +307,7 @@ function generateSectorPages(
     
     doc.setFontSize(8);
     doc.setFont("helvetica", "bold");
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text(`Market Size: ${opp.marketSize}`, 25, yPos + 2);
     
     yPos += 8;
@@ -327,8 +327,8 @@ function generateSectorPages(
       yPos = 50;
     }
     
-    drawRoundedBox(18, yPos - 5, pageWidth - 36, 40, [239, 246, 255], emeraldGreen, 0.6);
-    doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    drawRoundedBox(18, yPos - 5, pageWidth - 36, 40, [239, 246, 255], cyanBlue, 0.6);
+    doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.rect(18, yPos - 5, 3, 40, "F");
     
     doc.setFontSize(11);
@@ -343,7 +343,7 @@ function generateSectorPages(
     
     doc.setFontSize(7);
     doc.setFont("helvetica", "bold");
-    doc.setTextColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+    doc.setTextColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
     doc.text(`Key Players: ${region.keyPlayers.join(", ")}`, 25, yPos + 2);
     
     doc.setFontSize(8);
@@ -356,8 +356,8 @@ function generateSectorPages(
   // PAGE 7: Case Study & Cost Savings
   yPos = addPageHeader("Case Study: Cost Savings Analysis");
   
-  drawRoundedBox(18, yPos, pageWidth - 36, 200, [255, 251, 235], emeraldGreen, 1);
-  doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+  drawRoundedBox(18, yPos, pageWidth - 36, 200, [255, 251, 235], cyanBlue, 1);
+  doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
   doc.rect(18, yPos, 4, 200, "F");
   
   doc.setFontSize(16);
@@ -374,7 +374,7 @@ function generateSectorPages(
   
   doc.setFillColor(255, 255, 255);
   doc.roundedRect(25, yPos, pageWidth - 50, 80, 2, 2, "F");
-  doc.setDrawColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+  doc.setDrawColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
   doc.setLineWidth(1);
   doc.roundedRect(25, yPos, pageWidth - 50, 80, 2, 2, "D");
   
@@ -395,7 +395,7 @@ function generateSectorPages(
   
   yPos = calcY + 10;
   
-  doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+  doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
   doc.roundedRect(25, yPos, pageWidth - 50, 25, 3, 3, "F");
   
   doc.setFontSize(12);
@@ -428,12 +428,13 @@ export async function POST(request: NextRequest) {
       const pageHeight = doc.internal.pageSize.getHeight();
       
       const navyBlue = [15, 23, 42];
-      const emeraldGreen = [16, 185, 129];
+      const cyanBlue = [8, 145, 178];  // Cyan-600 - Modern primary color
+      const cyanLight = [6, 182, 212];  // Cyan-500
       const lightGray = [248, 250, 252];
       const darkGray = [100, 100, 100];
       const red = [220, 38, 38];
       
-      const colors = { navyBlue, emeraldGreen, lightGray, darkGray, red };
+      const colors = { navyBlue, cyanBlue, cyanLight, lightGray, darkGray, red };
       
       const drawRoundedBox = (x: number, y: number, w: number, h: number, fillColor: number[] | null, borderColor: number[], lineWidth: number = 0.5) => {
         if (fillColor) {
@@ -454,7 +455,7 @@ export async function POST(request: NextRequest) {
       // PAGE 1: COVER
       doc.setFillColor(navyBlue[0], navyBlue[1], navyBlue[2]);
       doc.rect(0, 0, pageWidth, 60, "F");
-      doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.rect(0, 0, 8, 60, "F");
       
       doc.setTextColor(255, 255, 255);
@@ -480,7 +481,7 @@ export async function POST(request: NextRequest) {
       doc.setTextColor(60, 60, 60);
       doc.text("Complete Market Analysis for All Export Sectors", pageWidth / 2, 88, { align: "center" });
       
-      doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.roundedRect(pageWidth / 2 - 70, 98, 140, 22, 4, 4, "F");
       doc.setTextColor(255, 255, 255);
       doc.setFontSize(12);
@@ -491,7 +492,7 @@ export async function POST(request: NextRequest) {
       
       doc.setFillColor(lightGray[0], lightGray[1], lightGray[2]);
       doc.roundedRect(15, 130, pageWidth - 30, 50, 4, 4, "F");
-      doc.setDrawColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      doc.setDrawColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.setLineWidth(1);
       doc.roundedRect(15, 130, pageWidth - 30, 50, 4, 4, "D");
       
@@ -516,7 +517,7 @@ export async function POST(request: NextRequest) {
       doc.addPage();
       doc.setFillColor(navyBlue[0], navyBlue[1], navyBlue[2]);
       doc.rect(0, 0, pageWidth, 35, "F");
-      doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.rect(0, 0, 6, 35, "F");
       
       doc.setTextColor(255, 255, 255);
@@ -526,8 +527,8 @@ export async function POST(request: NextRequest) {
       
       let yPos = 50;
       
-      drawRoundedBox(18, yPos, pageWidth - 36, 200, lightGray, emeraldGreen, 0.8);
-      doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      drawRoundedBox(18, yPos, pageWidth - 36, 200, lightGray, cyanBlue, 0.8);
+      doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.rect(18, yPos, 4, 200, "F");
       
       doc.setFontSize(14);
@@ -575,7 +576,7 @@ export async function POST(request: NextRequest) {
       doc.addPage();
       doc.setFillColor(navyBlue[0], navyBlue[1], navyBlue[2]);
       doc.rect(0, 0, pageWidth, 35, "F");
-      doc.setFillColor(emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]);
+      doc.setFillColor(cyanBlue[0], cyanBlue[1], cyanBlue[2]);
       doc.rect(0, 0, 6, 35, "F");
       
       doc.setTextColor(255, 255, 255);
@@ -629,7 +630,7 @@ export async function POST(request: NextRequest) {
       
       yPos = 140;
       
-      drawRoundedBox(18, yPos, pageWidth - 36, 65, [emeraldGreen[0], emeraldGreen[1], emeraldGreen[2]], navyBlue, 1);
+      drawRoundedBox(18, yPos, pageWidth - 36, 65, [cyanBlue[0], cyanBlue[1], cyanBlue[2]], navyBlue, 1);
       
       doc.setTextColor(255, 255, 255);
       doc.setFontSize(14);

@@ -114,7 +114,7 @@ export default function ConversionTriggers() {
                     onChange={(e) => setEmail(e.target.value)}
                     required
                     placeholder="your.email@example.com"
-                    className="w-full rounded-xl border-2 border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-emerald-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all"
+                    className="w-full rounded-xl border-2 border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-cyan-500 focus:bg-white focus:outline-none focus:ring-2 focus:ring-cyan-500/20 transition-all"
                   />
                 </div>
                 <button

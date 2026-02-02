@@ -125,14 +125,14 @@ export default function FinalText() {
             </section>
 
             {/* Related Content */}
-            <section className="rounded-lg border border-emerald-200 bg-emerald-50 p-8">
+            <section className="rounded-lg border border-cyan-200 bg-cyan-50 p-8">
               <h2 className="text-2xl font-bold text-slate-900 mb-4">
                 Related Resources
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Link
                   href="/fta-industries"
-                  className="rounded-lg bg-white p-4 border border-emerald-200 hover:border-emerald-400 transition-colors"
+                  className="rounded-lg bg-white p-4 border border-cyan-200 hover:border-cyan-400 transition-colors"
                 >
                   <h3 className="font-semibold text-slate-900 mb-2">
                     Sector Impact 2026
@@ -143,7 +143,7 @@ export default function FinalText() {
                 </Link>
                 <Link
                   href="/"
-                  className="rounded-lg bg-white p-4 border border-emerald-200 hover:border-emerald-400 transition-colors"
+                  className="rounded-lg bg-white p-4 border border-cyan-200 hover:border-cyan-400 transition-colors"
                 >
                   <h3 className="font-semibold text-slate-900 mb-2">
                     Budget 2026 Impact
@@ -154,7 +154,7 @@ export default function FinalText() {
                 </Link>
                 <Link
                   href="/compliance-bridge"
-                  className="rounded-lg bg-white p-4 border border-emerald-200 hover:border-emerald-400 transition-colors"
+                  className="rounded-lg bg-white p-4 border border-cyan-200 hover:border-cyan-400 transition-colors"
                 >
                   <h3 className="font-semibold text-slate-900 mb-2">
                     Compliance Requirements
@@ -165,7 +165,7 @@ export default function FinalText() {
                 </Link>
                 <Link
                   href="/fiscal-representation"
-                  className="rounded-lg bg-white p-4 border border-emerald-200 hover:border-emerald-400 transition-colors"
+                  className="rounded-lg bg-white p-4 border border-cyan-200 hover:border-cyan-400 transition-colors"
                 >
                   <h3 className="font-semibold text-slate-900 mb-2">
                     Fiscal Representation
@@ -178,9 +178,9 @@ export default function FinalText() {
             </section>
 
             {/* Download Section */}
-            <section className="rounded-2xl border-2 border-emerald-200/50 bg-gradient-to-br from-white to-emerald-50/30 p-12 text-center shadow-xl">
+            <section className="rounded-2xl border-2 border-cyan-200/50 bg-gradient-to-br from-white to-cyan-50/30 p-12 text-center shadow-xl">
               <div className="flex justify-center mb-6">
-                <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg">
+                <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-cyan-500 to-cyan-600 text-white shadow-lg">
                   <IconDocument />
                 </div>
               </div>
@@ -208,13 +208,13 @@ export default function FinalText() {
                       required
                       placeholder="your.email@example.com"
                       disabled={loading}
-                      className="w-full rounded-xl border-2 border-slate-200 bg-white px-5 py-4 text-sm focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all disabled:opacity-50"
+                      className="w-full rounded-xl border-2 border-slate-200 bg-white px-5 py-4 text-sm focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-500/20 transition-all disabled:opacity-50"
                     />
                   </div>
                   <button
                     type="submit"
                     disabled={loading}
-                    className="w-full inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                    className="w-full inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
                     {loading ? (
                       <>
@@ -236,18 +236,18 @@ export default function FinalText() {
                   </p>
                 </form>
               ) : (
-                <div className="max-w-md mx-auto rounded-xl bg-gradient-to-r from-emerald-50 to-teal-50 p-8 text-center border-2 border-emerald-200">
+                <div className="max-w-md mx-auto rounded-xl bg-gradient-to-r from-cyan-50 to-cyan-100/50 p-8 text-center border-2 border-cyan-200">
                   <div className="flex justify-center mb-4">
-                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-emerald-500 to-teal-600 text-white">
+                    <div className="flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500 to-cyan-600 text-white">
                       <svg className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                       </svg>
                     </div>
                   </div>
-                  <p className="text-xl font-bold text-emerald-900 mb-2">
+                  <p className="text-xl font-bold text-cyan-900 mb-2">
                     Success!
                   </p>
-                  <p className="text-sm text-emerald-700 leading-relaxed">
+                  <p className="text-sm text-cyan-700 leading-relaxed">
                     The comprehensive 2026 Tariff Schedule PDF (43 pages) has been sent to <strong>{email}</strong>. Please check your inbox (and spam folder).
                   </p>
                 </div>

@@ -77,7 +77,7 @@ export default function RegionalImpact() {
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center rounded-full border border-emerald-200 bg-emerald-50/50 px-4 py-2 text-sm font-medium text-emerald-700 mb-6"
+            className="inline-flex items-center rounded-full border border-cyan-200 bg-cyan-50/50 px-4 py-2 text-sm font-medium text-cyan-700 mb-6"
           >
             Regional Analysis
           </motion.div>
@@ -103,7 +103,7 @@ export default function RegionalImpact() {
                 className="group relative rounded-2xl border border-slate-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-lg hover:shadow-2xl transition-all duration-300"
               >
                 <div className="flex items-start gap-4 mb-6">
-                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg">
+                  <div className="flex h-14 w-14 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-cyan-600 text-white shadow-lg">
                     <IconComponent />
                   </div>
                   <div>
@@ -122,7 +122,7 @@ export default function RegionalImpact() {
                     {region.industries.map((industry) => (
                       <span
                         key={industry}
-                        className="inline-flex rounded-lg bg-gradient-to-r from-emerald-50 to-teal-50 border border-emerald-200/50 px-3 py-1.5 text-xs font-semibold text-emerald-800"
+                        className="inline-flex rounded-lg bg-gradient-to-r from-cyan-50 to-cyan-100/50 border border-cyan-200/50 px-3 py-1.5 text-xs font-semibold text-cyan-800"
                       >
                         {industry}
                       </span>
@@ -131,11 +131,11 @@ export default function RegionalImpact() {
                 </div>
 
                 {region.dutySavings && (
-                  <div className="mb-6 rounded-xl bg-gradient-to-r from-emerald-50 to-teal-50 p-4 border border-emerald-200/50">
-                    <p className="text-xs font-semibold text-emerald-900 mb-2 uppercase tracking-wide">
+                  <div className="mb-6 rounded-xl bg-gradient-to-r from-cyan-50 to-cyan-100/50 p-4 border border-cyan-200/50">
+                    <p className="text-xs font-semibold text-cyan-900 mb-2 uppercase tracking-wide">
                       Duty Savings
                     </p>
-                    <p className="text-lg font-bold text-emerald-700">
+                    <p className="text-lg font-bold text-cyan-700">
                       {region.dutySavings}
                     </p>
                   </div>
@@ -152,7 +152,7 @@ export default function RegionalImpact() {
         <div className="mt-16 text-center space-x-4">
           <Link
             href="/fta-industries"
-            className="group inline-flex items-center rounded-xl bg-gradient-to-r from-emerald-600 to-teal-600 px-8 py-4 text-base font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300"
+            className="group inline-flex items-center rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300"
           >
             Explore All Industries
             <IconArrow />
