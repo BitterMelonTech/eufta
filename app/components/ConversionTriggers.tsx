@@ -20,6 +20,8 @@ export default function ConversionTriggers() {
         body: JSON.stringify({ email }),
       });
 
+      const data = await response.json();
+
       if (response.ok) {
         setSubmitted(true);
         setTimeout(() => {
@@ -27,11 +29,12 @@ export default function ConversionTriggers() {
           setEmail("");
         }, 5000);
       } else {
-        alert("There was an error. Please try again or contact info@eufta.in");
+        console.error("API Error:", data);
+        alert(`Error: ${data.error || "Unknown error. Please check the console or contact info@eufta.in"}`);
       }
     } catch (error) {
       console.error("Error submitting form:", error);
-      alert("There was an error. Please try again or contact info@eufta.in");
+      alert(`Network error: ${error instanceof Error ? error.message : "Please check your connection and try again"}`);
     }
   };
 
