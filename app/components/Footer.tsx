@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-slate-200 bg-slate-50">
+    <footer className="border-t border-cyan-100 bg-gradient-to-b from-slate-50 to-white">
       <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div>
@@ -14,11 +14,11 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-slate-900">Services</h4>
             <ul className="mt-4 space-y-2 text-sm text-slate-600">
-              <li><Link href="/fta-industries" className="hover:text-emerald-600">FTA Industries</Link></li>
-              <li><Link href="/fiscal-representation" className="hover:text-emerald-600">Fiscal Representation</Link></li>
-              <li><Link href="/marketplace-enablement" className="hover:text-emerald-600">Marketplace Enablement</Link></li>
-              <li><Link href="/compliance-bridge" className="hover:text-emerald-600">Compliance Bridge</Link></li>
-              <li><Link href="/final-text" className="hover:text-emerald-600">Final Agreement Text</Link></li>
+              <li><Link href="/fta-industries" className="hover:text-cyan-600 transition-colors">FTA Industries</Link></li>
+              <li><Link href="/fiscal-representation" className="hover:text-cyan-600 transition-colors">Fiscal Representation</Link></li>
+              <li><Link href="/marketplace-enablement" className="hover:text-cyan-600 transition-colors">Marketplace Enablement</Link></li>
+              <li><Link href="/compliance-bridge" className="hover:text-cyan-600 transition-colors">Compliance Bridge</Link></li>
+              <li><Link href="/final-text" className="hover:text-cyan-600 transition-colors">Final Agreement Text</Link></li>
             </ul>
           </div>
           <div>
@@ -35,7 +35,7 @@ export default function Footer() {
             <p className="mt-4 text-sm text-slate-600">
               Rotterdam, Netherlands
               <br />
-              <a href="mailto:info@eufta.in" className="text-emerald-600 hover:underline">
+              <a href="mailto:info@eufta.in" className="text-cyan-600 hover:text-cyan-700 hover:underline transition-colors">
                 info@eufta.in
               </a>
             </p>
@@ -53,17 +53,17 @@ export default function Footer() {
               <h4 className="text-sm font-semibold text-slate-900">Authorities</h4>
               <ul className="mt-2 space-y-1 text-xs text-slate-600">
                 <li>
-                  <a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600">
+                  <a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-600 transition-colors">
                     Indian Ministry of Commerce
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.efsa.europa.eu" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600">
+                  <a href="https://www.efsa.europa.eu" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-600 transition-colors">
                     EFSA
                   </a>
                 </li>
                 <li>
-                  <a href="https://www.portofrotterdam.com" target="_blank" rel="noopener noreferrer" className="hover:text-emerald-600">
+                  <a href="https://www.portofrotterdam.com" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-600 transition-colors">
                     Port of Rotterdam
                   </a>
                 </li>
@@ -71,7 +71,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="mt-8 border-t border-slate-200 pt-8 text-center text-sm text-slate-600">
+        <div className="mt-8 border-t border-cyan-100 pt-8 text-center text-sm text-slate-600">
           <p>&copy; 2026 eufta.in. All rights reserved.</p>
         </div>
       </div>
