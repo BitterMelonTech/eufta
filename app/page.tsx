@@ -4,10 +4,15 @@ import VATCalculator from "./components/VATCalculator";
 import HeroSection from "./components/HeroSection";
 import ValuePropositions from "./components/ValuePropositions";
 import LocalizedContent from "./components/LocalizedContent";
+import NotificationBar from "./components/NotificationBar";
+import SectorImpact2026 from "./components/SectorImpact2026";
+import ProfessionalMobility from "./components/ProfessionalMobility";
+import RegionalImpact from "./components/RegionalImpact";
+import ConversionTriggers from "./components/ConversionTriggers";
 
 export const metadata: Metadata = {
-  title: "Home | eufta.in - Gateway to 450M European Consumers",
-  description: "The definitive Rotterdam bridge for Indian D2C and B2B brands to exploit the 2026 EU-India FTA. We provide physical warehousing, Article 23 VAT deferment, and pan-European marketplace enablement.",
+  title: "India-EU FTA 2026: Official Duty Rates & Union Budget 2026 Impact",
+  description: "Access the final duty elimination schedules from the Jan 2026 India-EU FTA. 0% duty on textiles, 10% car tariffs, and Budget 2026 customs updates.",
 };
 
 export default function Home() {
@@ -48,6 +53,7 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="bg-white">
+        <NotificationBar />
         <HeroSection />
 
         {/* Answer Nugget */}
@@ -62,7 +68,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
-                The 2026 EU-India FTA Impact
+                Budget 2026 Customs Relief: The 2026 EU-India FTA Impact
               </h2>
               <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">
                 Following nearly two decades of negotiations, this agreement represents more than just a tariff reduction; it is a geostrategic move to reduce over-reliance on traditional supply chains and integrate India into the European value-chain network. For the EU, it offers access to the world's most populous nation; for India, it provides a stable alternative to US-dominated trade corridors.
@@ -146,8 +152,8 @@ export default function Home() {
                 Rotterdam: The Maritime Heart of Europe
               </h2>
             </div>
-            <div className="mt-12 grid grid-cols-1 gap-8 lg:grid-cols-2">
-              <div className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
+            <div className="mt-12">
+              <div className="mx-auto max-w-3xl rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
                 <h3 className="text-xl font-bold text-slate-900">
                   Multimodal Connectivity
                 </h3>
@@ -162,28 +168,6 @@ export default function Home() {
                     Prioritized flow via the newly established India-Netherlands Green and Digital Shipping Corridor, supporting hydrogen and ammonia-fueled logistics for sustainable trade.
                   </p>
                 </div>
-              </div>
-              <div className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm">
-                <h3 className="text-xl font-bold text-slate-900">
-                  Phase 1: Professional Lean Entry
-                </h3>
-                <p className="mt-4 text-slate-600">
-                  Starting with a dedicated high-efficiency unit in the Rotterdam region:
-                </p>
-                <ul className="mt-4 space-y-3 text-slate-600">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
-                    <span><strong>Monthly Rent:</strong> €1,000</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
-                    <span><strong>Space:</strong> 150-200 sqm fulfillment area</span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
-                    <span><strong>Unit Economics:</strong> Shared 3PL space reduces order costs from €15-€20 down to €8-€12</span>
-                  </li>
-                </ul>
               </div>
             </div>
           </div>
@@ -267,6 +251,18 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Sector Impact 2026 */}
+        <SectorImpact2026 />
+
+        {/* Professional Mobility */}
+        <ProfessionalMobility />
+
+        {/* Regional Impact */}
+        <RegionalImpact />
+
+        {/* Conversion Triggers */}
+        <ConversionTriggers />
 
         {/* Localized Content */}
         <section className="bg-slate-50 py-24">

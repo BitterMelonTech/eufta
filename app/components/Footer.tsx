@@ -18,6 +18,7 @@ export default function Footer() {
               <li><Link href="/fiscal-representation" className="hover:text-emerald-600">Fiscal Representation</Link></li>
               <li><Link href="/marketplace-enablement" className="hover:text-emerald-600">Marketplace Enablement</Link></li>
               <li><Link href="/compliance-bridge" className="hover:text-emerald-600">Compliance Bridge</Link></li>
+              <li><Link href="/final-text" className="hover:text-emerald-600">Final Agreement Text</Link></li>
             </ul>
           </div>
           <div>
@@ -38,6 +39,16 @@ export default function Footer() {
                 info@eufta.in
               </a>
             </p>
+            <div className="mt-4">
+              <h4 className="text-sm font-semibold text-slate-900">Company Information</h4>
+              <p className="mt-2 text-xs text-slate-600">
+                <strong>Sanjan Venture</strong>
+                <br />
+                KVK: 86318179
+                <br />
+                BTW: NL863929771B01
+              </p>
+            </div>
             <div className="mt-4">
               <h4 className="text-sm font-semibold text-slate-900">Authorities</h4>
               <ul className="mt-2 space-y-1 text-xs text-slate-600">

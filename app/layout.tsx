@@ -15,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "eufta.in | Rotterdam-Indo Logistics Gateway | EU-India FTA 2026",
-  description: "The definitive Rotterdam bridge for Indian D2C and B2B brands to exploit the 2026 EU-India FTA. We provide physical warehousing, Article 23 VAT deferment, and pan-European marketplace enablement.",
-  keywords: "EU-India FTA, Rotterdam logistics, Article 23 VAT, 3PL fulfillment, EU compliance, Indian exports, European marketplace",
+  title: "India-EU FTA 2026: Official Duty Rates & Union Budget 2026 Impact | eufta.in",
+  description: "Access the final duty elimination schedules from the Jan 2026 India-EU FTA. 0% duty on textiles, 10% car tariffs, and Budget 2026 customs updates.",
+  keywords: "India-EU FTA 2026, Duty Free Export to EU, Budget 2026 Customs Relief, Union Budget 2026, EU-India trade agreement, Rotterdam logistics, Article 23 VAT, 3PL fulfillment",
 };
 
 export default function RootLayout({
