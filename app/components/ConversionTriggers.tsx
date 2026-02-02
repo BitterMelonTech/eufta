@@ -8,14 +8,31 @@ export default function ConversionTriggers() {
   const [email, setEmail] = useState("");
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In production, this would send to your email service
-    setSubmitted(true);
-    setTimeout(() => {
-      setSubmitted(false);
-      setEmail("");
-    }, 3000);
+    
+    try {
+      const response = await fetch("/api/pdf-request", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email }),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setTimeout(() => {
+          setSubmitted(false);
+          setEmail("");
+        }, 5000);
+      } else {
+        alert("There was an error. Please try again or contact info@eufta.in");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+      alert("There was an error. Please try again or contact info@eufta.in");
+    }
   };
 
   return (
