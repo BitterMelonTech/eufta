@@ -132,8 +132,7 @@ export default function ConversionTriggers() {
                   Success!
                 </p>
                 <p className="text-sm text-emerald-700">
-                  Check your email for the 2026 Tariff Schedule PDF download
-                  link.
+                  The 2026 Tariff Schedule PDF has been sent to your email address. Please check your inbox (and spam folder).
                 </p>
               </motion.div>
             )}
