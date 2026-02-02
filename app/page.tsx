@@ -115,24 +115,40 @@ export default function Home() {
                   Why Article 23 Matters
                 </h3>
                 <ul className="space-y-3 text-sm text-slate-600">
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
+                  <li className="flex items-start gap-3">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                     <span>
                       Eliminate 21% upfront VAT payment at the border
                     </span>
                   </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
+                  <li className="flex items-start gap-3">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                     <span>
                       VAT recorded as reverse charge in periodic return
                     </span>
                   </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
+                  <li className="flex items-start gap-3">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                     <span>Net effect on cash flow: Zero upfront burden</span>
                   </li>
-                  <li className="flex items-start">
-                    <span className="mr-2 text-emerald-600">✓</span>
+                  <li className="flex items-start gap-3">
+                    <div className="flex h-5 w-5 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                      <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                      </svg>
+                    </div>
                     <span>
                       General Fiscal Representation removes need for local Dutch
                       office

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { IconArrow } from "./Icons";
 
 interface SectorData {
   id: string;
@@ -340,9 +341,7 @@ export default function SectorImpact2026() {
               className="inline-flex items-center rounded-md border-2 border-emerald-600 px-6 py-3 text-base font-semibold text-emerald-600 hover:bg-emerald-50 transition-colors"
             >
               View Final Agreement Text
-              <span className="ml-2" aria-hidden="true">
-                →
-              </span>
+              <IconArrow />
             </Link>
           </div>
         </div>

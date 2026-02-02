@@ -1,16 +1,24 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { IconGraduation, IconBriefcase, IconCheck } from "./Icons";
 
 export default function ProfessionalMobility() {
   return (
-    <section className="bg-gradient-to-br from-slate-50 to-white py-24">
+    <section className="relative bg-gradient-to-b from-white via-slate-50 to-white py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+        <div className="text-center mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="inline-flex items-center rounded-full border border-blue-200 bg-blue-50/50 px-4 py-2 text-sm font-medium text-blue-700 mb-6"
+          >
+            Professional Mobility
+          </motion.div>
+          <h2 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl">
             Indian Professionals & Students: EU Mobility Rights
           </h2>
-          <p className="mx-auto mt-4 max-w-3xl text-lg text-slate-600">
+          <p className="mx-auto mt-6 max-w-3xl text-xl text-slate-600">
             The 2026 India-EU FTA includes significant professional mobility
             provisions for Indian professionals and students
           </p>
@@ -19,43 +27,50 @@ export default function ProfessionalMobility() {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
           {/* Post-Study Work Rights */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
-            className="rounded-xl border-2 border-emerald-200 bg-white p-8 shadow-lg"
+            whileHover={{ y: -8, transition: { duration: 0.2 } }}
+            className="group relative rounded-2xl border border-emerald-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-xl hover:shadow-2xl transition-all duration-300"
           >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-emerald-100">
-                <span className="text-2xl">🎓</span>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg">
+                <IconGraduation />
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
                 18-Month Post-Study Work Rights
               </h3>
             </div>
-            <p className="text-slate-700 mb-6">
+            <p className="text-slate-700 mb-8 leading-relaxed">
               Indian students completing higher education in EU member states
               are now eligible for 18 months of post-study work authorization.
               This allows graduates to gain valuable international work
               experience and contribute to the EU economy.
             </p>
-            <ul className="space-y-3">
-              <li className="flex items-start">
-                <span className="mr-3 text-emerald-600 text-xl">✓</span>
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                  <IconCheck />
+                </div>
                 <span className="text-slate-700">
-                  <strong>Extended Stay:</strong> 18 months to find employment
+                  <strong className="text-slate-900">Extended Stay:</strong> 18 months to find employment
                   after graduation
                 </span>
               </li>
-              <li className="flex items-start">
-                <span className="mr-3 text-emerald-600 text-xl">✓</span>
+              <li className="flex items-start gap-3">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                  <IconCheck />
+                </div>
                 <span className="text-slate-700">
-                  <strong>Work Authorization:</strong> Full-time employment
+                  <strong className="text-slate-900">Work Authorization:</strong> Full-time employment
                   rights during the 18-month period
                 </span>
               </li>
-              <li className="flex items-start">
-                <span className="mr-3 text-emerald-600 text-xl">✓</span>
+              <li className="flex items-start gap-3">
+                <div className="flex h-6 w-6 items-center justify-center rounded-full bg-emerald-100 text-emerald-600 flex-shrink-0 mt-0.5">
+                  <IconCheck />
+                </div>
                 <span className="text-slate-700">
-                  <strong>Pathway to Long-term:</strong> Opportunity to transition
+                  <strong className="text-slate-900">Pathway to Long-term:</strong> Opportunity to transition
                   to long-term work permits
                 </span>
               </li>
@@ -64,14 +79,15 @@ export default function ProfessionalMobility() {
 
           {/* Open Service Sectors */}
           <motion.div
-            initial={{ opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 }}
-            className="rounded-xl border-2 border-blue-200 bg-white p-8 shadow-lg"
+            whileHover={{ y: -8, transition: { duration: 0.2 } }}
+            className="group relative rounded-2xl border border-blue-200/50 bg-white/80 backdrop-blur-sm p-8 shadow-xl hover:shadow-2xl transition-all duration-300"
           >
-            <div className="flex items-center gap-3 mb-4">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full bg-blue-100">
-                <span className="text-2xl">💼</span>
+            <div className="flex items-center gap-4 mb-6">
+              <div className="flex h-16 w-16 items-center justify-center rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-lg">
+                <IconBriefcase />
               </div>
               <h3 className="text-2xl font-bold text-slate-900">
                 144 Open Service Sectors
