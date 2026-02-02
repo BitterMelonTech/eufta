@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NotificationBar from "./components/NotificationBar";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import { Analytics } from "@vercel/analytics/react";
@@ -32,6 +33,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <NotificationBar />
         <Navigation />
         <main className="min-h-screen">{children}</main>
         <Footer />

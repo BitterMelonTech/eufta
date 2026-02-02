@@ -53,7 +53,6 @@ export default function Home() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="bg-white">
-        <NotificationBar />
         <HeroSection />
 
         {/* Answer Nugget */}
