@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { IconFiscal, IconShield, IconGlobe, IconArrow } from "./Icons";
 
 export default function ValuePropositions() {
@@ -80,10 +81,13 @@ export default function ValuePropositions() {
                     {item.title}
                   </h3>
                   <p className="mt-4 text-sm leading-relaxed text-slate-600">{item.description}</p>
-                  <div className="mt-6 flex items-center text-sm font-medium text-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity">
+                  <Link
+                    href="/services"
+                    className="mt-6 flex items-center text-sm font-medium text-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity"
+                  >
                     Learn more
                     <IconArrow />
-                  </div>
+                  </Link>
                 </div>
               </motion.div>
             );

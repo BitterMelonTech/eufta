@@ -4,11 +4,11 @@ import VATCalculator from "./components/VATCalculator";
 import HeroSection from "./components/HeroSection";
 import ValuePropositions from "./components/ValuePropositions";
 import LocalizedContent from "./components/LocalizedContent";
-import NotificationBar from "./components/NotificationBar";
 import SectorImpact2026 from "./components/SectorImpact2026";
 import ProfessionalMobility from "./components/ProfessionalMobility";
 import RegionalImpact from "./components/RegionalImpact";
 import ConversionTriggers from "./components/ConversionTriggers";
+import { IconArrow } from "./components/Icons";
 
 export const metadata: Metadata = {
   title: "India-EU FTA 2026: Official Duty Rates & Union Budget 2026 Impact",

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { IconArrow } from "./Icons";
+import { IconArrow, IconCalculator } from "./Icons";
 
 export default function HeroSection() {
   return (
@@ -49,21 +49,24 @@ export default function HeroSection() {
           </p>
           <div className="mt-12 flex flex-col sm:flex-row items-center justify-center gap-4">
             <motion.a
-              href="#services"
+              href="/services"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="group relative inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-r from-cyan-600 via-cyan-500 to-cyan-400 px-8 py-4 text-base font-semibold text-white shadow-2xl shadow-cyan-500/50 transition-all duration-300 hover:shadow-cyan-400/60"
             >
               <span className="absolute inset-0 w-3 bg-white/20 transition-all duration-300 ease-out group-hover:w-full animate-shimmer"></span>
-              <span className="relative">Explore Services</span>
+              <span className="relative">View Our Services</span>
             </motion.a>
-            <a
-              href="/fiscal-representation"
+            <motion.a
+              href="/pricing"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
               className="group inline-flex items-center gap-2 rounded-xl border-2 border-cyan-400/30 bg-white/5 backdrop-blur-md px-8 py-4 text-base font-semibold text-white transition-all hover:bg-cyan-500/10 hover:border-cyan-400/50 shadow-lg"
             >
-              Learn about Article 23
+              <IconCalculator />
+              Estimate Costs
               <IconArrow />
-            </a>
+            </motion.a>
           </div>
         </motion.div>
       </div>
