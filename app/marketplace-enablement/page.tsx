@@ -101,7 +101,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Pick & Pack
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €2.75
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -115,7 +115,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Extra Items
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €0.40
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -129,7 +129,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Storage
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €15.00
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -143,7 +143,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Inbound
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €6.00
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -157,7 +157,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Returns
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €4.50
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -171,7 +171,7 @@ export default function MarketplaceEnablement() {
                 <h3 className="text-lg font-semibold text-slate-900">
                   Fiscal Rep
                 </h3>
-                <p className="mt-2 text-3xl font-bold text-emerald-600">
+                <p className="mt-2 text-3xl font-bold text-cyan-600">
                   €150
                 </p>
                 <p className="mt-2 text-sm text-slate-600">
@@ -204,7 +204,7 @@ export default function MarketplaceEnablement() {
                         {marketplace.description}
                       </p>
                     </div>
-                    <span className="rounded-full bg-emerald-100 px-3 py-1 text-xs font-medium text-emerald-800">
+                    <span className="rounded-full bg-cyan-100 px-3 py-1 text-xs font-medium text-cyan-800">
                       {marketplace.visitors}
                     </span>
                   </div>
@@ -222,7 +222,7 @@ export default function MarketplaceEnablement() {
                         key={feature}
                         className="flex items-start text-sm text-slate-600"
                       >
-                        <span className="mr-2 text-emerald-600">•</span>
+                        <span className="mr-2 text-cyan-600">•</span>
                         {feature}
                       </li>
                     ))}
@@ -268,7 +268,7 @@ export default function MarketplaceEnablement() {
                   key={item.step}
                   className="flex gap-6 rounded-lg bg-white p-6 shadow-sm"
                 >
-                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-emerald-600 text-white">
+                  <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-white">
                     {item.step}
                   </div>
                   <div>
@@ -283,7 +283,7 @@ export default function MarketplaceEnablement() {
           </div>
 
           {/* B2B Sales Support */}
-          <div className="mt-12 rounded-lg border border-emerald-200 bg-emerald-50 p-8">
+          <div className="mt-12 rounded-lg border border-cyan-200 bg-cyan-50 p-8">
             <h2 className="text-2xl font-bold text-slate-900">
               B2B Sales & Regional Language Support
             </h2>
