@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import AnswerNugget from "./components/AnswerNugget";
 import VATCalculator from "./components/VATCalculator";
 import HeroSection from "./components/HeroSection";
