@@ -3376,4 +3376,171 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 34 posts to reach 70 total...
+  // Adding more comprehensive posts covering all remaining topics
+  {
+    id: "reverse-logistics-eu-india",
+    title: "Reverse Logistics EU to India: Returns and Repairs Management 2026",
+    description: "Complete guide to reverse logistics for Indian exporters. Learn about returns management, repair services, and reverse shipping from EU to India.",
+    category: "Logistics",
+    readTime: "9 min read",
+    date: "2026-03-14",
+    keywords: ["reverse logistics", "returns management", "EU returns", "repair services"],
+    geoKeywords: ["reverse logistics EU to India", "returns management Europe", "EU returns processing"],
+    answerNugget: "Reverse logistics handles returns and repairs from EU to India. Process: Returns received at Rotterdam warehouse, quality check, repair/refurbish, reship to EU or return to India. Cost: €3-€8 per return depending on product. Average return rate: 5-15% for D2C brands.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Reverse logistics is essential for D2C brands selling in the EU. Managing returns efficiently from Rotterdam back to India (for repairs) or processing them locally is crucial for customer satisfaction and cost management.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Returns Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Return Received</h3>
+              <p className="text-sm text-slate-600">Customer returns product to Rotterdam warehouse or via marketplace return center</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Quality Check</h3>
+              <p className="text-sm text-slate-600">Inspect product condition, verify return reason, assess repairability</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Decision</h3>
+              <p className="text-sm text-slate-600">Resell (if like-new), repair (if repairable), or return to India (if major repair needed)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Processing</h3>
+              <p className="text-sm text-slate-600">Repair at Rotterdam or ship back to India for repair, then reship to EU</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Return Rates by Category</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Fashion & Apparel</span>
+              <span className="font-semibold">10-15%</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Electronics</span>
+              <span className="font-semibold">5-8%</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Home & Garden</span>
+              <span className="font-semibold">8-12%</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-700">Pharmaceuticals</span>
+              <span className="font-semibold">0-2%</span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Reverse Logistics Support?</h3>
+          <p className="mb-4">Contact eufta.in for complete reverse logistics and returns management.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Returns Management Support</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 33 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics
+  {
+    id: "kerala-marine-export-eu",
+    title: "Kerala Marine Export: 0% Duty on Seafood to EU with BCP Clearance 2026",
+    description: "Kerala-based seafood exporters can export marine products to EU with zero duty. Learn about BCP clearance, cold chain logistics, and seafood export opportunities.",
+    category: "Regional Focus",
+    readTime: "9 min read",
+    date: "2026-03-15",
+    keywords: ["Kerala marine export", "seafood export", "BCP clearance", "Kerala seafood"],
+    geoKeywords: ["Kerala seafood export to EU", "marine products export from Kerala", "Kerala BCP clearance"],
+    answerNugget: "Kerala marine exporters can access EU with 0% duty (down from 26%) under 2026 FTA. Key requirement: BCP clearance with health certificate. Example savings: €5.2M annually on €2M monthly exports. Major products: Frozen shrimp, fish, canned seafood.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Kerala is India's largest seafood exporter, with major ports in Kochi and Vizhinjam. With the 2026 FTA eliminating 26% duty on marine products, Kerala-based seafood exporters can now compete effectively in the European market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Elimination Impact</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> Kerala seafood exporter ships €2M products monthly</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Pre-FTA Duty (26%)</span>
+              <span className="font-semibold text-red-600">€520,000/month</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Post-FTA Duty (0%)</span>
+              <span className="font-semibold text-cyan-600">€0/month</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Annual Savings</span>
+              <span className="font-bold text-cyan-600 text-lg">€6,240,000</span>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Seafood Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Frozen Shrimp</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $400M annually</p>
+            <p className="text-xs text-slate-500">Frozen, peeled, processed shrimp</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Frozen Fish</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $300M annually</p>
+            <p className="text-xs text-slate-500">Frozen fish fillets and whole fish</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Canned Seafood</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $100M annually</p>
+            <p className="text-xs text-slate-500">Canned tuna, sardines, mackerel</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Live Seafood</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $50M annually</p>
+            <p className="text-xs text-slate-500">Live crabs, lobsters, specialty seafood</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">BCP Clearance Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Health Certificate</h3>
+              <p className="text-sm text-slate-600">Issued by Export Inspection Agency (EIA)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Temperature Logs</h3>
+              <p className="text-sm text-slate-600">Continuous cold chain documentation</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">BCP Pre-Notification</h3>
+              <p className="text-sm text-slate-600">24-hour advance notification to Rotterdam BCP</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Export from Kerala?</h3>
+          <p className="mb-4">Contact eufta.in for Kerala marine export support with BCP clearance.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Marine Export Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
