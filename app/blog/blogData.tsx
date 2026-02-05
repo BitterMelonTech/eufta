@@ -3128,4 +3128,252 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 37 posts to reach 70 total...
+  {
+    id: "eori-number-application",
+    title: "EORI Number Application: Complete Guide for Indian Exporters to EU 2026",
+    description: "Complete guide to EORI (Economic Operators Registration and Identification) number application for Indian exporters. Learn about requirements, application process, and usage.",
+    category: "Export Guide",
+    readTime: "8 min read",
+    date: "2026-03-11",
+    keywords: ["EORI number", "EORI application", "EU customs", "export registration"],
+    geoKeywords: ["How to get EORI number for Indian exporters", "EORI number application EU", "export registration Europe"],
+    answerNugget: "EORI number is mandatory for all EU customs transactions. Application: Submit to Dutch customs (if using Rotterdam). Processing time: 1-2 weeks. Format: NL + 9 digits. Valid across all EU countries. Required for: Customs declarations, Article 23 license, VAT registration.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          An EORI (Economic Operators Registration and Identification) number is mandatory for all Indian exporters conducting customs transactions in the EU. It's a unique identifier used for all customs declarations and import/export activities.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What is EORI Number?</h2>
+        <p className="text-slate-700 mb-4">
+          EORI number is a unique identifier assigned by EU customs authorities to businesses involved in import/export activities. It's required for all customs declarations, regardless of shipment size.
+        </p>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <h3 className="font-bold text-slate-900 mb-4">EORI Number Format</h3>
+          <div className="space-y-2">
+            <p className="text-sm text-slate-700"><strong>Dutch EORI:</strong> NL + 9 digits (e.g., NL123456789)</p>
+            <p className="text-sm text-slate-700"><strong>Valid in:</strong> All EU member states</p>
+            <p className="text-sm text-slate-700"><strong>Lifetime validity:</strong> No renewal required</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Application Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Documentation</h3>
+              <p className="text-sm text-slate-600">Company registration certificate, VAT number (if applicable), business address proof</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Application Submission</h3>
+              <p className="text-sm text-slate-600">Submit application to Dutch customs (if using Rotterdam) or first EU country of import</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Processing</h3>
+              <p className="text-sm text-slate-600">Customs processes application (1-2 weeks)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">EORI Issuance</h3>
+              <p className="text-sm text-slate-600">EORI number issued and valid across all EU countries</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">When is EORI Required?</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Customs Declarations</h3>
+              <p className="text-sm text-slate-600">All import/export customs declarations</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Article 23 License</h3>
+              <p className="text-sm text-slate-600">Required for Article 23 VAT deferment license application</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">VAT Registration</h3>
+              <p className="text-sm text-slate-600">Required for Dutch VAT number application</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need EORI Number Support?</h3>
+          <p className="mb-4">Contact eufta.in for EORI number application and customs registration support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get EORI Application Support</a>
+        </div>
+      </div>
+    ),
+  },
+  // Adding remaining 36 posts to reach 70 total - comprehensive coverage
+  {
+    id: "export-licensing-india-eu",
+    title: "Export Licensing for India-EU Trade: Complete Guide 2026",
+    description: "Complete guide to export licensing requirements for Indian exporters shipping to EU. Learn about which products need licenses and how to obtain them.",
+    category: "Export Guide",
+    readTime: "9 min read",
+    date: "2026-03-12",
+    keywords: ["export license", "export licensing", "India export", "EU export"],
+    geoKeywords: ["export license for India EU trade", "export licensing requirements", "India export permits"],
+    answerNugget: "Most Indian exports to EU don't require export licenses. Exceptions: Dual-use items, strategic goods, certain chemicals. License application: DGFT (Directorate General of Foreign Trade). Processing time: 2-4 weeks. Valid for 12-24 months.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Most Indian exports to the EU don't require export licenses. However, certain product categories require licenses from the Directorate General of Foreign Trade (DGFT) before export.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Products Requiring Export Licenses</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Dual-Use Items</h3>
+            <p className="text-sm text-slate-600">Items with both civilian and military applications</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Strategic Goods</h3>
+            <p className="text-sm text-slate-600">Defense-related items, encryption software</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Restricted Chemicals</h3>
+            <p className="text-sm text-slate-600">Certain chemicals under export control lists</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Wildlife Products</h3>
+            <p className="text-sm text-slate-600">CITES-listed wildlife and products</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Application Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Documentation</h3>
+              <p className="text-sm text-slate-600">Product description, end-use certificate, import certificate from EU buyer</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">DGFT Application</h3>
+              <p className="text-sm text-slate-600">Submit application through DGFT online portal</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Review</h3>
+              <p className="text-sm text-slate-600">DGFT reviews application (2-4 weeks)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">License Issuance</h3>
+              <p className="text-sm text-slate-600">Export license issued (valid 12-24 months)</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Export License Support?</h3>
+          <p className="mb-4">Contact eufta.in for export licensing guidance and application support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get License Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 35 posts to reach 70 total...
+  // Adding more comprehensive posts covering all topics
+  {
+    id: "shipping-documentation-checklist",
+    title: "Shipping Documentation Checklist: Complete Guide for India-EU Export 2026",
+    description: "Complete checklist of all shipping documents required for Indian exports to EU. Learn about commercial invoices, packing lists, certificates, and documentation best practices.",
+    category: "Export Guide",
+    readTime: "10 min read",
+    date: "2026-03-13",
+    keywords: ["shipping documents", "export documentation", "commercial invoice", "packing list"],
+    geoKeywords: ["shipping documents for India EU export", "export documentation checklist", "India to Europe shipping"],
+    answerNugget: "Required shipping documents: Commercial Invoice, Packing List, Bill of Lading, Certificate of Origin, Product-specific certificates (CE, REACH, EFSA, etc.). All documents must be in English. Digital copies recommended for customs clearance.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Complete and accurate shipping documentation is essential for smooth customs clearance and avoiding delays. This checklist covers all documents required for Indian exports to the EU.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Essential Documents</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Commercial Invoice</h3>
+              <p className="text-sm text-slate-600">Must include: Product description, HS codes, value, origin declaration, buyer/seller details, Incoterms</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Packing List</h3>
+              <p className="text-sm text-slate-600">Detailed list of packages, weights, dimensions, contents per package</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Bill of Lading</h3>
+              <p className="text-sm text-slate-600">Transport document from shipping line (FCL) or freight forwarder (LCL)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Certificate of Origin</h3>
+              <p className="text-sm text-slate-600">Rules of Origin certificate for FTA duty benefits</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Product-Specific Certificates</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">CE Marking</h3>
+            <p className="text-sm text-slate-600">For engineering goods, electronics, machinery</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">REACH Certificate</h3>
+            <p className="text-sm text-slate-600">For chemicals, plastics, leather products</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EFSA Approval</h3>
+            <p className="text-sm text-slate-600">For food, Ayush, wellness products</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">QP Certificate</h3>
+            <p className="text-sm text-slate-600">For pharmaceutical products</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Health Certificate</h3>
+            <p className="text-sm text-slate-600">For marine products (BCP clearance)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EN 71 Certificate</h3>
+            <p className="text-sm text-slate-600">For toys and games</p>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Documentation Support?</h3>
+          <p className="mb-4">Contact eufta.in for complete shipping documentation support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Documentation Help</a>
+        </div>
+      </div>
+    ),
+  },
 ];
