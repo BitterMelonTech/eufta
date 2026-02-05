@@ -5371,4 +5371,75 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 10 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics efficiently
+  {
+    id: "sustainability-compliance-cbam",
+    title: "Sustainability Compliance & CBAM: Carbon Border Adjustment Mechanism for Indian Exporters 2026",
+    description: "Complete guide to CBAM (Carbon Border Adjustment Mechanism) compliance for Indian exporters. Learn about carbon footprint reporting, CBAM certificates, and sustainability requirements.",
+    category: "Compliance",
+    readTime: "11 min read",
+    date: "2026-04-07",
+    keywords: ["CBAM", "carbon border adjustment", "sustainability", "carbon footprint"],
+    geoKeywords: ["CBAM compliance for Indian exporters", "carbon border adjustment mechanism", "sustainability compliance EU"],
+    answerNugget: "CBAM requires carbon footprint reporting for certain products (steel, aluminum, cement, fertilizers, electricity, hydrogen). Reporting: Quarterly carbon emissions data. CBAM certificates: Required from 2026, full implementation 2030. Penalties: Non-compliance results in additional duties. eufta.in provides CBAM compliance support.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The Carbon Border Adjustment Mechanism (CBAM) is the EU's tool to prevent carbon leakage and ensure a level playing field. Indian exporters of certain products must comply with CBAM reporting requirements.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">CBAM Scope</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Covered Products</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Iron & Steel</li>
+              <li>• Aluminum</li>
+              <li>• Cement</li>
+              <li>• Fertilizers</li>
+              <li>• Electricity</li>
+              <li>• Hydrogen</li>
+            </ul>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Implementation Timeline</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• 2026: Reporting phase</li>
+              <li>• 2027-2029: Transitional period</li>
+              <li>• 2030: Full implementation</li>
+            </ul>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Reporting Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Carbon Emissions Data</h3>
+              <p className="text-sm text-slate-600">Quarterly reporting of embedded carbon emissions in products</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">CBAM Certificates</h3>
+              <p className="text-sm text-slate-600">Purchase CBAM certificates based on carbon content (from 2026)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Verification</h3>
+              <p className="text-sm text-slate-600">Third-party verification of carbon emissions data</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need CBAM Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for CBAM compliance and carbon footprint reporting support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get CBAM Compliance Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
