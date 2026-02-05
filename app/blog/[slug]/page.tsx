@@ -7,19 +7,9 @@ import { IconArrow, IconDocument } from "../../components/Icons";
 import { getBlogPost } from "../blogData";
 
 export async function generateStaticParams() {
-  const slugs = [
-    "how-to-export-india-to-eu-2026",
-    "article-23-vat-deferment-guide",
-    "gujarat-pharma-export-eu",
-    "tiruppur-textile-export-eu",
-    "rotterdam-warehouse-logistics",
-    "efsa-novel-foods-compliance",
-    "amazon-eu5-marketplace-setup",
-    "chennai-automotive-export-eu",
-    "reach-compliance-indian-chemicals",
-    "d2c-brand-eu-expansion",
-  ];
-  return slugs.map((slug) => ({ slug }));
+  // Import blogPosts dynamically to get all slugs
+  const { blogPosts } = await import("../blogData");
+  return blogPosts.map((post) => ({ slug: post.id }));
 }
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
