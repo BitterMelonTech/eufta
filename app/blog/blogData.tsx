@@ -3714,4 +3714,157 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 30 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics
+  {
+    id: "toy-safety-directive-en71",
+    title: "Toy Safety Directive EN 71: Complete Compliance Guide for Indian Toy Exporters 2026",
+    description: "Complete guide to EU Toy Safety Directive and EN 71 standards for Indian toy manufacturers. Learn about testing requirements, CE marking, and compliance procedures.",
+    category: "Compliance",
+    readTime: "11 min read",
+    date: "2026-03-18",
+    keywords: ["Toy Safety Directive", "EN 71", "toy compliance", "CE marking toys"],
+    geoKeywords: ["Toy Safety Directive for Indian manufacturers", "EN 71 compliance", "toy export to EU"],
+    answerNugget: "EU Toy Safety Directive requires EN 71 compliance for all toys. Testing: EN 71-1 (mechanical), EN 71-2 (flammability), EN 71-3 (chemical migration). CE marking mandatory. Third-party testing required for certain categories. Processing time: 4-8 weeks.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The EU Toy Safety Directive (2009/48/EC) sets strict safety requirements for all toys sold in the European Union. Indian toy manufacturers must comply with EN 71 standards to access the EU's $28 billion toy market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">EN 71 Standards Overview</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EN 71-1: Mechanical & Physical</h3>
+            <p className="text-sm text-slate-600">Safety requirements for mechanical properties, sharp edges, small parts, cords</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EN 71-2: Flammability</h3>
+            <p className="text-sm text-slate-600">Flammability testing for toys and materials</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EN 71-3: Chemical Migration</h3>
+            <p className="text-sm text-slate-600">Limits on migration of certain elements (lead, cadmium, chromium, etc.)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EN 71-9: Organic Compounds</h3>
+            <p className="text-sm text-slate-600">Safety requirements for organic chemical compounds</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Testing Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Third-Party Testing</h3>
+              <p className="text-sm text-slate-600">Testing by EU-accredited laboratory (mandatory for most toys)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Test Reports</h3>
+              <p className="text-sm text-slate-600">Complete test reports for all applicable EN 71 standards</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Technical File</h3>
+              <p className="text-sm text-slate-600">Complete technical documentation including design, materials, test results</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">CE Marking Requirements</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><strong>CE Mark:</strong> Visible CE marking on product and packaging</li>
+          <li><strong>Declaration of Conformity:</strong> Manufacturer's declaration of compliance</li>
+          <li><strong>Technical File:</strong> Complete documentation available for inspection</li>
+          <li><strong>Notified Body:</strong> Required for certain high-risk toy categories</li>
+        </ul>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Toy Safety Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for EN 71 compliance and CE marking support for toys.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Toy Compliance Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 29 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics systematically
+  {
+    id: "health-claims-regulation-eu",
+    title: "Health Claims Regulation EU: Nutrition & Health Claims for Indian Products 2026",
+    description: "Complete guide to EU Health Claims Regulation (EC 1924/2006) for Indian food and wellness brands. Learn about authorized claims, prohibited claims, and compliance requirements.",
+    category: "Compliance",
+    readTime: "10 min read",
+    date: "2026-03-19",
+    keywords: ["Health Claims Regulation", "nutrition claims", "EU food labeling", "health claims"],
+    geoKeywords: ["Health Claims Regulation for Indian products", "EU nutrition claims", "food labeling compliance"],
+    answerNugget: "EU Health Claims Regulation (EC 1924/2006) restricts health and nutrition claims on food products. Authorized claims: EU-approved list only. Prohibited: Medicinal claims, unauthorized health promises. Penalties: Product withdrawal, fines. eufta.in audits packaging for compliance.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The EU Health Claims Regulation (EC 1924/2006) strictly controls what health and nutrition claims can be made on food and wellness products. Indian brands must ensure their packaging and marketing comply with authorized claims only.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Types of Claims</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Nutrition Claims</h3>
+            <p className="text-sm text-slate-600">Claims about nutritional content (e.g., "low fat", "high fiber")</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Health Claims</h3>
+            <p className="text-sm text-slate-600">Claims about health benefits (e.g., "supports immune system")</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Reduction of Disease Risk</h3>
+            <p className="text-sm text-slate-600">Claims about reducing disease risk (requires EFSA authorization)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Prohibited Claims</h3>
+            <p className="text-sm text-slate-600">Medicinal claims, unauthorized health promises</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Authorized Claims</h2>
+        <p className="text-slate-700 mb-4">
+          Only claims on the EU authorized list can be used. Examples of authorized claims:
+        </p>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Calcium</h3>
+              <p className="text-sm text-slate-600">"Calcium is needed for the maintenance of normal bones"</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Vitamin C</h3>
+              <p className="text-sm text-slate-600">"Vitamin C contributes to the normal function of the immune system"</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Fiber</h3>
+              <p className="text-sm text-slate-600">"Fiber contributes to an increase in fecal bulk"</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Prohibited Claims</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><strong>Medicinal Claims:</strong> Claims that product treats, cures, or prevents diseases</li>
+          <li><strong>Unauthorized Health Claims:</strong> Health claims not on authorized list</li>
+          <li><strong>Misleading Claims:</strong> Claims that mislead consumers about product benefits</li>
+          <li><strong>Comparative Claims:</strong> Unauthorized comparisons with other products</li>
+        </ul>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Health Claims Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for Health Claims Regulation compliance and packaging audit.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Health Claims Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
