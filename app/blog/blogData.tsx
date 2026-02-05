@@ -4025,4 +4025,190 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 26 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics
+  {
+    id: "leather-footwear-export-eu",
+    title: "Leather & Footwear Export to EU: 0% Duty with REACH Chrome VI Compliance 2026",
+    description: "Indian leather manufacturers can export footwear and leather goods to EU with zero duty. Complete guide to REACH Chrome VI compliance and market opportunities.",
+    category: "Industry Guide",
+    readTime: "9 min read",
+    date: "2026-03-22",
+    keywords: ["leather export EU", "footwear export", "REACH Chrome VI", "leather goods"],
+    geoKeywords: ["How to export leather products to EU", "leather footwear export from India", "REACH compliance for leather"],
+    answerNugget: "Leather & Footwear exports to EU now have 0% duty (down from 17%) under 2026 FTA. Key requirement: REACH Chrome VI compliance (max 3mg/kg). Example savings: €3.06M annually on €1.5M monthly exports. Major markets: Italy, Germany, France.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          India is one of the world's largest leather producers, with exports valued at $1.5 billion to the EU. With the 2026 FTA eliminating 17% duty on leather and footwear, Indian manufacturers can now compete effectively in the European market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Elimination Impact</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> Leather exporter ships €1.5M products monthly</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Pre-FTA Duty (17%)</span>
+              <span className="font-semibold text-red-600">€255,000/month</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Post-FTA Duty (0%)</span>
+              <span className="font-semibold text-cyan-600">€0/month</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Annual Savings</span>
+              <span className="font-bold text-cyan-600 text-lg">€3,060,000</span>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">REACH Chrome VI Compliance</h2>
+        <p className="text-slate-700 mb-4">
+          All leather products must comply with REACH restrictions on Chromium VI (hexavalent chromium):
+        </p>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Chrome VI Limit</h3>
+              <p className="text-sm text-slate-600">Maximum 3mg/kg (3 parts per million) in finished leather</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Testing Required</h3>
+              <p className="text-sm text-slate-600">Third-party testing by EU-accredited laboratory</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Documentation</h3>
+              <p className="text-sm text-slate-600">Test reports and compliance certificates required</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Export Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Footwear</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $800M annually</p>
+            <p className="text-xs text-slate-500">Leather shoes, boots, sandals</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Leather Goods</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $500M annually</p>
+            <p className="text-xs text-slate-500">Bags, wallets, belts, accessories</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Leather Garments</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $150M annually</p>
+            <p className="text-xs text-slate-500">Leather jackets, coats, vests</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Finished Leather</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $50M annually</p>
+            <p className="text-xs text-slate-500">Processed leather for manufacturing</p>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Export Leather & Footwear?</h3>
+          <p className="mb-4">Contact eufta.in for leather export support with REACH Chrome VI compliance.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Leather Export Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 25 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics
+  {
+    id: "chemicals-plastics-export-eu",
+    title: "Chemicals & Plastics Export to EU: 0% Duty with REACH Only Representative 2026",
+    description: "Indian chemical manufacturers can export chemicals and plastics to EU with zero duty. Complete guide to REACH Only Representative (OR) registration and compliance.",
+    category: "Industry Guide",
+    readTime: "10 min read",
+    date: "2026-03-23",
+    keywords: ["chemicals export EU", "plastics export", "REACH OR", "Only Representative"],
+    geoKeywords: ["How to export chemicals to EU", "REACH Only Representative", "chemicals export from India"],
+    answerNugget: "Chemicals & Plastics exports to EU now have 0% duty (down from 12.8%) under 2026 FTA. Key requirement: REACH Only Representative (OR) registration. Non-EU manufacturers cannot register directly. eufta.in acts as OR, handling ECHA registrations. Example savings: €2.46M annually on €1.6M monthly exports.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          India's chemical and plastics industry, valued at $1.6 billion in EU exports, benefits significantly from the 2026 FTA. With duty elimination from 12.8% to 0%, Indian chemical manufacturers can now compete effectively in the European market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Elimination Impact</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> Chemical manufacturer exports €1.6M products monthly</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Pre-FTA Duty (12.8%)</span>
+              <span className="font-semibold text-red-600">€204,800/month</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Post-FTA Duty (0%)</span>
+              <span className="font-semibold text-cyan-600">€0/month</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Annual Savings</span>
+              <span className="font-bold text-cyan-600 text-lg">€2,457,600</span>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">REACH Only Representative (OR)</h2>
+        <p className="text-slate-700 mb-4">
+          Non-EU manufacturers cannot register chemicals directly with ECHA. They must appoint an Only Representative (OR) based in the EU to handle registrations.
+        </p>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">OR Registration</h3>
+              <p className="text-sm text-slate-600">eufta.in acts as Only Representative, registering chemicals with ECHA on behalf of Indian manufacturers</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Registration Fees</h3>
+              <p className="text-sm text-slate-600">Manage 19.5% increase in registration fees for large companies (effective late 2025)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Compliance Management</h3>
+              <p className="text-sm text-slate-600">Handle all REACH compliance, updates, and renewals</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Export Products</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Specialty Chemicals</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $800M annually</p>
+            <p className="text-xs text-slate-500">Pharmaceutical intermediates, agrochemicals, dyes</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Plastics</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $600M annually</p>
+            <p className="text-xs text-slate-500">Plastic resins, polymers, plastic products</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Organic Chemicals</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $150M annually</p>
+            <p className="text-xs text-slate-500">Organic compounds, intermediates</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Inorganic Chemicals</h3>
+            <p className="text-sm text-slate-600 mb-2">Export value: $50M annually</p>
+            <p className="text-xs text-slate-500">Inorganic compounds, salts, acids</p>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Export Chemicals & Plastics?</h3>
+          <p className="mb-4">Contact eufta.in for chemicals export support with REACH Only Representative registration.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Chemicals Export Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
