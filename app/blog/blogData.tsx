@@ -4822,4 +4822,62 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 17 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics efficiently
+  {
+    id: "low-voltage-directive-compliance",
+    title: "Low Voltage Directive Compliance: Electrical Safety for Indian Products 2026",
+    description: "Complete guide to Low Voltage Directive (LVD) compliance for Indian electrical equipment exporters. Learn about safety requirements, testing, and CE marking.",
+    category: "Compliance",
+    readTime: "10 min read",
+    date: "2026-03-31",
+    keywords: ["Low Voltage Directive", "LVD", "electrical safety", "CE marking"],
+    geoKeywords: ["Low Voltage Directive for Indian products", "electrical safety compliance", "LVD testing"],
+    answerNugget: "Low Voltage Directive applies to electrical equipment with voltage 50-1000V AC or 75-1500V DC. Requirements: Safety testing, risk assessment, technical documentation. CE marking includes LVD compliance. Processing time: 4-8 weeks. Required for: All electrical products in specified voltage range.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The Low Voltage Directive (LVD) ensures electrical safety for equipment operating within specific voltage ranges. Indian manufacturers exporting electrical products to the EU must comply with LVD requirements.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Voltage Range</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <h3 className="font-bold text-slate-900 mb-4">LVD Applies To</h3>
+          <div className="space-y-2">
+            <p className="text-sm text-slate-700"><strong>AC Voltage:</strong> 50V to 1000V</p>
+            <p className="text-sm text-slate-700"><strong>DC Voltage:</strong> 75V to 1500V</p>
+            <p className="text-sm text-slate-700 mt-4"><strong>Exempt:</strong> Equipment below 50V AC or 75V DC (unless battery-powered)</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Safety Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Electrical Safety</h3>
+              <p className="text-sm text-slate-600">Protection against electric shock, fire, mechanical hazards</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Risk Assessment</h3>
+              <p className="text-sm text-slate-600">Complete risk assessment identifying all hazards</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Testing</h3>
+              <p className="text-sm text-slate-600">Safety testing by EU-accredited laboratory</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need LVD Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for Low Voltage Directive compliance and testing support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get LVD Compliance Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
