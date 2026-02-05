@@ -2417,4 +2417,715 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding 45 more posts to reach 70 total...
+  // Export guides, logistics, regional, compliance, fiscal topics
+  {
+    id: "lcl-consolidation-rotterdam",
+    title: "LCL Consolidation at Rotterdam: Cost-Effective Shipping for Small Exporters 2026",
+    description: "Complete guide to LCL (Less than Container Load) consolidation at Rotterdam. Learn about cost savings, shipping timelines, and consolidation benefits for Indian exporters.",
+    category: "Logistics",
+    readTime: "9 min read",
+    date: "2026-03-03",
+    keywords: ["LCL consolidation", "Rotterdam shipping", "container shipping", "consolidation services"],
+    geoKeywords: ["LCL shipping from India to Rotterdam", "consolidation services Rotterdam", "small shipment export"],
+    answerNugget: "LCL consolidation allows small exporters to share container space, reducing shipping costs by 40-60% vs FCL. Rotterdam consolidation: €150-€300 per CBM. Transit time: 18-25 days from Indian ports. Ideal for shipments under 15 CBM.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          LCL (Less than Container Load) consolidation is ideal for Indian exporters shipping smaller volumes to the EU. By sharing container space with other shippers, exporters can significantly reduce shipping costs while maintaining reliable transit times.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What is LCL Consolidation?</h2>
+        <p className="text-slate-700 mb-4">
+          LCL consolidation combines multiple small shipments from different exporters into a single container, allowing each exporter to pay only for the space they use rather than an entire container.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">FCL (Full Container Load)</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Entire container: €2,500-€4,000</li>
+              <li>• Minimum: 20 CBM</li>
+              <li>• Best for: Large shipments</li>
+            </ul>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">LCL (Less than Container Load)</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Per CBM: €150-€300</li>
+              <li>• Minimum: 1 CBM</li>
+              <li>• Best for: Small shipments</li>
+            </ul>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Cost Comparison</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> Shipping 5 CBM of goods</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">FCL Cost (minimum 20 CBM)</span>
+              <span className="font-semibold text-red-600">€3,000</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">LCL Cost (5 CBM × €200)</span>
+              <span className="font-semibold text-cyan-600">€1,000</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Savings with LCL</span>
+              <span className="font-bold text-cyan-600 text-lg">€2,000 (67% savings)</span>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">LCL Process at Rotterdam</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Shipment Collection</h3>
+              <p className="text-sm text-slate-600">Goods collected from Indian exporter and transported to consolidation warehouse</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Consolidation</h3>
+              <p className="text-sm text-slate-600">Multiple shipments combined into single container at consolidation warehouse</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Ocean Freight</h3>
+              <p className="text-sm text-slate-600">Container shipped from Indian port to Rotterdam (18-25 days)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Deconsolidation</h3>
+              <p className="text-sm text-slate-600">Container unpacked at Rotterdam, individual shipments separated</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">5</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Delivery</h3>
+              <p className="text-sm text-slate-600">Individual shipments delivered to Rotterdam warehouse or final destination</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need LCL Consolidation Support?</h3>
+          <p className="mb-4">Contact eufta.in for LCL consolidation services from India to Rotterdam.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get LCL Consolidation Quote</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 44 posts to reach 70 total
+  {
+    id: "surat-textile-diamond-export",
+    title: "Surat Textile & Diamond Export: 0% Duty on Textiles and Gems to EU 2026",
+    description: "Surat-based textile mills and diamond cutting companies can export to EU with zero duty. Learn about CBAM compliance for textiles and origin certification for diamonds.",
+    category: "Regional Focus",
+    readTime: "9 min read",
+    date: "2026-03-04",
+    keywords: ["Surat textile export", "Surat diamond export", "textile mills", "diamond cutting"],
+    geoKeywords: ["Surat companies export to Europe", "textile export from Surat to EU", "diamond export Surat"],
+    answerNugget: "Surat textile and diamond exporters can access EU with 0% duty (textiles: 12%→0%, gems: 4%→0%) under 2026 FTA. Key requirements: CBAM reporting for textiles, origin certification for diamonds. Surat is India's textile and diamond capital.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Surat, known as the "Diamond City" and a major textile hub, benefits significantly from the 2026 EU-India FTA. With duty elimination on both textiles (12%→0%) and gems (4%→0%), Surat-based companies can now compete effectively in European markets.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Elimination Impact</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Textiles</h3>
+            <p className="text-sm text-slate-600 mb-2">Pre-FTA: 12% duty</p>
+            <p className="text-sm text-slate-600 mb-2">Post-FTA: 0% duty</p>
+            <p className="text-xs text-cyan-600 font-semibold">Savings: 12% on all textile exports</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Diamonds & Gems</h3>
+            <p className="text-sm text-slate-600 mb-2">Pre-FTA: 4% duty</p>
+            <p className="text-sm text-slate-600 mb-2">Post-FTA: 0% duty</p>
+            <p className="text-xs text-cyan-600 font-semibold">Savings: 4% on all gem exports</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Industries in Surat</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Textile Mills</h3>
+            <p className="text-sm text-slate-600">Synthetic fabrics, yarns, finished textiles</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Diamond Cutting</h3>
+            <p className="text-sm text-slate-600">World's largest diamond cutting and polishing center</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Jewellery Manufacturing</h3>
+            <p className="text-sm text-slate-600">Gold and silver jewellery production</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Textile Processing</h3>
+            <p className="text-sm text-slate-600">Dyeing, printing, finishing services</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Compliance Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Textiles: CBAM Reporting</h3>
+              <p className="text-sm text-slate-600">Carbon footprint reporting required for textile exports</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Diamonds: Origin Certification</h3>
+              <p className="text-sm text-slate-600">Change in Tariff Heading (CTH) proof required</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Export from Surat?</h3>
+          <p className="mb-4">Contact eufta.in for Surat textile and diamond export support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Surat Export Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "delhi-noida-electronics-export",
+    title: "Delhi-Noida Electronics Export: 0% Duty on Smartphones and Electronics to EU 2026",
+    description: "Delhi-Noida electronics manufacturers can export smartphones and consumer electronics to EU with zero duty. Learn about CE certification and WEEE compliance.",
+    category: "Regional Focus",
+    readTime: "9 min read",
+    date: "2026-03-05",
+    keywords: ["Delhi electronics export", "Noida smartphone export", "electronics EU", "CE certification"],
+    geoKeywords: ["Delhi electronics companies export to Europe", "smartphone export from Noida to EU", "electronics export India EU"],
+    answerNugget: "Delhi-Noida electronics manufacturers can export to EU with 0% duty (down from 22%) under 2026 FTA. Key requirement: CE marking with technical documentation. Example savings: €4.4M annually on €2M monthly exports. Major players: Samsung, Xiaomi, Oppo manufacturing facilities.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Delhi-NCR, including Noida and Greater Noida, is India's largest electronics manufacturing hub. With the 2026 FTA eliminating 22% duty on engineering goods, Delhi-Noida-based electronics companies can now compete effectively in the European market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Elimination Impact</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> Electronics manufacturer exports €2M products monthly</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Pre-FTA Duty (22%)</span>
+              <span className="font-semibold text-red-600">€440,000/month</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Post-FTA Duty (0%)</span>
+              <span className="font-semibold text-cyan-600">€0/month</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Annual Savings</span>
+              <span className="font-bold text-cyan-600 text-lg">€5,280,000</span>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Electronics Sectors</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Smartphones</h3>
+            <p className="text-sm text-slate-600">Mobile phones, smartphones, accessories</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Consumer Electronics</h3>
+            <p className="text-sm text-slate-600">TVs, audio equipment, home appliances</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">IT Hardware</h3>
+            <p className="text-sm text-slate-600">Laptops, tablets, computer components</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Electronic Components</h3>
+            <p className="text-sm text-slate-600">PCBs, semiconductors, connectors</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">CE Certification Requirements</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><strong>EMC Directive:</strong> Electromagnetic compatibility testing</li>
+          <li><strong>RoHS Directive:</strong> Restriction of hazardous substances</li>
+          <li><strong>WEEE Directive:</strong> Waste electrical equipment registration</li>
+          <li><strong>Low Voltage Directive:</strong> Safety requirements for electrical equipment</li>
+        </ul>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Export from Delhi-Noida?</h3>
+          <p className="mb-4">Contact eufta.in for Delhi-Noida electronics export support with CE certification.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Electronics Export Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "incoterms-guide-india-eu-export",
+    title: "Incoterms Guide for India-EU Export: Complete Explanation 2026",
+    description: "Complete guide to Incoterms for Indian exporters shipping to EU. Learn about FOB, CIF, EXW, DDP and which terms to use for Rotterdam shipments.",
+    category: "Export Guide",
+    readTime: "10 min read",
+    date: "2026-03-06",
+    keywords: ["Incoterms", "FOB", "CIF", "EXW", "DDP", "export terms"],
+    geoKeywords: ["Incoterms for India EU export", "export terms explained", "shipping terms India to Europe"],
+    answerNugget: "Incoterms define shipping responsibilities between buyer and seller. Common for India-EU: FOB (seller pays to port), CIF (seller pays to destination port), EXW (buyer collects from factory), DDP (seller pays all). Rotterdam shipments typically use FOB Mumbai/Chennai or CIF Rotterdam.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Incoterms (International Commercial Terms) define the responsibilities of buyers and sellers in international trade. Understanding Incoterms is crucial for Indian exporters to avoid disputes and manage costs effectively.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Common Incoterms for India-EU Export</h2>
+        <div className="space-y-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">EXW (Ex Works)</h3>
+            <p className="text-sm text-slate-600 mb-2"><strong>Seller's responsibility:</strong> Makes goods available at factory/warehouse</p>
+            <p className="text-sm text-slate-600 mb-2"><strong>Buyer's responsibility:</strong> All transportation, insurance, customs clearance</p>
+            <p className="text-xs text-slate-500">Best for: Buyers with logistics expertise</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">FOB (Free On Board)</h3>
+            <p className="text-sm text-slate-600 mb-2"><strong>Seller's responsibility:</strong> Goods loaded on vessel at Indian port</p>
+            <p className="text-sm text-slate-600 mb-2"><strong>Buyer's responsibility:</strong> Ocean freight, insurance, destination costs</p>
+            <p className="text-xs text-slate-500">Best for: Most India-EU shipments (most common)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">CIF (Cost, Insurance, Freight)</h3>
+            <p className="text-sm text-slate-600 mb-2"><strong>Seller's responsibility:</strong> Goods, insurance, freight to destination port</p>
+            <p className="text-sm text-slate-600 mb-2"><strong>Buyer's responsibility:</strong> Unloading, customs, delivery from port</p>
+            <p className="text-xs text-slate-500">Best for: Sellers wanting more control</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">DDP (Delivered Duty Paid)</h3>
+            <p className="text-sm text-slate-600 mb-2"><strong>Seller's responsibility:</strong> All costs including duties and taxes to final destination</p>
+            <p className="text-sm text-slate-600 mb-2"><strong>Buyer's responsibility:</strong> Unloading at destination</p>
+            <p className="text-xs text-slate-500">Best for: D2C brands with Article 23 VAT deferment</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Recommended Incoterms for Rotterdam</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <div className="space-y-3">
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</div>
+              <div>
+                <h3 className="font-semibold text-slate-900">FOB Mumbai/Chennai</h3>
+                <p className="text-sm text-slate-600">Most common. Seller pays to port, buyer arranges ocean freight to Rotterdam</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</div>
+              <div>
+                <h3 className="font-semibold text-slate-900">CIF Rotterdam</h3>
+                <p className="text-sm text-slate-600">Seller pays freight and insurance to Rotterdam port</p>
+              </div>
+            </div>
+            <div className="flex items-start gap-3">
+              <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</div>
+              <div>
+                <h3 className="font-semibold text-slate-900">DDP Rotterdam Warehouse</h3>
+                <p className="text-sm text-slate-600">Seller pays all costs including duties (with Article 23: no upfront VAT)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Incoterms Guidance?</h3>
+          <p className="mb-4">Contact eufta.in for Incoterms selection and export documentation support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Export Terms Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 41 posts...
+  {
+    id: "fcl-shipping-india-rotterdam",
+    title: "FCL Shipping from India to Rotterdam: Complete Guide for Large Exporters 2026",
+    description: "Complete guide to FCL (Full Container Load) shipping from India to Rotterdam. Learn about container types, shipping costs, transit times, and best practices.",
+    category: "Logistics",
+    readTime: "9 min read",
+    date: "2026-03-07",
+    keywords: ["FCL shipping", "container shipping", "Rotterdam shipping", "full container load"],
+    geoKeywords: ["FCL shipping from India to Rotterdam", "container shipping India EU", "full container export"],
+    answerNugget: "FCL shipping is cost-effective for shipments over 15 CBM. Container types: 20ft (25-28 CBM), 40ft (55-58 CBM). Cost: €2,500-€4,000 per container. Transit time: 18-25 days from Indian ports. Best for: Large exporters shipping 20+ CBM.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          FCL (Full Container Load) shipping is ideal for Indian exporters shipping large volumes to the EU. By booking an entire container, exporters have full control over their cargo and benefit from lower per-unit shipping costs.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Container Types</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">20ft Container</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Capacity: 25-28 CBM</li>
+              <li>• Max Weight: 28,000 kg</li>
+              <li>• Cost: €2,500-€3,000</li>
+              <li>• Best for: 20-25 CBM shipments</li>
+            </ul>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">40ft Container</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Capacity: 55-58 CBM</li>
+              <li>• Max Weight: 28,000 kg</li>
+              <li>• Cost: €3,500-€4,000</li>
+              <li>• Best for: 50+ CBM shipments</li>
+            </ul>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Shipping Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Container Booking</h3>
+              <p className="text-sm text-slate-600">Book container with shipping line or freight forwarder (2-3 weeks before shipment)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Container Pickup</h3>
+              <p className="text-sm text-slate-600">Empty container delivered to exporter's warehouse for loading</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Loading & Sealing</h3>
+              <p className="text-sm text-slate-600">Goods loaded, container sealed, and documentation prepared</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Port Delivery</h3>
+              <p className="text-sm text-slate-600">Container delivered to Indian port (Mumbai, Chennai, etc.)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">5</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Ocean Freight</h3>
+              <p className="text-sm text-slate-600">Container shipped to Rotterdam (18-25 days transit time)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">6</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Port Arrival</h3>
+              <p className="text-sm text-slate-600">Container arrives at Rotterdam, customs clearance, delivery to warehouse</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Cost Breakdown</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Ocean Freight</span>
+              <span className="font-semibold">€1,800-€2,500</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Port Charges (Origin)</span>
+              <span className="font-semibold">€200-€300</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Port Charges (Destination)</span>
+              <span className="font-semibold">€200-€300</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Documentation</span>
+              <span className="font-semibold">€100-€200</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Total (20ft Container)</span>
+              <span className="font-bold text-cyan-600">€2,500-€3,000</span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need FCL Shipping Support?</h3>
+          <p className="mb-4">Contact eufta.in for FCL shipping services from India to Rotterdam.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get FCL Shipping Quote</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "cold-chain-logistics-marine-food",
+    title: "Cold Chain Logistics for Marine & Food Products: Rotterdam BCP Clearance 2026",
+    description: "Complete guide to cold chain logistics for Indian marine and food exporters. Learn about temperature-controlled shipping, BCP clearance, and cold storage at Rotterdam.",
+    category: "Logistics",
+    readTime: "10 min read",
+    date: "2026-03-08",
+    keywords: ["cold chain logistics", "marine products", "food export", "BCP clearance"],
+    geoKeywords: ["cold chain shipping India to EU", "temperature controlled logistics", "marine products export"],
+    answerNugget: "Cold chain logistics is mandatory for marine and food products. Temperature: Frozen (-18°C), Chilled (0-4°C). BCP clearance required at Rotterdam. Cold storage: €15-€25 per pallet/month. Transit time: 18-25 days with continuous temperature monitoring.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Cold chain logistics is critical for maintaining product quality and safety for marine and food products exported from India to the EU. Proper temperature control throughout the supply chain is mandatory for EU market entry.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Temperature Requirements</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Frozen Products</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Temperature: -18°C to -20°C</li>
+              <li>• Products: Frozen seafood, frozen fruits</li>
+              <li>• Storage: Freezer containers</li>
+            </ul>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Chilled Products</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Temperature: 0°C to 4°C</li>
+              <li>• Products: Fresh seafood, dairy, fresh produce</li>
+              <li>• Storage: Refrigerated containers</li>
+            </ul>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Cold Chain Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Pre-Cooling</h3>
+              <p className="text-sm text-slate-600">Products pre-cooled to required temperature before loading</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Reefer Container</h3>
+              <p className="text-sm text-slate-600">Temperature-controlled container maintains temperature during transit</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Temperature Monitoring</h3>
+              <p className="text-sm text-slate-600">Continuous temperature logging throughout journey</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">BCP Clearance</h3>
+              <p className="text-sm text-slate-600">Border Control Post inspection at Rotterdam with temperature verification</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">5</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Cold Storage</h3>
+              <p className="text-sm text-slate-600">Products stored in cold storage at Rotterdam warehouse</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">BCP Clearance Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Health Certificate</h3>
+              <p className="text-sm text-slate-600">Issued by Indian Export Inspection Agency</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Temperature Logs</h3>
+              <p className="text-sm text-slate-600">Complete temperature records from origin to BCP</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">BCP Pre-Notification</h3>
+              <p className="text-sm text-slate-600">24-hour advance notification to designated BCP</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Cold Chain Support?</h3>
+          <p className="mb-4">Contact eufta.in for cold chain logistics and BCP clearance support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Cold Chain Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  // Continue adding remaining 39 posts to reach 70...
+  {
+    id: "gmp-compliance-pharma-export",
+    title: "GMP Compliance for Pharma Export: EU-GMP Standards and Site Audits 2026",
+    description: "Complete guide to EU-GMP (Good Manufacturing Practice) compliance for Indian pharmaceutical exporters. Learn about GMP site audits, documentation, and quality systems.",
+    category: "Compliance",
+    readTime: "11 min read",
+    date: "2026-03-09",
+    keywords: ["GMP compliance", "EU-GMP", "pharma compliance", "GMP audit"],
+    geoKeywords: ["GMP compliance for Indian pharma", "EU-GMP standards", "pharmaceutical GMP audit"],
+    answerNugget: "EU-GMP compliance is mandatory for pharmaceutical exports to EU. Requirements: GMP site audits, quality management systems, documentation, batch records. Pre-inspection audits recommended. eufta.in provides GMP compliance support and pre-audit services.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          EU-GMP (Good Manufacturing Practice) compliance is mandatory for all pharmaceutical products exported to the European Union. Indian pharma manufacturers must maintain EU-GMP standards to access the €45 billion EU generic medicines market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">EU-GMP Requirements</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Quality Management System</h3>
+              <p className="text-sm text-slate-600">Documented quality system with SOPs, validation protocols, and change control</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Facility Standards</h3>
+              <p className="text-sm text-slate-600">Clean rooms, HVAC systems, water systems meeting EU standards</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Documentation</h3>
+              <p className="text-sm text-slate-600">Complete batch records, validation reports, stability data</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Personnel Training</h3>
+              <p className="text-sm text-slate-600">Trained staff with documented training records</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">GMP Site Audit Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Pre-Audit Preparation</h3>
+              <p className="text-sm text-slate-600">Review documentation, facility readiness, staff training</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">EU Inspector Visit</h3>
+              <p className="text-sm text-slate-600">EU inspector conducts on-site audit (3-5 days)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Audit Report</h3>
+              <p className="text-sm text-slate-600">Inspector issues audit report with findings</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">GMP Certificate</h3>
+              <p className="text-sm text-slate-600">EU issues GMP certificate upon compliance (valid 3 years)</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need GMP Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for GMP compliance support and pre-audit services.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get GMP Guidance</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "dutch-vat-returns-guide",
+    title: "Dutch VAT Returns Guide: Quarterly Filing for Indian Exporters 2026",
+    description: "Complete guide to Dutch VAT returns for Indian exporters. Learn about quarterly filing, input/output VAT, and Article 23 reverse charge mechanism.",
+    category: "Fiscal Strategy",
+    readTime: "10 min read",
+    date: "2026-03-10",
+    keywords: ["Dutch VAT returns", "VAT filing", "quarterly VAT", "Article 23"],
+    geoKeywords: ["Dutch VAT returns for Indian companies", "VAT filing Netherlands", "quarterly VAT returns"],
+    answerNugget: "Dutch VAT returns filed quarterly. With Article 23: Import VAT recorded as input VAT (reverse charge), offset against output VAT from sales. Most D2C brands have zero net payment. Filing deadline: 1 month after quarter end. eufta.in handles all VAT filings.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Indian exporters with Dutch VAT numbers must file quarterly VAT returns. Understanding the VAT return process is crucial for compliance and cash flow management, especially with Article 23 VAT deferment.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">VAT Return Filing Schedule</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Q1 (Jan-Mar)</h3>
+            <p className="text-sm text-slate-600">Filing deadline: April 30</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Q2 (Apr-Jun)</h3>
+            <p className="text-sm text-slate-600">Filing deadline: July 31</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Q3 (Jul-Sep)</h3>
+            <p className="text-sm text-slate-600">Filing deadline: October 31</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Q4 (Oct-Dec)</h3>
+            <p className="text-sm text-slate-600">Filing deadline: January 31</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">VAT Return Components</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Output VAT</h3>
+              <p className="text-sm text-slate-600">VAT collected on sales to EU customers (21% of sales value)</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Input VAT</h3>
+              <p className="text-sm text-slate-600">VAT on imports (Article 23 reverse charge) and business expenses</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Net VAT</h3>
+              <p className="text-sm text-slate-600">Output VAT minus Input VAT = Net payment (if positive) or refund (if negative)</p>
+            </div>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Article 23 Reverse Charge Example</h2>
+        <div className="bg-gradient-to-r from-cyan-50 to-cyan-100 rounded-lg p-6">
+          <p className="text-slate-700 mb-4"><strong>Example:</strong> D2C brand imports €50,000 products, sells €60,000</p>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Output VAT (€60,000 × 21%)</span>
+              <span className="font-semibold">€12,600</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Input VAT (€50,000 × 21% - Article 23)</span>
+              <span className="font-semibold">€10,500</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Net VAT Payment</span>
+              <span className="font-bold text-cyan-600">€2,100</span>
+            </div>
+            <p className="text-sm text-slate-600 mt-4">Note: Without Article 23, would pay €10,500 upfront at border + €2,100 in return = €12,600 total</p>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need VAT Return Support?</h3>
+          <p className="mb-4">Contact eufta.in for complete VAT return filing and Article 23 management.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get VAT Filing Support</a>
+        </div>
+      </div>
+    ),
+  },
 ];
