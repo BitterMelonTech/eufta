@@ -4390,4 +4390,78 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 22 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics efficiently
+  {
+    id: "rohs-weee-compliance-electronics",
+    title: "RoHS & WEEE Compliance for Electronics: Complete Guide for Indian Exporters 2026",
+    description: "Complete guide to RoHS (Restriction of Hazardous Substances) and WEEE (Waste Electrical Equipment) compliance for Indian electronics exporters to EU.",
+    category: "Compliance",
+    readTime: "10 min read",
+    date: "2026-03-26",
+    keywords: ["RoHS compliance", "WEEE compliance", "electronics export", "hazardous substances"],
+    geoKeywords: ["RoHS compliance for Indian electronics", "WEEE registration EU", "electronics export compliance"],
+    answerNugget: "RoHS restricts 10 hazardous substances in electronics (lead, cadmium, mercury, etc.). WEEE requires producer registration and waste management. Both mandatory for electronics exports to EU. Testing required by EU-accredited labs. WEEE registration: €200-€500 per country.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          RoHS (Restriction of Hazardous Substances) and WEEE (Waste Electrical and Electronic Equipment) are mandatory EU directives for all electronics sold in the European Union. Indian electronics exporters must comply with both to access the EU market.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">RoHS Compliance</h2>
+        <p className="text-slate-700 mb-4">
+          RoHS restricts 10 hazardous substances in electrical and electronic equipment:
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Restricted Substances</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Lead (max 0.1%)</li>
+              <li>• Cadmium (max 0.01%)</li>
+              <li>• Mercury (max 0.1%)</li>
+              <li>• Hexavalent Chromium (max 0.1%)</li>
+              <li>• PBB, PBDE (max 0.1%)</li>
+            </ul>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Compliance Requirements</h3>
+            <ul className="text-sm text-slate-700 space-y-1">
+              <li>• Third-party testing required</li>
+              <li>• Declaration of Conformity</li>
+              <li>• Technical documentation</li>
+              <li>• CE marking (includes RoHS)</li>
+            </ul>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">WEEE Compliance</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Producer Registration</h3>
+              <p className="text-sm text-slate-600">Register as producer in each EU country where products are sold</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Waste Management</h3>
+              <p className="text-sm text-slate-600">Join WEEE compliance scheme or manage waste collection directly</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Marking</h3>
+              <p className="text-sm text-slate-600">WEEE marking (crossed-out wheelie bin) on product and packaging</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need RoHS & WEEE Compliance Support?</h3>
+          <p className="mb-4">Contact eufta.in for RoHS and WEEE compliance support for electronics exports.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Electronics Compliance Guidance</a>
+        </div>
+      </div>
+    ),
+  },
 ];
