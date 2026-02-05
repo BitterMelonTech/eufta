@@ -286,6 +286,65 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Blog Preview Section */}
+        <section className="bg-gradient-to-br from-slate-50 to-white py-24">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                FTA Hub: Trade Intelligence & Export Guides
+              </h2>
+              <p className="mx-auto mt-4 max-w-2xl text-lg text-slate-600">
+                Expert insights, compliance guides, and regional strategies for Indian companies entering the European market
+              </p>
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              {[
+                {
+                  title: "How to Export from India to EU in 2026",
+                  category: "Export Guide",
+                  link: "/blog/how-to-export-india-to-eu-2026",
+                },
+                {
+                  title: "Article 23 VAT Deferment Guide",
+                  category: "Fiscal Strategy",
+                  link: "/blog/article-23-vat-deferment-guide",
+                },
+                {
+                  title: "Gujarat Pharma Export to EU",
+                  category: "Regional Focus",
+                  link: "/blog/gujarat-pharma-export-eu",
+                },
+              ].map((post, index) => (
+                <Link
+                  key={index}
+                  href={post.link}
+                  className="group rounded-xl border border-cyan-200/50 bg-white p-6 shadow-sm hover:shadow-lg transition-all"
+                >
+                  <span className="inline-block rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-700 mb-3">
+                    {post.category}
+                  </span>
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-cyan-600 transition-colors">
+                    {post.title}
+                  </h3>
+                  <span className="text-sm text-cyan-600 font-medium group-hover:gap-2 inline-flex items-center gap-1">
+                    Read Article
+                    <IconArrow />
+                  </span>
+                </Link>
+              ))}
+            </div>
+            <div className="text-center">
+              <Link
+                href="/blog"
+                className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-lg hover:shadow-xl transition-all duration-300"
+              >
+                View All Blog Posts
+                <IconArrow />
+              </Link>
+            </div>
+          </div>
+        </section>
+
         {/* CTA Section */}
         <section className="bg-slate-900 py-16">
           <div className="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
@@ -302,8 +361,8 @@ export default function Home() {
                 className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
               >
                 Contact Us
-          </a>
-        </div>
+              </a>
+            </div>
           </div>
         </section>
     </div>

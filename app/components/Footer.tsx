@@ -14,10 +14,18 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold text-slate-900">Services</h4>
             <ul className="mt-4 space-y-2 text-sm text-slate-600">
+              <li><Link href="/services" className="hover:text-cyan-600 transition-colors">All Services</Link></li>
+              <li><Link href="/pricing" className="hover:text-cyan-600 transition-colors">Pricing & Calculator</Link></li>
               <li><Link href="/fta-industries" className="hover:text-cyan-600 transition-colors">FTA Industries</Link></li>
               <li><Link href="/fiscal-representation" className="hover:text-cyan-600 transition-colors">Fiscal Representation</Link></li>
               <li><Link href="/marketplace-enablement" className="hover:text-cyan-600 transition-colors">Marketplace Enablement</Link></li>
               <li><Link href="/compliance-bridge" className="hover:text-cyan-600 transition-colors">Compliance Bridge</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="text-sm font-semibold text-slate-900">Resources</h4>
+            <ul className="mt-4 space-y-2 text-sm text-slate-600">
+              <li><Link href="/blog" className="hover:text-cyan-600 transition-colors">Blog & Export Guides</Link></li>
               <li><Link href="/final-text" className="hover:text-cyan-600 transition-colors">Final Agreement Text</Link></li>
             </ul>
           </div>
