@@ -4301,4 +4301,93 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 23 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics efficiently
+  {
+    id: "hs-codes-tariff-classification",
+    title: "HS Codes & Tariff Classification: Complete Guide for India-EU Export 2026",
+    description: "Complete guide to HS codes and tariff classification for Indian exporters. Learn how to classify products correctly for customs declarations and FTA benefits.",
+    category: "Export Guide",
+    readTime: "9 min read",
+    date: "2026-03-25",
+    keywords: ["HS codes", "tariff classification", "customs codes", "export classification"],
+    geoKeywords: ["HS codes for India EU export", "tariff classification guide", "customs codes India"],
+    answerNugget: "HS codes (Harmonized System) are 6-10 digit codes classifying products for customs. Correct classification is essential for FTA duty benefits. Format: 6-digit base code + 2-4 digit country-specific. Classification determines duty rate, Rules of Origin requirements, and compliance needs.",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          HS codes (Harmonized System codes) are international product classification codes used for customs declarations. Correct classification is essential for claiming FTA benefits and ensuring proper duty rates.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">HS Code Structure</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <h3 className="font-bold text-slate-900 mb-4">10-Digit HS Code Format</h3>
+          <div className="space-y-2">
+            <p className="text-sm text-slate-700"><strong>First 6 digits:</strong> International HS code (same worldwide)</p>
+            <p className="text-sm text-slate-700"><strong>Next 2 digits:</strong> EU-specific classification</p>
+            <p className="text-sm text-slate-700"><strong>Last 2 digits:</strong> National classification (optional)</p>
+            <p className="text-sm text-slate-700 font-mono mt-4">Example: 6403.99.90 (Leather footwear)</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Common HS Codes for Indian Exports</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Textiles</h3>
+            <p className="text-sm text-slate-600">Chapter 50-63: Textiles and textile articles</p>
+            <p className="text-xs text-slate-500 font-mono">Example: 6109.10.00 (Cotton T-shirts)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Pharmaceuticals</h3>
+            <p className="text-sm text-slate-600">Chapter 30: Pharmaceutical products</p>
+            <p className="text-xs text-slate-500 font-mono">Example: 3004.90.00 (Medicaments)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Engineering Goods</h3>
+            <p className="text-sm text-slate-600">Chapter 84-85: Machinery and electronics</p>
+            <p className="text-xs text-slate-500 font-mono">Example: 8471.30.00 (Laptops)</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Marine Products</h3>
+            <p className="text-sm text-slate-600">Chapter 3: Fish and seafood</p>
+            <p className="text-xs text-slate-500 font-mono">Example: 0306.17.00 (Frozen shrimp)</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Classification Process</h2>
+        <div className="space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">1</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Product Analysis</h3>
+              <p className="text-sm text-slate-600">Identify product composition, materials, function, and use</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">2</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">HS Code Lookup</h3>
+              <p className="text-sm text-slate-600">Search EU TARIC database or consult customs classification</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">3</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Verification</h3>
+              <p className="text-sm text-slate-600">Verify classification with customs broker or classification expert</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-8 w-8 items-center justify-center rounded-full bg-cyan-600 text-white text-sm font-bold flex-shrink-0">4</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Documentation</h3>
+              <p className="text-sm text-slate-600">Include HS code in commercial invoice and customs declaration</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need HS Code Classification Support?</h3>
+          <p className="mb-4">Contact eufta.in for HS code classification and tariff guidance.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Classification Support</a>
+        </div>
+      </div>
+    ),
+  },
 ];
