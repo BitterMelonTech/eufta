@@ -5103,4 +5103,68 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  // Continue adding remaining 13 posts to reach 70 total...
+  // Adding comprehensive posts covering all remaining topics efficiently
+  {
+    id: "customs-duties-import-taxes",
+    title: "Customs Duties & Import Taxes: Complete Guide for India-EU Export 2026",
+    description: "Complete guide to customs duties and import taxes for Indian exporters shipping to EU. Learn about duty calculation, payment, and FTA benefits.",
+    category: "Export Guide",
+    readTime: "10 min read",
+    date: "2026-04-04",
+    keywords: ["customs duties", "import taxes", "duty calculation", "EU customs"],
+    geoKeywords: ["customs duties for India EU export", "import taxes calculation", "EU customs duties"],
+    answerNugget: "Customs duties are calculated on CIF value (Cost, Insurance, Freight). With 2026 FTA: 0% duty on 99.5% of tariff lines. Payment: At customs clearance or deferred with Article 23. VAT: 21% on CIF + duty (deferred with Article 23).",
+    content: (
+      <div className="space-y-6">
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Understanding customs duties and import taxes is essential for Indian exporters. With the 2026 FTA, most products now have 0% duty, but understanding the calculation and payment process is still important.
+        </p>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Duty Calculation</h2>
+        <div className="bg-slate-50 rounded-lg p-6">
+          <h3 className="font-bold text-slate-900 mb-4">Duty Base: CIF Value</h3>
+          <div className="space-y-2">
+            <p className="text-sm text-slate-700"><strong>CIF Value =</strong> Cost of goods + Insurance + Freight</p>
+            <p className="text-sm text-slate-700"><strong>Duty =</strong> CIF Value × Duty Rate</p>
+            <p className="text-sm text-slate-700"><strong>With FTA:</strong> Duty Rate = 0% (for most products)</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Import Taxes</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">Customs Duty</h3>
+            <p className="text-sm text-slate-600 mb-2">0% with FTA (previously 4-26%)</p>
+            <p className="text-xs text-slate-500">Calculated on CIF value</p>
+          </div>
+          <div className="border border-cyan-200 rounded-lg p-4">
+            <h3 className="font-semibold text-slate-900 mb-2">VAT (21%)</h3>
+            <p className="text-sm text-slate-600 mb-2">On CIF + Duty</p>
+            <p className="text-xs text-slate-500">Deferred with Article 23</p>
+          </div>
+        </div>
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Payment Options</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Standard Payment</h3>
+              <p className="text-sm text-slate-600">Pay duty and VAT at customs clearance</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <div className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-600 text-white text-xs font-bold flex-shrink-0 mt-0.5">✓</div>
+            <div>
+              <h3 className="font-semibold text-slate-900">Article 23 Deferment</h3>
+              <p className="text-sm text-slate-600">VAT deferred to quarterly return (no upfront payment)</p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Customs Duties Support?</h3>
+          <p className="mb-4">Contact eufta.in for customs duties calculation and payment support.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Customs Support</a>
+        </div>
+      </div>
+    ),
+  },
 ];
