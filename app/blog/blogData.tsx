@@ -5815,4 +5815,406 @@ export const blogPosts: BlogPost[] = [
       </div>
     ),
   },
+  {
+    id: "eu-fta-2026-rotterdam-logistics-hub-indian-exporters",
+    title: "Why Rotterdam is the Perfect Logistics Hub for Indian Exporters Under EU FTA 2026",
+    description: "Discover why Rotterdam offers unmatched advantages for Indian exporters accessing the EU market through the 2026 FTA, including Article 23 VAT benefits and multimodal connectivity.",
+    category: "Logistics",
+    readTime: "8 min",
+    date: "2026-02-15",
+    keywords: ["Rotterdam logistics hub", "EU FTA 2026", "Indian exporters", "Article 23 VAT", "multimodal connectivity", "Rotterdam port", "European logistics", "warehouse Netherlands"],
+    geoKeywords: ["Rotterdam", "Netherlands", "Amsterdam", "Utrecht", "The Hague", "Indian exporters", "EU logistics"],
+    answerNugget: "Rotterdam is Europe's largest port and offers Indian exporters Article 23 VAT deferment, 24-hour access to 170M consumers, and seamless multimodal connectivity. The 2026 EU-India FTA makes Rotterdam the optimal gateway for duty-free exports.",
+    content: (
+      <div className="prose prose-slate max-w-none">
+        <h2>Why Rotterdam is the Perfect Logistics Hub for Indian Exporters</h2>
+        <p>Rotterdam, Europe's largest port, offers Indian exporters unparalleled advantages under the 2026 EU-India FTA. With Article 23 VAT deferment, 24-hour access to 170 million consumers, and seamless multimodal connectivity, Rotterdam is the optimal gateway for duty-free exports to the European Union.</p>
+        
+        <h3>Strategic Location and Connectivity</h3>
+        <p>Rotterdam's strategic position at the mouth of the Rhine River provides direct access to Europe's industrial heartland. The port handles over 15 million TEUs annually and connects to 170 million consumers within 24 hours via road, rail, and inland waterways.</p>
+        
+        <div className="my-6 p-6 bg-cyan-50 rounded-lg border-l-4 border-cyan-600">
+          <h4 className="text-lg font-semibold mb-3">Key Connectivity Advantages</h4>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Road Network:</strong> Direct access to A15, A4, and A16 highways connecting to Germany, Belgium, and France</li>
+            <li><strong>Rail Infrastructure:</strong> Betuweroute freight railway connects to Central and Eastern Europe</li>
+            <li><strong>Inland Waterways:</strong> Rhine-Main-Danube corridor reaches deep into continental Europe</li>
+            <li><strong>Air Cargo:</strong> 30-minute connection to Amsterdam Schiphol Airport for time-sensitive shipments</li>
+          </ul>
+        </div>
+
+        <h3>Article 23 VAT Deferment Advantage</h3>
+        <p>The Netherlands' Article 23 VAT deferment scheme is a game-changer for Indian exporters. Instead of paying 21% VAT upfront at the border, exporters can defer payment until their periodic VAT return, improving cash flow by eliminating the upfront tax burden.</p>
+        
+        <div className="my-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">Standard Import Process</h4>
+            <p className="text-slate-600 text-sm">Pay 21% VAT at border → Reduced cash flow → Higher working capital needs</p>
+          </div>
+          <div className="p-4 bg-cyan-50 border border-cyan-200 rounded-lg">
+            <h4 className="font-semibold text-cyan-900 mb-2">Article 23 Process</h4>
+            <p className="text-cyan-700 text-sm">Defer VAT payment → Improved cash flow → Lower working capital needs</p>
+          </div>
+        </div>
+
+        <h3>Green and Digital Shipping Corridor</h3>
+        <p>The India-Netherlands Green and Digital Shipping Corridor, established in 2026, prioritizes sustainable logistics. This initiative supports hydrogen and ammonia-fueled shipping, reducing carbon emissions and positioning Rotterdam as a leader in green logistics.</p>
+        
+        <h3>Multimodal Logistics Infrastructure</h3>
+        <p>Rotterdam's multimodal infrastructure enables seamless transitions between sea, road, rail, and air transport. The port's Maasvlakte 2 expansion provides state-of-the-art container terminals with automated handling systems, reducing turnaround times and costs.</p>
+        
+        <div className="my-6 p-6 bg-slate-900 text-white rounded-lg">
+          <h4 className="text-xl font-bold mb-4">Rotterdam Port Statistics</h4>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <div className="text-3xl font-bold text-cyan-400">15M+</div>
+              <div className="text-sm text-slate-300">TEUs Handled Annually</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-cyan-400">170M</div>
+              <div className="text-sm text-slate-300">Consumers Within 24 Hours</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-cyan-400">€500M+</div>
+              <div className="text-sm text-slate-300">Annual Duty Savings for Exporters</div>
+            </div>
+            <div>
+              <div className="text-3xl font-bold text-cyan-400">40%</div>
+              <div className="text-sm text-slate-300">Faster Clearance Times</div>
+            </div>
+          </div>
+        </div>
+
+        <h3>EU FTA 2026 Benefits in Rotterdam</h3>
+        <p>Under the 2026 EU-India FTA, Rotterdam becomes even more attractive for Indian exporters. With 99.5% of Indian exports eligible for duty-free access, combined with Article 23 VAT deferment, exporters can achieve significant cost savings and improved competitiveness.</p>
+        
+        <h3>Why Choose eufta.in in Rotterdam</h3>
+        <p>eufta.in operates from Rotterdam, providing Indian exporters with:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li>Article 23 VAT deferment license management</li>
+          <li>Professional 3PL warehousing with shared space reducing costs from €15-€20 to €8-€12 per order</li>
+          <li>Multimodal connectivity to all EU markets</li>
+          <li>Regulatory compliance support (EFSA, EMA, REACH)</li>
+          <li>Marketplace enablement for Amazon, Zalando, Bol.com, and more</li>
+        </ul>
+
+        <div className="mt-8 p-6 bg-cyan-50 rounded-lg border-l-4 border-cyan-600">
+          <h3 className="text-xl font-bold mb-4">Ready to Leverage Rotterdam's Advantages?</h3>
+          <p className="mb-4">Contact eufta.in to learn how Rotterdam's strategic location and Article 23 VAT benefits can transform your EU export operations.</p>
+          <a href="/services" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold text-white hover:bg-cyan-500 transition-colors">Explore Our Services</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "india-eu-fta-2026-rules-of-origin-certification-guide",
+    title: "Rules of Origin Certification Guide for India-EU FTA 2026: Complete Documentation Process",
+    description: "Master the Rules of Origin certification process for the 2026 India-EU FTA. Learn how to prove origin, obtain certificates, and avoid customs rejections with this comprehensive guide.",
+    category: "Compliance",
+    readTime: "10 min",
+    date: "2026-02-16",
+    keywords: ["Rules of Origin", "EU FTA 2026", "origin certification", "certificate of origin", "FTA documentation", "customs compliance", "export documentation", "India EU trade"],
+    geoKeywords: ["India", "European Union", "Rotterdam", "Mumbai", "Delhi", "Chennai", "export hubs"],
+    answerNugget: "Rules of Origin under the 2026 India-EU FTA require proving goods are 'wholly obtained' in India or meet specific value-added thresholds. Exporters must obtain Certificates of Origin from authorized bodies and maintain detailed production records to avoid customs rejections.",
+    content: (
+      <div className="prose prose-slate max-w-none">
+        <h2>Rules of Origin Certification Guide for India-EU FTA 2026</h2>
+        <p>Rules of Origin are critical for accessing duty-free benefits under the 2026 India-EU FTA. Exporters must prove their goods are 'wholly obtained' in India or meet specific value-added thresholds to qualify for zero-duty access to the European Union.</p>
+        
+        <h3>What Are Rules of Origin?</h3>
+        <p>Rules of Origin determine the economic nationality of goods. Under the 2026 FTA, goods must be either:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Wholly Obtained:</strong> Produced entirely in India using Indian materials and labor</li>
+          <li><strong>Substantially Transformed:</strong> Meet specific value-added thresholds or undergo sufficient processing in India</li>
+        </ul>
+
+        <h3>Key Origin Criteria</h3>
+        <div className="my-6 p-6 bg-cyan-50 rounded-lg border-l-4 border-cyan-600">
+          <h4 className="text-lg font-semibold mb-3">Origin Determination Methods</h4>
+          <div className="space-y-3">
+            <div className="p-3 bg-white rounded">
+              <strong>Change in Tariff Heading (CTH):</strong> Goods must be classified under a different HS code after processing in India
+            </div>
+            <div className="p-3 bg-white rounded">
+              <strong>Value-Added Rule:</strong> Minimum 40-60% value must be added in India, depending on the product category
+            </div>
+            <div className="p-3 bg-white rounded">
+              <strong>Specific Processing:</strong> Certain products require specific manufacturing processes to qualify
+            </div>
+          </div>
+        </div>
+
+        <h3>Certificate of Origin Requirements</h3>
+        <p>Exporters must obtain a Certificate of Origin (COO) from authorized bodies in India. The certificate must include:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li>Exporter and importer details</li>
+          <li>Product description and HS codes</li>
+          <li>Origin criteria met (wholly obtained or substantially transformed)</li>
+          <li>Value-added percentage (if applicable)</li>
+          <li>Authorized signatory and seal</li>
+        </ul>
+
+        <h3>Authorized Issuing Bodies in India</h3>
+        <p>Certificates of Origin can be issued by:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Export Promotion Councils (EPCs):</strong> Sector-specific councils like AEPC (textiles), GJEPC (jewellery)</li>
+          <li><strong>Chambers of Commerce:</strong> Regional chambers authorized by the Ministry of Commerce</li>
+          <li><strong>DGFT Regional Offices:</strong> Government offices for specific product categories</li>
+        </ul>
+
+        <h3>Documentation Requirements</h3>
+        <p>Exporters must maintain comprehensive documentation to support origin claims:</p>
+        <div className="my-6 grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">Production Records</h4>
+            <ul className="text-sm text-slate-600 space-y-1">
+              <li>• Manufacturing process documentation</li>
+              <li>• Raw material sourcing certificates</li>
+              <li>• Value-added calculations</li>
+              <li>• Quality control records</li>
+            </ul>
+          </div>
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">Commercial Documents</h4>
+            <ul className="text-sm text-slate-600 space-y-1">
+              <li>• Invoice with origin declaration</li>
+              <li>• Packing list</li>
+              <li>• Bill of lading</li>
+              <li>• Supplier declarations</li>
+            </ul>
+          </div>
+        </div>
+
+        <h3>Common Mistakes and How to Avoid Them</h3>
+        <div className="my-6 p-6 bg-red-50 rounded-lg border-l-4 border-red-600">
+          <h4 className="text-lg font-semibold mb-3 text-red-900">Common Rejection Reasons</h4>
+          <ul className="list-disc pl-6 space-y-2 text-red-800">
+            <li>Incomplete or incorrect Certificate of Origin</li>
+            <li>Failure to meet value-added thresholds</li>
+            <li>Missing supplier declarations for imported materials</li>
+            <li>Incorrect HS code classification</li>
+            <li>Insufficient documentation to support origin claims</li>
+          </ul>
+        </div>
+
+        <h3>Sector-Specific Origin Rules</h3>
+        <p>Different sectors have specific origin requirements:</p>
+        <div className="my-6 space-y-4">
+          <div className="p-4 bg-slate-50 rounded-lg">
+            <h4 className="font-semibold mb-2">Textiles & Apparel</h4>
+            <p className="text-sm text-slate-600">Must undergo 'substantial transformation' - yarn to fabric to garment, with minimum 40% value addition in India</p>
+          </div>
+          <div className="p-4 bg-slate-50 rounded-lg">
+            <h4 className="font-semibold mb-2">Pharmaceuticals</h4>
+            <p className="text-sm text-slate-600">Active pharmaceutical ingredients (APIs) must be manufactured in India, with final formulation also in India</p>
+          </div>
+          <div className="p-4 bg-slate-50 rounded-lg">
+            <h4 className="font-semibold mb-2">Engineering Goods</h4>
+            <p className="text-sm text-slate-600">Minimum 50% value addition required, with change in tariff heading from components to finished goods</p>
+          </div>
+        </div>
+
+        <h3>How eufta.in Can Help</h3>
+        <p>eufta.in provides comprehensive Rules of Origin support:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li>Origin determination and documentation review</li>
+          <li>Certificate of Origin application assistance</li>
+          <li>Value-added calculations and verification</li>
+          <li>Customs compliance support to prevent rejections</li>
+          <li>Training on maintaining origin documentation</li>
+        </ul>
+
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Need Rules of Origin Support?</h3>
+          <p className="mb-4">Contact eufta.in for expert guidance on Rules of Origin certification and documentation for the 2026 India-EU FTA.</p>
+          <a href="mailto:info@eufta.in" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Get Origin Certification Support</a>
+        </div>
+      </div>
+    ),
+  },
+  {
+    id: "eu-fta-2026-indian-sme-export-opportunities-growth-strategy",
+    title: "EU FTA 2026: Unlocking Export Opportunities for Indian SMEs - Complete Growth Strategy",
+    description: "Discover how Indian SMEs can leverage the 2026 EU-India FTA to access 450 million European consumers. Learn about duty-free access, market entry strategies, and cost-effective logistics solutions.",
+    category: "Strategy",
+    readTime: "12 min",
+    date: "2026-02-17",
+    keywords: ["Indian SMEs", "EU FTA 2026", "export opportunities", "SME export strategy", "European market entry", "duty-free exports", "SME logistics", "India EU trade"],
+    geoKeywords: ["India", "European Union", "Rotterdam", "Mumbai", "Delhi", "Bangalore", "SME clusters"],
+    answerNugget: "The 2026 EU-India FTA opens unprecedented opportunities for Indian SMEs, with 99.5% of exports eligible for duty-free access. SMEs can leverage shared 3PL warehousing, Article 23 VAT deferment, and marketplace enablement to enter European markets cost-effectively.",
+    content: (
+      <div className="prose prose-slate max-w-none">
+        <h2>EU FTA 2026: Unlocking Export Opportunities for Indian SMEs</h2>
+        <p>The 2026 EU-India FTA represents a historic opportunity for Indian SMEs to access 450 million European consumers with zero-duty access. With 99.5% of Indian exports eligible for duty-free treatment, SMEs can now compete effectively in European markets previously dominated by larger enterprises.</p>
+        
+        <h3>The SME Advantage Under FTA 2026</h3>
+        <p>Indian SMEs stand to gain significantly from the FTA, as smaller companies often have more flexibility to adapt to new market opportunities and can leverage cost-effective logistics solutions to compete with larger players.</p>
+        
+        <div className="my-6 p-6 bg-cyan-50 rounded-lg border-l-4 border-cyan-600">
+          <h4 className="text-lg font-semibold mb-3">Key Benefits for SMEs</h4>
+          <ul className="list-disc pl-6 space-y-2">
+            <li><strong>Zero Duty Access:</strong> 99.5% of exports eligible for duty-free treatment</li>
+            <li><strong>Reduced Costs:</strong> Shared 3PL warehousing reduces order costs from €15-€20 to €8-€12</li>
+            <li><strong>Cash Flow Improvement:</strong> Article 23 VAT deferment eliminates upfront 21% VAT burden</li>
+            <li><strong>Market Access:</strong> Direct fulfillment into Amazon, Zalando, Bol.com, and other major platforms</li>
+            <li><strong>Regulatory Support:</strong> Expert compliance management for EFSA, EMA, REACH requirements</li>
+          </ul>
+        </div>
+
+        <h3>Market Entry Strategies for SMEs</h3>
+        <p>SMEs can enter European markets through multiple channels, each with different requirements and benefits:</p>
+        
+        <div className="my-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">Marketplace Model</h4>
+            <p className="text-sm text-slate-600 mb-3">Start with Amazon EU5, Zalando, or Bol.com for immediate market access with minimal upfront investment</p>
+            <div className="text-xs text-cyan-600 font-semibold">Best for: D2C brands</div>
+          </div>
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">B2B Distribution</h4>
+            <p className="text-sm text-slate-600 mb-3">Partner with European wholesalers and distributors for established market presence</p>
+            <div className="text-xs text-cyan-600 font-semibold">Best for: B2B manufacturers</div>
+          </div>
+          <div className="p-4 bg-white border border-slate-200 rounded-lg">
+            <h4 className="font-semibold text-slate-900 mb-2">Direct E-commerce</h4>
+            <p className="text-sm text-slate-600 mb-3">Build your own Shopify store with EU fulfillment from Rotterdam hub</p>
+            <div className="text-xs text-cyan-600 font-semibold">Best for: Branded products</div>
+          </div>
+        </div>
+
+        <h3>Cost-Effective Logistics Solutions</h3>
+        <p>Traditional logistics models often exclude SMEs due to high minimum order volumes and fixed costs. The FTA 2026, combined with shared logistics infrastructure, makes European market entry accessible to SMEs.</p>
+        
+        <div className="my-6 p-6 bg-slate-50 rounded-lg">
+          <h4 className="text-lg font-semibold mb-4">SME-Friendly Logistics Model</h4>
+          <div className="space-y-3">
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Shared 3PL Warehousing</span>
+              <span className="font-semibold text-cyan-600">€1,000/month</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Pick & Pack per Order</span>
+              <span className="font-semibold text-cyan-600">€2.75 (vs €3.20+ market)</span>
+            </div>
+            <div className="flex justify-between items-center border-b pb-2">
+              <span className="text-slate-700">Article 23 VAT Deferment</span>
+              <span className="font-semibold text-cyan-600">21% cash flow improvement</span>
+            </div>
+            <div className="flex justify-between items-center pt-2">
+              <span className="text-slate-900 font-bold">Total Cost per Order</span>
+              <span className="font-bold text-cyan-600">€8-€12 (vs €15-€20)</span>
+            </div>
+          </div>
+        </div>
+
+        <h3>Sector-Specific Opportunities for SMEs</h3>
+        <p>Different sectors offer unique opportunities for SMEs under the FTA:</p>
+        
+        <div className="my-6 space-y-4">
+          <div className="p-4 bg-white border-l-4 border-cyan-600 rounded-lg">
+            <h4 className="font-semibold mb-2">Textiles & Apparel</h4>
+            <p className="text-sm text-slate-600 mb-2">Duty reduction from 12% to 0% opens opportunities for Tiruppur knitwear and Surat textile SMEs</p>
+            <div className="text-xs text-cyan-600">Key Markets: Zalando, H&M, Primark</div>
+          </div>
+          <div className="p-4 bg-white border-l-4 border-cyan-600 rounded-lg">
+            <h4 className="font-semibold mb-2">Pharmaceuticals & Ayurveda</h4>
+            <p className="text-sm text-slate-600 mb-2">Zero-duty access for pharma products, with support for EFSA Novel Foods registration for traditional ingredients</p>
+            <div className="text-xs text-cyan-600">Key Markets: Health stores, e-commerce platforms</div>
+          </div>
+          <div className="p-4 bg-white border-l-4 border-cyan-600 rounded-lg">
+            <h4 className="font-semibold mb-2">Engineering & Auto Components</h4>
+            <p className="text-sm text-slate-600 mb-2">22% duty elimination benefits Chennai and Pune automotive SMEs</p>
+            <div className="text-xs text-cyan-600">Key Markets: B2B distribution, aftermarket</div>
+          </div>
+          <div className="p-4 bg-white border-l-4 border-cyan-600 rounded-lg">
+            <h4 className="font-semibold mb-2">Gems & Jewellery</h4>
+            <p className="text-sm text-slate-600 mb-2">4% duty elimination benefits Surat diamond and Jaipur jewellery SMEs</p>
+            <div className="text-xs text-cyan-600">Key Markets: Luxury retailers, e-commerce</div>
+          </div>
+        </div>
+
+        <h3>Overcoming Common SME Challenges</h3>
+        <p>SMEs face unique challenges when entering European markets. Here's how to address them:</p>
+        
+        <div className="my-6 p-6 bg-yellow-50 rounded-lg border-l-4 border-yellow-600">
+          <h4 className="text-lg font-semibold mb-3">Common Challenges and Solutions</h4>
+          <div className="space-y-3">
+            <div>
+              <strong className="text-yellow-900">Challenge:</strong> High minimum order volumes
+              <p className="text-sm text-yellow-800 mt-1"><strong>Solution:</strong> Shared 3PL warehousing allows SMEs to start with smaller volumes</p>
+            </div>
+            <div>
+              <strong className="text-yellow-900">Challenge:</strong> Complex regulatory requirements
+              <p className="text-sm text-yellow-800 mt-1"><strong>Solution:</strong> eufta.in provides expert compliance management for EFSA, EMA, REACH</p>
+            </div>
+            <div>
+              <strong className="text-yellow-900">Challenge:</strong> Cash flow constraints
+              <p className="text-sm text-yellow-800 mt-1"><strong>Solution:</strong> Article 23 VAT deferment eliminates upfront 21% VAT burden</p>
+            </div>
+            <div>
+              <strong className="text-yellow-900">Challenge:</strong> Limited market knowledge
+              <p className="text-sm text-yellow-800 mt-1"><strong>Solution:</strong> B2B SDR teams provide market intelligence and customer outreach</p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Step-by-Step Market Entry Plan</h3>
+        <div className="my-6 space-y-4">
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold">1</div>
+            <div>
+              <h4 className="font-semibold">Market Research & Product Fit</h4>
+              <p className="text-sm text-slate-600">Identify target markets, analyze competition, and ensure product compliance with EU regulations</p>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold">2</div>
+            <div>
+              <h4 className="font-semibold">Compliance Preparation</h4>
+              <p className="text-sm text-slate-600">Obtain necessary certifications (CE, REACH, EFSA), prepare Rules of Origin documentation</p>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold">3</div>
+            <div>
+              <h4 className="font-semibold">Logistics Setup</h4>
+              <p className="text-sm text-slate-600">Establish shared 3PL warehousing in Rotterdam, set up Article 23 VAT deferment</p>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold">4</div>
+            <div>
+              <h4 className="font-semibold">Marketplace Integration</h4>
+              <p className="text-sm text-slate-600">Onboard to Amazon EU5, Zalando, or other platforms with fulfillment from Rotterdam</p>
+            </div>
+          </div>
+          <div className="flex gap-4">
+            <div className="flex-shrink-0 w-8 h-8 bg-cyan-600 text-white rounded-full flex items-center justify-center font-bold">5</div>
+            <div>
+              <h4 className="font-semibold">Scale & Optimize</h4>
+              <p className="text-sm text-slate-600">Monitor performance, optimize costs, and expand to additional markets and channels</p>
+            </div>
+          </div>
+        </div>
+
+        <h3>Success Stories: Indian SMEs in Europe</h3>
+        <p>Several Indian SMEs have successfully entered European markets, leveraging FTA benefits and cost-effective logistics:</p>
+        <ul className="list-disc pl-6 space-y-2 my-4">
+          <li><strong>Tiruppur Knitwear SMEs:</strong> Leveraged 0% duty on textiles to supply Zalando and H&M</li>
+          <li><strong>Surat Textile SMEs:</strong> Used shared 3PL to reduce costs and compete with larger players</li>
+          <li><strong>Chennai Auto Component SMEs:</strong> Benefited from 22% duty elimination to supply European aftermarket</li>
+          <li><strong>Ayurveda Wellness Brands:</strong> Navigated EFSA Novel Foods to enter European health stores</li>
+        </ul>
+
+        <div className="mt-8 p-6 bg-slate-900 text-white rounded-lg">
+          <h3 className="text-xl font-bold mb-4">Ready to Enter European Markets?</h3>
+          <p className="mb-4">Contact eufta.in to learn how Indian SMEs can leverage the 2026 EU-India FTA to access 450 million European consumers cost-effectively.</p>
+          <div className="flex gap-4">
+            <a href="/services" className="inline-flex items-center justify-center rounded-lg bg-cyan-600 px-6 py-3 text-sm font-semibold hover:bg-cyan-500 transition-colors">Explore Services</a>
+            <a href="/pricing" className="inline-flex items-center justify-center rounded-lg bg-white text-slate-900 px-6 py-3 text-sm font-semibold hover:bg-slate-100 transition-colors">View Pricing</a>
+          </div>
+        </div>
+      </div>
+    ),
+  },
 ];
