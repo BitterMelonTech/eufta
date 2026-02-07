@@ -1,11 +1,10 @@
-import { Metadata } from "next";
+"use client";
+
+import { motion } from "framer-motion";
 import AnswerNugget from "../components/AnswerNugget";
 import Breadcrumbs from "../components/Breadcrumbs";
-
-export const metadata: Metadata = {
-  title: "Compliance Bridge | EFSA Novel Foods, EMA QP Release, REACH | eufta.in",
-  description: "Expert management of EFSA Novel Food registrations and EMA medicinal QP release. We decipher REACH and CBAM regulations to prevent customs seizures.",
-};
+import Link from "next/link";
+import { IconArrow } from "../components/Icons";
 
 const complianceAreas = [
   {
@@ -14,7 +13,7 @@ const complianceAreas = [
     problem:
       "Traditional Indian ingredients (e.g., Ashwagandha) often lack a 'safe history of consumption' in the EU pre-May 1997.",
     solution:
-      "We manage the Article 4 Consultation to prove safe use or guide brands through the 9–24 month EFSA dossier approval process.",
+      "We manage the Article 4 Consultation to prove safe use or guide brands through the 9-24 month EFSA dossier approval process.",
     steps: [
       "Initial ingredient assessment and EU pre-1997 consumption history research",
       "Article 4 Consultation submission to EFSA",
@@ -22,6 +21,8 @@ const complianceAreas = [
       "Health claims audit per Regulation EC 1924/2006",
       "Packaging compliance verification",
     ],
+    gradient: "from-cyan-500 to-blue-600",
+    icon: "F",
   },
   {
     category: "Medicinal and Herbal Products",
@@ -37,6 +38,8 @@ const complianceAreas = [
       "QP batch release certification",
       "Market release authorization",
     ],
+    gradient: "from-indigo-500 to-violet-600",
+    icon: "M",
   },
   {
     category: "Chemicals and Plastics",
@@ -52,6 +55,8 @@ const complianceAreas = [
       "Ongoing compliance monitoring and updates",
       "Downstream user communication",
     ],
+    gradient: "from-violet-500 to-purple-600",
+    icon: "C",
   },
   {
     category: "Textiles and Apparel",
@@ -66,6 +71,8 @@ const complianceAreas = [
       "Quarterly submission to EU authorities",
       "Compliance verification and audit support",
     ],
+    gradient: "from-teal-500 to-cyan-600",
+    icon: "T",
   },
 ];
 
@@ -87,195 +94,211 @@ export default function ComplianceBridge() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <Breadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              { label: "Compliance Bridge", href: "/compliance-bridge" },
-            ]}
-          />
-          <div className="mb-8">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-              Compliance Bridge
-            </h1>
-            <p className="mt-4 text-lg text-slate-600">
-              Deciphering complex EU regulations to prevent customs seizures
-              and ensure smooth market entry
-            </p>
+        {/* Hero Section */}
+        <div className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 py-20">
+          <div className="absolute inset-0 bg-grid-modern [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+          <div className="absolute top-0 right-1/4 w-80 h-80 bg-violet-500/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-1/3 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+            <Breadcrumbs
+              items={[
+                { label: "Home", href: "/" },
+                { label: "Compliance Bridge", href: "/compliance-bridge" },
+              ]}
+            />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <span className="inline-flex items-center rounded-full bg-violet-500/10 border border-violet-400/30 backdrop-blur-md px-4 py-1.5 text-sm font-semibold text-violet-300 mt-6 mb-4">
+                EFSA / EMA / REACH / CBAM
+              </span>
+              <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                Compliance <span className="bg-gradient-to-r from-cyan-400 to-cyan-300 bg-clip-text text-transparent">Bridge</span>
+              </h1>
+              <p className="mt-6 max-w-3xl text-lg text-slate-300 leading-relaxed">
+                Deciphering complex EU regulations to prevent customs seizures and ensure smooth market entry
+              </p>
+            </motion.div>
           </div>
+        </div>
 
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <AnswerNugget content="Expert management of EFSA Novel Food registrations and EMA medicinal QP release. We decipher REACH and CBAM regulations to prevent customs seizures." />
 
           {/* Problem Statement */}
-          <div className="mt-12 rounded-lg border border-red-200 bg-red-50 p-8">
-            <h2 className="text-2xl font-bold text-slate-900">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="mt-12 relative overflow-hidden rounded-2xl border border-red-200/80 bg-gradient-to-br from-red-50/80 to-white p-8 shadow-lg"
+          >
+            <div className="h-1 bg-gradient-to-r from-red-500 to-orange-500 absolute top-0 left-0 right-0" />
+            <h2 className="text-2xl font-extrabold text-slate-900 mt-2">
               The Compliance Challenge
             </h2>
-            <p className="mt-4 text-slate-700">
+            <p className="mt-4 text-slate-700 leading-relaxed">
               Unmanaged exporters face 23% higher supply chain costs due to
               regulatory hurdles. Customs seizures, border delays, and
               non-compliance penalties can derail market entry. eufta.in acts as
               your regulatory bridge, translating complex EU requirements into
               actionable compliance pathways.
             </p>
-          </div>
+          </motion.div>
 
           {/* Compliance Areas */}
-          <div className="mt-12 space-y-12">
+          <div className="mt-16 space-y-8">
             {complianceAreas.map((area, index) => (
-              <div
+              <motion.div
                 key={area.category}
-                className="rounded-lg border border-slate-200 bg-white p-8 shadow-sm"
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.1 }}
+                className="relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-xl hover:shadow-2xl transition-shadow duration-300"
               >
-                <div className="mb-6">
-                  <h2 className="text-2xl font-bold text-slate-900">
-                    {area.category}
-                  </h2>
-                  <p className="mt-2 text-sm font-medium text-cyan-600">
-                    {area.regulation}
-                  </p>
-                </div>
-
-                <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-                  <div>
-                    <h3 className="text-lg font-semibold text-red-700">
-                      The Problem
-                    </h3>
-                    <p className="mt-2 text-slate-600">{area.problem}</p>
+                <div className={`h-1.5 bg-gradient-to-r ${area.gradient}`} />
+                <div className="p-8">
+                  <div className="flex items-start gap-4 mb-6">
+                    <div className={`flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br ${area.gradient} text-white font-bold text-lg shadow-lg flex-shrink-0`}>
+                      {area.icon}
+                    </div>
+                    <div>
+                      <h2 className="text-2xl font-extrabold text-slate-900">
+                        {area.category}
+                      </h2>
+                      <p className="mt-1 text-sm font-semibold bg-gradient-to-r from-cyan-600 to-cyan-500 bg-clip-text text-transparent">
+                        {area.regulation}
+                      </p>
+                    </div>
                   </div>
+
+                  <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 mb-8">
+                    <div className="rounded-xl border border-red-100 bg-red-50/50 p-6">
+                      <h3 className="text-sm font-bold text-red-700 mb-2 uppercase tracking-wider">
+                        The Problem
+                      </h3>
+                      <p className="text-slate-700 leading-relaxed">{area.problem}</p>
+                    </div>
+                    <div className="rounded-xl border border-cyan-100 bg-cyan-50/50 p-6">
+                      <h3 className="text-sm font-bold text-cyan-700 mb-2 uppercase tracking-wider">
+                        eufta.in Solution
+                      </h3>
+                      <p className="text-slate-700 leading-relaxed">{area.solution}</p>
+                    </div>
+                  </div>
+
                   <div>
-                    <h3 className="text-lg font-semibold text-cyan-700">
-                      eufta.in Solution
+                    <h3 className="text-sm font-bold text-slate-500 mb-4 uppercase tracking-wider">
+                      Step-by-Step Process
                     </h3>
-                    <p className="mt-2 text-slate-600">{area.solution}</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                      {area.steps.map((step, stepIndex) => (
+                        <div
+                          key={stepIndex}
+                          className="flex gap-3 rounded-xl bg-gradient-to-br from-slate-50 to-white border border-slate-100 p-4"
+                        >
+                          <span className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br ${area.gradient} text-xs font-bold text-white shadow-sm`}>
+                            {stepIndex + 1}
+                          </span>
+                          <span className="text-sm text-slate-700 leading-relaxed">{step}</span>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
-
-                <div className="mt-8">
-                  <h3 className="text-lg font-semibold text-slate-900">
-                    Step-by-Step Process
-                  </h3>
-                  <ol className="mt-4 space-y-4">
-                    {area.steps.map((step, stepIndex) => (
-                      <li
-                        key={stepIndex}
-                        className="flex gap-4 rounded-lg bg-slate-50 p-4"
-                      >
-                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-semibold text-white">
-                          {stepIndex + 1}
-                        </span>
-                        <span className="text-slate-700">{step}</span>
-                      </li>
-                    ))}
-                  </ol>
-                </div>
-              </div>
+              </motion.div>
             ))}
           </div>
 
           {/* Additional Regulations */}
-          <div className="mt-12 rounded-lg border border-slate-200 bg-slate-50 p-8">
-            <h2 className="text-2xl font-bold text-slate-900">
-              Additional Regulatory Support
-            </h2>
-            <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-2">
-              <div className="rounded-lg bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-slate-900">
-                  CE Certification
-                </h3>
-                <p className="mt-2 text-sm text-slate-600">
-                  Technical safety file audit and CE marking for engineering
-                  goods, electronics, and machinery.
-                </p>
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-slate-900">
-                  Toy Safety Directive
-                </h3>
-                <p className="mt-2 text-sm text-slate-600">
-                  EN 71 standards verification for toys and sports goods
-                  entering the EU market.
-                </p>
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-slate-900">
-                  Border Control Posts (BCP)
-                </h3>
-                <p className="mt-2 text-sm text-slate-600">
-                  Veterinary inspection and clearance for marine products and
-                  food imports.
-                </p>
-              </div>
-              <div className="rounded-lg bg-white p-6 shadow-sm">
-                <h3 className="text-lg font-semibold text-slate-900">
-                  Origin Certification
-                </h3>
-                <p className="mt-2 text-sm text-slate-600">
-                  Rules of Origin documentation and "Change in Tariff Heading"
-                  verification for FTA benefits.
-                </p>
-              </div>
+          <section className="mt-20">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-extrabold text-slate-900">
+                Additional Regulatory Support
+              </h2>
+              <p className="mt-3 text-slate-600">Comprehensive coverage across all compliance requirements</p>
             </div>
-          </div>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+              {[
+                { title: "CE Certification", desc: "Technical safety file audit and CE marking for engineering goods, electronics, and machinery.", gradient: "from-cyan-500 to-blue-600" },
+                { title: "Toy Safety Directive", desc: "EN 71 standards verification for toys and sports goods entering the EU market.", gradient: "from-indigo-500 to-violet-600" },
+                { title: "Border Control Posts (BCP)", desc: "Veterinary inspection and clearance for marine products and food imports.", gradient: "from-violet-500 to-purple-600" },
+                { title: "Origin Certification", desc: "Rules of Origin documentation and 'Change in Tariff Heading' verification for FTA benefits.", gradient: "from-blue-500 to-indigo-600" },
+              ].map((item, idx) => (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: idx * 0.08 }}
+                  className="relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-6 shadow-lg hover:shadow-xl transition-all duration-300"
+                >
+                  <div className={`h-1 bg-gradient-to-r ${item.gradient} absolute top-0 left-0 right-0`} />
+                  <h3 className="text-lg font-bold text-slate-900 mt-2 mb-2">
+                    {item.title}
+                  </h3>
+                  <p className="text-sm text-slate-600 leading-relaxed">
+                    {item.desc}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </section>
 
           {/* Cost Impact */}
-          <div className="mt-12 rounded-lg border border-cyan-200 bg-cyan-50 p-8">
-            <h2 className="text-2xl font-bold text-slate-900">
-              The Cost of Non-Compliance
-            </h2>
-            <div className="mt-6 grid grid-cols-1 gap-6 md:grid-cols-3">
-              <div className="rounded-lg bg-white p-6">
-                <p className="text-sm font-medium text-slate-600">
-                  Customs Seizures
-                </p>
-                <p className="mt-2 text-2xl font-bold text-red-600">
-                  23% Higher
-                </p>
-                <p className="mt-1 text-xs text-slate-500">
-                  Supply chain costs for unmanaged exporters
-                </p>
-              </div>
-              <div className="rounded-lg bg-white p-6">
-                <p className="text-sm font-medium text-slate-600">
-                  Border Delays
-                </p>
-                <p className="mt-2 text-2xl font-bold text-red-600">
-                  5-15 Days
-                </p>
-                <p className="mt-1 text-xs text-slate-500">
-                  Average delay for non-compliant shipments
-                </p>
-              </div>
-              <div className="rounded-lg bg-white p-6">
-                <p className="text-sm font-medium text-slate-600">
-                  Penalty Risk
-                </p>
-                <p className="mt-2 text-2xl font-bold text-red-600">
-                  Up to 10%
-                </p>
-                <p className="mt-1 text-xs text-slate-500">
-                  Of shipment value for regulatory violations
-                </p>
-              </div>
+          <section className="mt-20">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl font-extrabold text-slate-900">
+                The Cost of Non-Compliance
+              </h2>
             </div>
-          </div>
+            <div className="grid grid-cols-1 gap-6 md:grid-cols-3">
+              {[
+                { label: "Customs Seizures", value: "23% Higher", sub: "Supply chain costs for unmanaged exporters", color: "from-red-500 to-orange-500" },
+                { label: "Border Delays", value: "5-15 Days", sub: "Average delay for non-compliant shipments", color: "from-orange-500 to-amber-500" },
+                { label: "Penalty Risk", value: "Up to 10%", sub: "Of shipment value for regulatory violations", color: "from-red-600 to-red-500" },
+              ].map((item, idx) => (
+                <motion.div
+                  key={idx}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: idx * 0.1 }}
+                  className="relative overflow-hidden rounded-2xl border border-slate-200/80 bg-white p-8 shadow-lg text-center"
+                >
+                  <div className={`h-1 bg-gradient-to-r ${item.color} absolute top-0 left-0 right-0`} />
+                  <p className="text-sm font-semibold text-slate-500 mt-2 mb-3">
+                    {item.label}
+                  </p>
+                  <p className="text-3xl font-extrabold text-red-600 mb-2">
+                    {item.value}
+                  </p>
+                  <p className="text-xs text-slate-500">
+                    {item.sub}
+                  </p>
+                </motion.div>
+              ))}
+            </div>
+          </section>
 
           {/* CTA */}
-          <div className="mt-12 rounded-lg bg-slate-900 px-8 py-12 text-center">
-            <h2 className="text-2xl font-bold text-white">
-              Navigate EU Regulations with Confidence
-            </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-slate-300">
-              Let eufta.in be your compliance bridge. We handle the regulatory
-              complexity so you can focus on growing your European market share.
-            </p>
-            <div className="mt-8">
-              <a
+          <div className="mt-20 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 text-center">
+            <div className="absolute inset-0 bg-grid-modern [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-violet-500/10 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <h2 className="text-3xl font-extrabold text-white mb-4">
+                Navigate EU Regulations with Confidence
+              </h2>
+              <p className="mx-auto max-w-2xl text-slate-300 mb-8">
+                Let eufta.in be your compliance bridge. We handle the regulatory
+                complexity so you can focus on growing your European market share.
+              </p>
+              <Link
                 href="mailto:info@eufta.in"
-                className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
+                className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/40 transition-all duration-300"
               >
                 Schedule Compliance Consultation
-              </a>
+                <IconArrow />
+              </Link>
             </div>
           </div>
         </div>

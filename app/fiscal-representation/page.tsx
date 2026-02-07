@@ -1,12 +1,11 @@
-import { Metadata } from "next";
+"use client";
+
+import { motion } from "framer-motion";
 import AnswerNugget from "../components/AnswerNugget";
 import VATCalculator from "../components/VATCalculator";
 import Breadcrumbs from "../components/Breadcrumbs";
-
-export const metadata: Metadata = {
-  title: "Fiscal Representation | Article 23 VAT Deferment | eufta.in",
-  description: "Access Article 23 VAT Deferment via our General Fiscal Representation. Eliminate the 21% upfront VAT burden at the border and improve cash flow instantly.",
-};
+import Link from "next/link";
+import { IconArrow } from "../components/Icons";
 
 export default function FiscalRepresentation() {
   const jsonLd = {
@@ -64,113 +63,128 @@ export default function FiscalRepresentation() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-          <Breadcrumbs
-            items={[
-              { label: "Home", href: "/" },
-              {
-                label: "Fiscal Representation",
-                href: "/fiscal-representation",
-              },
-            ]}
-          />
-          <div className="mb-8">
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-              Fiscal Representation & Article 23 VAT Deferment
-            </h1>
-            <p className="mt-4 text-lg text-slate-600">
-              Eliminate the 21% upfront VAT burden and improve cash flow
-              instantly
-            </p>
+        {/* Hero Section */}
+        <div className="relative overflow-hidden bg-gradient-to-br from-slate-900 via-slate-800 to-indigo-950 py-20">
+          <div className="absolute inset-0 bg-grid-modern [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+          <div className="absolute top-0 right-1/4 w-80 h-80 bg-indigo-500/10 rounded-full blur-3xl" />
+          <div className="absolute bottom-0 left-1/3 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl" />
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10">
+            <Breadcrumbs
+              items={[
+                { label: "Home", href: "/" },
+                { label: "Fiscal Representation", href: "/fiscal-representation" },
+              ]}
+            />
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5 }}
+            >
+              <span className="inline-flex items-center rounded-full bg-indigo-500/10 border border-indigo-400/30 backdrop-blur-md px-4 py-1.5 text-sm font-semibold text-indigo-300 mt-6 mb-4">
+                Article 23 VAT Deferment
+              </span>
+              <h1 className="text-4xl font-extrabold tracking-tight text-white sm:text-5xl lg:text-6xl">
+                Fiscal <span className="bg-gradient-to-r from-cyan-400 to-cyan-300 bg-clip-text text-transparent">Representation</span>
+              </h1>
+              <p className="mt-6 max-w-3xl text-lg text-slate-300 leading-relaxed">
+                Eliminate the 21% upfront VAT burden and improve cash flow instantly
+              </p>
+            </motion.div>
           </div>
+        </div>
 
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <AnswerNugget content="Access Article 23 VAT Deferment via our General Fiscal Representation. Eliminate the 21% upfront VAT burden at the border and improve cash flow instantly." />
 
           <div className="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-2">
             {/* Main Content */}
             <div className="space-y-8">
-              <section>
-                <h2 className="text-2xl font-bold text-slate-900">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.1 }}
+              >
+                <h2 className="text-2xl font-extrabold text-slate-900">
                   What is Article 23 VAT Deferment?
                 </h2>
-                <p className="mt-4 text-slate-600">
+                <p className="mt-4 text-slate-600 leading-relaxed">
                   The most powerful tool for Indian D2C brands entering the EU
                   market is the Article 23 VAT Deferment license. This Dutch
                   fiscal mechanism transforms your import cash flow.
                 </p>
-                <div className="mt-6 rounded-lg border border-slate-200 bg-slate-50 p-6">
-                  <h3 className="text-lg font-semibold text-slate-900">
+                <div className="mt-6 rounded-2xl border border-slate-200/80 bg-gradient-to-br from-slate-50 to-white p-8 shadow-lg">
+                  <h3 className="text-lg font-bold text-slate-900 mb-6">
                     Standard Rule vs. Article 23 Rule
                   </h3>
-                  <div className="mt-4 space-y-4">
-                    <div>
-                      <p className="text-sm font-medium text-slate-700">
-                        Standard Rule:
+                  <div className="space-y-5">
+                    <div className="rounded-xl border border-red-100 bg-red-50/50 p-5">
+                      <p className="text-sm font-bold text-red-700 mb-1">
+                        Standard Rule
                       </p>
-                      <p className="mt-1 text-sm text-slate-600">
+                      <p className="text-sm text-slate-600 leading-relaxed">
                         Pay 21% VAT at the border. This creates an immediate
                         cash flow burden for importers.
                       </p>
                     </div>
-                    <div>
-                      <p className="text-sm font-medium text-cyan-700">
-                        Article 23 Rule:
+                    <div className="rounded-xl border border-cyan-100 bg-cyan-50/50 p-5">
+                      <p className="text-sm font-bold text-cyan-700 mb-1">
+                        Article 23 Rule
                       </p>
-                      <p className="mt-1 text-sm text-slate-600">
-                        VAT is recorded as a "reverse charge" in the periodic
+                      <p className="text-sm text-slate-600 leading-relaxed">
+                        VAT is recorded as a &ldquo;reverse charge&rdquo; in the periodic
                         return. Net effect on cash flow: Zero upfront burden.
                       </p>
                     </div>
                   </div>
                 </div>
-              </section>
+              </motion.section>
 
-              <section>
-                <h2 className="text-2xl font-bold text-slate-900">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2 }}
+              >
+                <h2 className="text-2xl font-extrabold text-slate-900">
                   General Fiscal Representation
                 </h2>
-                <p className="mt-4 text-slate-600">
+                <p className="mt-4 text-slate-600 leading-relaxed">
                   eufta.in obtains Dutch VAT numbers for exporters and manages
                   all quarterly filings, removing the need for a local Dutch
                   office. This service converts complex fiscal requirements into
                   a simple monthly retainer.
                 </p>
                 <ul className="mt-6 space-y-3">
-                  <li className="flex items-start">
-                    <span className="mr-3 text-cyan-600">✓</span>
-                    <span className="text-slate-600">
-                      Dutch VAT number registration and management
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-cyan-600">✓</span>
-                    <span className="text-slate-600">
-                      Quarterly VAT return filing
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-cyan-600">✓</span>
-                    <span className="text-slate-600">
-                      Article 23 license application and maintenance
-                    </span>
-                  </li>
-                  <li className="flex items-start">
-                    <span className="mr-3 text-cyan-600">✓</span>
-                    <span className="text-slate-600">
-                      No requirement for local Dutch office
-                    </span>
-                  </li>
+                  {[
+                    "Dutch VAT number registration and management",
+                    "Quarterly VAT return filing",
+                    "Article 23 license application and maintenance",
+                    "No requirement for local Dutch office",
+                  ].map((item, idx) => (
+                    <li key={idx} className="flex items-start gap-3">
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-gradient-to-br from-cyan-500 to-cyan-600 text-white flex-shrink-0 mt-0.5">
+                        <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
+                        </svg>
+                      </div>
+                      <span className="text-slate-700">{item}</span>
+                    </li>
+                  ))}
                 </ul>
-              </section>
+              </motion.section>
 
-              <section>
-                <h2 className="text-2xl font-bold text-slate-900">
+              <motion.section
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3 }}
+              >
+                <h2 className="text-2xl font-extrabold text-slate-900">
                   Service Pricing
                 </h2>
-                <div className="mt-6 rounded-lg border border-slate-200 bg-white p-6 shadow-sm">
-                  <div className="flex justify-between">
+                <div className="mt-6 overflow-hidden rounded-2xl border border-slate-200/80 bg-white shadow-lg">
+                  <div className="h-1.5 bg-gradient-to-r from-indigo-500 to-violet-600" />
+                  <div className="p-8 flex justify-between items-center">
                     <div>
-                      <p className="font-semibold text-slate-900">
+                      <p className="font-bold text-slate-900 text-lg">
                         Fiscal Representation Retainer
                       </p>
                       <p className="mt-1 text-sm text-slate-600">
@@ -178,68 +192,67 @@ export default function FiscalRepresentation() {
                       </p>
                     </div>
                     <div className="text-right">
-                      <p className="text-2xl font-bold text-cyan-600">
+                      <p className="text-3xl font-extrabold bg-gradient-to-r from-cyan-600 to-cyan-500 bg-clip-text text-transparent">
                         €150
                       </p>
-                      <p className="text-xs text-slate-500">per month</p>
-                      <p className="mt-2 text-xs text-slate-500 line-through">
+                      <p className="text-xs text-slate-500 mt-1">per month</p>
+                      <p className="mt-2 text-xs text-slate-400 line-through">
                         Market rate: €250+
                       </p>
+                      <span className="inline-flex items-center rounded-full bg-cyan-50 border border-cyan-200 px-2 py-0.5 text-xs font-bold text-cyan-700 mt-1">
+                        40% savings
+                      </span>
                     </div>
                   </div>
                 </div>
-              </section>
+              </motion.section>
             </div>
 
             {/* Calculator Sidebar */}
-            <div>
+            <div className="space-y-8">
               <VATCalculator />
-              <div className="mt-8 rounded-lg border border-slate-200 bg-slate-50 p-6">
-                <h3 className="text-lg font-semibold text-slate-900">
+              <div className="rounded-2xl border border-slate-200/80 bg-gradient-to-br from-slate-50 to-white p-8 shadow-lg">
+                <h3 className="text-lg font-bold text-slate-900 mb-4">
                   Real-World Example
                 </h3>
-                <div className="mt-4 space-y-3 text-sm text-slate-600">
-                  <p>
-                    <strong className="text-slate-900">Monthly Import:</strong>{" "}
-                    €50,000
-                  </p>
-                  <p>
-                    <strong className="text-slate-900">
-                      Standard VAT (21%):
-                    </strong>{" "}
-                    €10,500 upfront payment
-                  </p>
-                  <p>
-                    <strong className="text-cyan-600">
-                      Article 23 Benefit:
-                    </strong>{" "}
-                    €10,500 deferred to periodic return
-                  </p>
-                  <p className="mt-4 text-xs text-slate-500">
-                    This improves working capital and eliminates border payment
-                    delays.
-                  </p>
+                <div className="space-y-4">
+                  {[
+                    { label: "Monthly Import", value: "€50,000", color: "text-slate-900" },
+                    { label: "Standard VAT (21%)", value: "€10,500 upfront", color: "text-red-600" },
+                    { label: "Article 23 Benefit", value: "€10,500 deferred", color: "text-cyan-600" },
+                  ].map((item, idx) => (
+                    <div key={idx} className="flex items-center justify-between rounded-xl bg-white border border-slate-100 p-4">
+                      <span className="text-sm text-slate-600">{item.label}</span>
+                      <span className={`text-sm font-bold ${item.color}`}>{item.value}</span>
+                    </div>
+                  ))}
                 </div>
+                <p className="mt-4 text-xs text-slate-500 leading-relaxed">
+                  This improves working capital and eliminates border payment delays.
+                </p>
               </div>
             </div>
           </div>
 
           {/* CTA Section */}
-          <div className="mt-12 rounded-lg bg-slate-900 px-8 py-12 text-center">
-            <h2 className="text-2xl font-bold text-white">
-              Ready to Eliminate Upfront VAT?
-            </h2>
-            <p className="mx-auto mt-4 max-w-2xl text-slate-300">
-              Contact us to set up your Article 23 VAT Deferment and General
-              Fiscal Representation
-            </p>
-            <div className="mt-8">
-              <a
+          <div className="mt-20 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 text-center">
+            <div className="absolute inset-0 bg-grid-modern [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-indigo-500/10 rounded-full blur-3xl" />
+            <div className="relative z-10">
+              <h2 className="text-3xl font-extrabold text-white mb-4">
+                Ready to Eliminate Upfront VAT?
+              </h2>
+              <p className="mx-auto mt-2 max-w-2xl text-slate-300 mb-8">
+                Contact us to set up your Article 23 VAT Deferment and General
+                Fiscal Representation
+              </p>
+              <Link
                 href="mailto:info@eufta.in"
-                className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
+                className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-xl shadow-cyan-500/30 hover:shadow-2xl hover:shadow-cyan-500/40 transition-all duration-300"
               >
                 Get Started
-              </a>
+                <IconArrow />
+              </Link>
             </div>
           </div>
         </div>
