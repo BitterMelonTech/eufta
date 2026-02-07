@@ -41,7 +41,7 @@ export default function Breadcrumbs({ items }: BreadcrumbsProps) {
               ) : (
                 <Link
                   href={item.href}
-                  className="text-slate-600 hover:text-emerald-600"
+                  className="text-slate-600 hover:text-cyan-600"
                 >
                   {item.label}
                 </Link>

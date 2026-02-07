@@ -83,14 +83,14 @@ export default function FTADutyCalculator({
               /month
             </p>
           </div>
-          <div className="rounded-md bg-emerald-50 p-4 border border-emerald-200">
-            <p className="text-xs font-medium text-emerald-700 mb-1">
+          <div className="rounded-md bg-cyan-50 p-4 border border-cyan-200">
+            <p className="text-xs font-medium text-cyan-700 mb-1">
               After FTA 2026
             </p>
-            <p className="text-2xl font-bold text-emerald-600">
+            <p className="text-2xl font-bold text-cyan-600">
               {newDuty}
             </p>
-            <p className="text-sm text-emerald-700 mt-1">
+            <p className="text-sm text-cyan-700 mt-1">
               €{monthlyDutyAfter.toLocaleString("en-US", {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
@@ -104,25 +104,25 @@ export default function FTADutyCalculator({
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
-            className="rounded-lg bg-emerald-100 border-2 border-emerald-300 p-4"
+            className="rounded-lg bg-cyan-100 border-2 border-cyan-300 p-4"
           >
-            <p className="text-xs font-semibold text-emerald-900 mb-2">
+            <p className="text-xs font-semibold text-cyan-900 mb-2">
               Monthly Duty Savings
             </p>
-            <p className="text-3xl font-bold text-emerald-700">
+            <p className="text-3xl font-bold text-cyan-700">
               €{monthlySavings.toLocaleString("en-US", {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
               })}
             </p>
-            <p className="text-sm text-emerald-800 mt-2">
+            <p className="text-sm text-cyan-800 mt-2">
               Annual savings: €
               {annualSavings.toLocaleString("en-US", {
                 minimumFractionDigits: 2,
                 maximumFractionDigits: 2,
               })}
             </p>
-            <p className="text-xs text-emerald-700 mt-2">
+            <p className="text-xs text-cyan-700 mt-2">
               You save {savingsPercentage.toFixed(1)}% on duties with the 2026
               EU-India FTA
             </p>

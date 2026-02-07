@@ -146,23 +146,23 @@ export default function FTAIndustries() {
                   whileTap={{ scale: 0.98 }}
                   className={`group relative rounded-lg border-2 p-4 text-left transition-all duration-200 ${
                     activeTab === industry.id
-                      ? "border-emerald-500 bg-emerald-50 shadow-md"
-                      : "border-slate-200 bg-white hover:border-emerald-300 hover:bg-emerald-50/50 hover:shadow-sm"
+                      ? "border-cyan-500 bg-cyan-50 shadow-md"
+                      : "border-slate-200 bg-white hover:border-cyan-300 hover:bg-cyan-50/50 hover:shadow-sm"
                   }`}
                 >
                   <div className="flex items-start justify-between">
                     <div className="flex-1 min-w-0">
                       <h3 className={`text-sm font-semibold leading-tight ${
                         activeTab === industry.id
-                          ? "text-emerald-900"
-                          : "text-slate-700 group-hover:text-emerald-700"
+                          ? "text-cyan-900"
+                          : "text-slate-700 group-hover:text-cyan-700"
                       }`}>
                         {industry.name}
                       </h3>
                       <div className="mt-2 flex items-center gap-2">
                         <span className={`text-xs font-medium ${
                           activeTab === industry.id
-                            ? "text-emerald-700"
+                            ? "text-cyan-700"
                             : "text-slate-500"
                         }`}>
                           {industry.oldDuty}
@@ -170,8 +170,8 @@ export default function FTAIndustries() {
                         <span className="text-slate-400">→</span>
                         <span className={`text-xs font-bold ${
                           activeTab === industry.id
-                            ? "text-emerald-600"
-                            : "text-emerald-500"
+                            ? "text-cyan-600"
+                            : "text-cyan-500"
                         }`}>
                           {industry.newDuty}
                         </span>
@@ -183,7 +183,7 @@ export default function FTAIndustries() {
                         animate={{ scale: 1 }}
                         className="ml-2 flex-shrink-0"
                       >
-                        <div className="h-2 w-2 rounded-full bg-emerald-500"></div>
+                        <div className="h-2 w-2 rounded-full bg-cyan-500"></div>
                       </motion.div>
                     )}
                   </div>
@@ -191,7 +191,7 @@ export default function FTAIndustries() {
                     <motion.div
                       initial={{ width: 0 }}
                       animate={{ width: "3rem" }}
-                      className="absolute -bottom-1 left-1/2 h-1 -translate-x-1/2 rounded-full bg-emerald-500"
+                      className="absolute -bottom-1 left-1/2 h-1 -translate-x-1/2 rounded-full bg-cyan-500"
                     ></motion.div>
                   )}
                 </motion.button>
@@ -206,7 +206,7 @@ export default function FTAIndustries() {
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
                 transition={{ duration: 0.3 }}
-                className="mt-8 rounded-xl border-2 border-emerald-200 bg-gradient-to-br from-emerald-50 to-white p-8 shadow-lg"
+                className="mt-8 rounded-xl border-2 border-cyan-200 bg-gradient-to-br from-cyan-50 to-white p-8 shadow-lg"
               >
               <div className="mb-6 flex items-center justify-between">
                 <div>
@@ -218,7 +218,7 @@ export default function FTAIndustries() {
                       Before: {activeIndustry.oldDuty}
                     </span>
                     <span className="text-slate-400">→</span>
-                    <span className="inline-flex items-center rounded-full bg-emerald-100 px-3 py-1 text-xs font-semibold text-emerald-800">
+                    <span className="inline-flex items-center rounded-full bg-cyan-100 px-3 py-1 text-xs font-semibold text-cyan-800">
                       After: {activeIndustry.newDuty}
                     </span>
                   </div>
@@ -243,7 +243,7 @@ export default function FTAIndustries() {
                     <ul className="space-y-2">
                       {activeIndustry.regions.map((region) => (
                         <li key={region} className="flex items-center text-sm text-slate-700">
-                          <span className="mr-2 text-emerald-500">📍</span>
+                          <span className="mr-2 text-cyan-500">📍</span>
                           {region}
                         </li>
                       ))}
@@ -263,15 +263,15 @@ export default function FTAIndustries() {
                           {activeIndustry.oldDuty}
                         </dd>
                       </div>
-                      <div className="rounded-md bg-emerald-50 p-4">
-                        <dt className="text-xs font-medium uppercase tracking-wide text-emerald-700 mb-1">
+                      <div className="rounded-md bg-cyan-50 p-4">
+                        <dt className="text-xs font-medium uppercase tracking-wide text-cyan-700 mb-1">
                           New Duty (FTA 2026)
                         </dt>
-                        <dd className="text-2xl font-bold text-emerald-600">
+                        <dd className="text-2xl font-bold text-cyan-600">
                           {activeIndustry.newDuty}
                         </dd>
                       </div>
-                      <div className="mt-4 rounded-md border-l-4 border-emerald-500 bg-slate-50 p-4">
+                      <div className="mt-4 rounded-md border-l-4 border-cyan-500 bg-slate-50 p-4">
                         <dt className="text-xs font-semibold uppercase tracking-wide text-slate-700 mb-2">
                           Key Compliance Step
                         </dt>
@@ -330,7 +330,7 @@ export default function FTAIndustries() {
                       <td className="whitespace-nowrap px-6 py-4 text-sm text-slate-600">
                         {industry.oldDuty}
                       </td>
-                      <td className="whitespace-nowrap px-6 py-4 text-sm font-semibold text-emerald-600">
+                      <td className="whitespace-nowrap px-6 py-4 text-sm font-semibold text-cyan-600">
                         {industry.newDuty}
                       </td>
                       <td className="px-6 py-4 text-sm text-slate-600">

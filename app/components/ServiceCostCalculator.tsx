@@ -214,7 +214,7 @@ export default function ServiceCostCalculator({
                 key={service.id}
                 className={`rounded-lg border-2 p-4 transition-all ${
                   selectedServices.has(service.id)
-                    ? "border-emerald-500 bg-emerald-50"
+                    ? "border-cyan-500 bg-cyan-50"
                     : "border-slate-200 bg-white"
                 } ${service.required ? "opacity-75" : ""}`}
               >
@@ -227,7 +227,7 @@ export default function ServiceCostCalculator({
                         checked={selectedServices.has(service.id)}
                         onChange={() => toggleService(service.id)}
                         disabled={service.required}
-                        className="h-4 w-4 rounded border-slate-300 text-emerald-600 focus:ring-emerald-500"
+                        className="h-4 w-4 rounded border-slate-300 text-cyan-600 focus:ring-cyan-500"
                       />
                       <label
                         htmlFor={service.id}
@@ -245,7 +245,7 @@ export default function ServiceCostCalculator({
                       {service.description}
                     </p>
                     <div className="mt-2 flex items-center gap-2">
-                      <span className="text-lg font-bold text-emerald-600">
+                      <span className="text-lg font-bold text-cyan-600">
                         €{service.price.toFixed(2)}
                       </span>
                       <span className="text-xs text-slate-500">
@@ -348,7 +348,7 @@ export default function ServiceCostCalculator({
           </div>
 
           {/* Cost Breakdown */}
-          <div className="rounded-lg border-2 border-emerald-200 bg-emerald-50 p-6">
+          <div className="rounded-lg border-2 border-cyan-200 bg-cyan-50 p-6">
             <h4 className="text-lg font-semibold text-slate-900 mb-4">
               Cost Breakdown
             </h4>
@@ -367,16 +367,16 @@ export default function ServiceCostCalculator({
                 </div>
               ))}
             </div>
-            <div className="border-t-2 border-emerald-300 pt-4 mt-4">
+            <div className="border-t-2 border-cyan-300 pt-4 mt-4">
               <div className="flex justify-between items-center mb-2">
                 <span className="text-base font-semibold text-slate-700">
                   Total Monthly Cost
                 </span>
-                <span className="text-2xl font-bold text-emerald-600">
+                <span className="text-2xl font-bold text-cyan-600">
                   €{totalMonthlyCost.toFixed(2)}
                 </span>
               </div>
-              <div className="flex justify-between items-center mt-4 pt-4 border-t border-emerald-200">
+              <div className="flex justify-between items-center mt-4 pt-4 border-t border-cyan-200">
                 <span className="text-lg font-bold text-slate-900">
                   Cost Per Order
                 </span>

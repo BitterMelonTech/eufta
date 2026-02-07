@@ -131,7 +131,7 @@ export default function ComplianceBridge() {
                   <h2 className="text-2xl font-bold text-slate-900">
                     {area.category}
                   </h2>
-                  <p className="mt-2 text-sm font-medium text-emerald-600">
+                  <p className="mt-2 text-sm font-medium text-cyan-600">
                     {area.regulation}
                   </p>
                 </div>
@@ -144,7 +144,7 @@ export default function ComplianceBridge() {
                     <p className="mt-2 text-slate-600">{area.problem}</p>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-emerald-700">
+                    <h3 className="text-lg font-semibold text-cyan-700">
                       eufta.in Solution
                     </h3>
                     <p className="mt-2 text-slate-600">{area.solution}</p>
@@ -161,7 +161,7 @@ export default function ComplianceBridge() {
                         key={stepIndex}
                         className="flex gap-4 rounded-lg bg-slate-50 p-4"
                       >
-                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-600 text-xs font-semibold text-white">
+                        <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-cyan-600 text-xs font-semibold text-white">
                           {stepIndex + 1}
                         </span>
                         <span className="text-slate-700">{step}</span>
@@ -219,7 +219,7 @@ export default function ComplianceBridge() {
           </div>
 
           {/* Cost Impact */}
-          <div className="mt-12 rounded-lg border border-emerald-200 bg-emerald-50 p-8">
+          <div className="mt-12 rounded-lg border border-cyan-200 bg-cyan-50 p-8">
             <h2 className="text-2xl font-bold text-slate-900">
               The Cost of Non-Compliance
             </h2>
@@ -272,7 +272,7 @@ export default function ComplianceBridge() {
             <div className="mt-8">
               <a
                 href="mailto:info@eufta.in"
-                className="rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-emerald-500"
+                className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
               >
                 Schedule Compliance Consultation
               </a>

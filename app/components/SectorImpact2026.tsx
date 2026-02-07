@@ -282,7 +282,7 @@ export default function SectorImpact2026() {
                   <span
                     className={`inline-flex rounded-full px-2 py-1 text-xs font-medium ${
                       sector.category === "export"
-                        ? "bg-emerald-100 text-emerald-800"
+                        ? "bg-cyan-100 text-cyan-800"
                         : "bg-blue-100 text-blue-800"
                     }`}
                   >

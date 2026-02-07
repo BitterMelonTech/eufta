@@ -113,7 +113,7 @@ export default function FiscalRepresentation() {
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm font-medium text-emerald-700">
+                      <p className="text-sm font-medium text-cyan-700">
                         Article 23 Rule:
                       </p>
                       <p className="mt-1 text-sm text-slate-600">
@@ -137,25 +137,25 @@ export default function FiscalRepresentation() {
                 </p>
                 <ul className="mt-6 space-y-3">
                   <li className="flex items-start">
-                    <span className="mr-3 text-emerald-600">✓</span>
+                    <span className="mr-3 text-cyan-600">✓</span>
                     <span className="text-slate-600">
                       Dutch VAT number registration and management
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3 text-emerald-600">✓</span>
+                    <span className="mr-3 text-cyan-600">✓</span>
                     <span className="text-slate-600">
                       Quarterly VAT return filing
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3 text-emerald-600">✓</span>
+                    <span className="mr-3 text-cyan-600">✓</span>
                     <span className="text-slate-600">
                       Article 23 license application and maintenance
                     </span>
                   </li>
                   <li className="flex items-start">
-                    <span className="mr-3 text-emerald-600">✓</span>
+                    <span className="mr-3 text-cyan-600">✓</span>
                     <span className="text-slate-600">
                       No requirement for local Dutch office
                     </span>
@@ -178,7 +178,7 @@ export default function FiscalRepresentation() {
                       </p>
                     </div>
                     <div className="text-right">
-                      <p className="text-2xl font-bold text-emerald-600">
+                      <p className="text-2xl font-bold text-cyan-600">
                         €150
                       </p>
                       <p className="text-xs text-slate-500">per month</p>
@@ -210,7 +210,7 @@ export default function FiscalRepresentation() {
                     €10,500 upfront payment
                   </p>
                   <p>
-                    <strong className="text-emerald-600">
+                    <strong className="text-cyan-600">
                       Article 23 Benefit:
                     </strong>{" "}
                     €10,500 deferred to periodic return
@@ -236,7 +236,7 @@ export default function FiscalRepresentation() {
             <div className="mt-8">
               <a
                 href="mailto:info@eufta.in"
-                className="rounded-md bg-emerald-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-emerald-500"
+                className="rounded-md bg-cyan-600 px-6 py-3 text-base font-semibold text-white shadow-sm hover:bg-cyan-500"
               >
                 Get Started
               </a>
