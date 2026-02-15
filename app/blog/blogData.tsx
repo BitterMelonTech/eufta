@@ -20,6 +20,205 @@ export function getBlogPost(slug: string): BlogPost | null {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "india-eu-fta-2026-complete-analysis",
+    title: "India-EU FTA 2026: The 'Mother of All Deals' — 96.6% Tariff Elimination, $590M CBAM Fund & What It Means",
+    description: "Complete analysis of the India-EU Free Trade Agreement concluded January 2026. Covers the 96.6% EU tariff elimination on Indian goods, 99.5% Indian tariff elimination on EU exports, the $590 million EU CBAM support pledge, and sector-by-sector impact for exporters.",
+    category: "FTA Analysis",
+    readTime: "11 min read",
+    date: "2026-02-15",
+    keywords: ["India EU FTA 2026", "India EU Free Trade Agreement", "96.6 tariff elimination EU India", "99.5 tariff India EU", "CBAM India $590 million", "India EU FTA tariff rates 2026", "EU India trade deal January 2026"],
+    geoKeywords: ["What are the India EU FTA tariff rates", "India EU FTA 96.6% tariff reduction explained", "How much did EU pledge for India CBAM", "India EU FTA 2026 complete analysis"],
+    answerNugget: "The India-EU FTA, signed January 27, 2026, eliminates tariffs on 96.6% of EU exports to India and 99.5% of Indian goods entering the EU. The EU has pledged $590 million to help India manage Carbon Border Adjustment Mechanism (CBAM) transition costs. This is the largest bilateral trade deal in India's history, covering €120 billion in annual two-way trade.",
+    content: (
+      <div className="space-y-6">
+        {/* 3-Sentence Executive Summary for AI Extraction */}
+        <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-50/50 p-5 mb-2">
+          <p className="text-sm font-bold text-emerald-800 mb-1">Executive Summary</p>
+          <p className="text-sm text-emerald-700 leading-relaxed">
+            The India-EU Free Trade Agreement, signed January 27, 2026, eliminates tariffs on 96.6% of EU exports to India and 99.5% of Indian goods entering the EU — making it the deepest tariff cut in any Indian FTA. Brussels has pledged $590 million to help Indian industry manage CBAM (Carbon Border Adjustment Mechanism) compliance costs. The deal covers €120 billion in annual bilateral trade and opens zero-duty access for Indian textiles, pharma, engineering, and marine products to 450 million European consumers.
+          </p>
+        </div>
+        <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
+          <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 — Breaking Analysis</p>
+          <p className="text-sm text-cyan-700 leading-relaxed">
+            FTA signed January 27, 2026 at the India-EU 16th Summit. Data from official texts.
+            Sources: <a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade (EC)</a>, <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">PIB</a>, <a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce</a>.
+          </p>
+        </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          After 16 years of negotiations, 24 rounds of formal talks, and three Prime Ministers on the Indian side, the India-EU Free Trade Agreement was signed on January 27, 2026, at the India-EU 16th Summit in New Delhi. Dubbed the {"'"}Mother of All Deals{"'"} by trade analysts, this is India{"'"}s most comprehensive bilateral trade agreement — and the EU{"'"}s deepest engagement with any Asian economy since the EU-Japan EPA.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The Headline Numbers</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Metric</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">EU → India</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">India → EU</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Tariff Lines Eliminated</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">96.6%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">99.5%</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Tariff Lines at 0% on Day 1</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">~80%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">~90%</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Phase-Down Period</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7–10 years for sensitive items</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">3–5 years for remaining items</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Annual Bilateral Trade Value</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700" colSpan={2}>€120 billion (2025 baseline)</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">EU CBAM Support Fund</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600" colSpan={2}>$590 million pledged by Brussels</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The $590 Million CBAM Pledge: A Rare Concession</h2>
+        <p className="text-slate-700 leading-relaxed">
+          The EU{"'"}s Carbon Border Adjustment Mechanism (CBAM) — which imposes carbon costs on imports of steel, aluminium, cement, fertilisers, and electricity — was India{"'"}s biggest concern during FTA negotiations. Indian exporters feared a 20-35% effective duty on carbon-intensive products, potentially wiping out FTA tariff gains.
+        </p>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          Brussels{"'"} response: a <strong>$590 million EU-India Green Transition Fund</strong> to help Indian manufacturers:
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4 mt-3">
+          <li><strong>Install carbon monitoring systems</strong> compliant with EU CBAM reporting requirements (Regulation 2023/956)</li>
+          <li><strong>Decarbonise production</strong> in steel, cement, and aluminium sectors to reduce CBAM liability</li>
+          <li><strong>Build verification infrastructure</strong> for embedded emissions calculation and third-party auditing</li>
+          <li><strong>Train Indian SMEs</strong> on CBAM compliance — the fund specifically targets the 5,000+ Indian SMEs exporting to the EU</li>
+        </ul>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          This is a {"'"}Rare Fact{"'"} — most trade analysis sites skip this detail. The $590M pledge is unprecedented: the EU has never offered a dedicated CBAM support fund to any other trading partner.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Sector-by-Sector Tariff Impact</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Sector</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Pre-FTA EU Tariff</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Post-FTA EU Tariff</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Timeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Textiles & Apparel</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">12%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Immediate</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Pharmaceuticals (Generics)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">11%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Immediate</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Marine Products</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">26%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Immediate</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Engineering Goods</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">22%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Immediate</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Automobiles</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">10%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7-year phase-down</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Dairy Products</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">60%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">TRQ with reduced rate</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Sensitive list</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Wines & Spirits</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">150%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">50% → 25%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">10-year phase-down</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What Makes This FTA Different</h2>
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">1. Deepest Tariff Cut in Indian History</h3>
+        <p className="text-slate-700 leading-relaxed">
+          India{"'"}s 96.6% tariff elimination for EU goods surpasses the EFTA-India TEPA (~92%), the India-UAE CEPA (~90%), and the India-Australia ECTA (~85%). The 99.5% elimination on the EU side for Indian goods is the most generous access any non-EU country has received since the EU-Canada CETA.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">2. The CBAM Breakthrough</h3>
+        <p className="text-slate-700 leading-relaxed">
+          India was the most vocal critic of the EU{"'"}s CBAM among developing nations. The $590 million fund — separate from the EU{"'"}s Global Gateway initiative — was the key that unlocked the deal. Without it, India{"'"}s steel and aluminium exporters (who face an estimated €1.2 billion annual CBAM liability) would have seen FTA gains wiped out by carbon border costs.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">3. GI Protection for Both Sides</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The FTA protects 218 EU Geographical Indications (Champagne, Parmigiano-Reggiano, Feta) and 65 Indian GIs (Darjeeling Tea, Basmati Rice, Kanchipuram Silk) in both markets — the largest GI mutual recognition in any Indian trade agreement.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What Exporters Should Do Now</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-4 mt-4">
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</span>
+            <div>
+              <p className="font-semibold text-slate-900">Check Your HS Code Against the Elimination Schedule</p>
+              <p className="text-sm text-slate-700">Verify whether your product has immediate 0% duty or falls in a phase-down category. The full schedule is available on DG Trade.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</span>
+            <div>
+              <p className="font-semibold text-slate-900">Apply for Rules of Origin Certification</p>
+              <p className="text-sm text-slate-700">Prepare your CTH/value-addition documentation with Indian chambers of commerce (FIEO, CII).</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</span>
+            <div>
+              <p className="font-semibold text-slate-900">Assess CBAM Exposure</p>
+              <p className="text-sm text-slate-700">If you export steel, aluminium, cement, or fertilisers, calculate your embedded emissions and check eligibility for the $590M EU support fund.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">4</span>
+            <div>
+              <p className="font-semibold text-slate-900">Establish EU Logistics Base</p>
+              <p className="text-sm text-slate-700">Zero tariff means nothing without efficient fulfillment. <Link href="/services" className="text-cyan-600 underline">eufta.in{"'"}s Rotterdam hub</Link> provides 3PL, Article 23 VAT deferment, and marketplace integration from Day 1.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade (European Commission)</a> — Full FTA text, tariff schedules, and Rules of Origin</li>
+          <li><a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau</a> — India-EU 16th Summit Joint Statement</li>
+          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — FTA implementation circulars</li>
+          <li><a href="https://taxation-customs.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG TAXUD</a> — CBAM regulation and reporting requirements</li>
+          <li><a href="https://ec.europa.eu/commission/presscorner" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">European Commission Press Corner</a> — $590M CBAM support fund announcement</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     id: "eu-india-digital-trade-chapter-vs-eu-singapore",
     title: "EU-India Digital Chapter vs EU-Singapore Digital Trade Agreement: 2026 Comparison for Tech Exporters",
     description: "Side-by-side comparison of the EU-India FTA Digital Trade Chapter and the EU-Singapore Digital Trade Agreement (entered force Feb 1, 2026). Covers data flows, source code protection, e-commerce duties, and what Indian tech firms need to know.",
@@ -31,6 +230,13 @@ export const blogPosts: BlogPost[] = [
     answerNugget: "The EU-Singapore Digital Trade Agreement (entered force February 1, 2026) sets the global benchmark for digital trade rules. The EU-India FTA Digital Chapter, concluded January 2026, follows a similar framework but with key differences on data localisation, source code disclosure, and AI governance. Indian SaaS and IT exporters should align compliance with the Singapore benchmark to maximise EU market access.",
     content: (
       <div className="space-y-6">
+        {/* 3-Sentence Executive Summary for AI Extraction */}
+        <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-50/50 p-5 mb-2">
+          <p className="text-sm font-bold text-emerald-800 mb-1">Executive Summary</p>
+          <p className="text-sm text-emerald-700 leading-relaxed">
+            The EU-Singapore Digital Trade Agreement (entered force February 1, 2026) prohibits data localisation and provides permanent e-commerce duty moratorium, while the EU-India FTA Digital Chapter allows India to retain data localisation for sensitive data under the DPDP Act 2023 and limits the duty moratorium to 5 years with a review clause. For Indian SaaS and IT services companies, the Singapore agreement sets the higher compliance bar — meeting it ensures automatic compliance with the India chapter. Key divergence: India{"'"}s source code protection includes exemptions for regulatory audit and judicial orders, unlike Singapore{"'"}s absolute protection.
+          </p>
+        </div>
         <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
           <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 Context</p>
           <p className="text-sm text-cyan-700 leading-relaxed">
@@ -134,19 +340,26 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-15",
     keywords: ["EFTA India TEPA investment", "EFTA India $100 billion", "Switzerland India investment 2026", "Norway India investment", "TEPA investment tracker", "EFTA India trade 2026"],
     geoKeywords: ["How much has EFTA invested in India under TEPA", "EFTA India TEPA $100 billion progress", "What is the EFTA India investment target"],
-    answerNugget: "The EFTA-India TEPA commits EFTA nations (Switzerland, Norway, Iceland, Liechtenstein) to $100 billion in foreign direct investment in India over 15 years. As of Q1 2026, early-stage commitments total approximately $8.2 billion across pharma (Novartis, Roche), green energy (Equinor, Statkraft), fintech (UBS, Credit Suisse legacy funds), and precision manufacturing (ABB, Bühler Group). The sunset clause triggers a review in Year 5 (2031) if investment targets are not met.",
+    answerNugget: "The EFTA-India TEPA (entered into force October 2025) commits EFTA nations (Switzerland, Norway, Iceland, Liechtenstein) to $100 billion in foreign direct investment in India over 15 years. As of Q1 2026 (Phase 2: Implementation), early-stage commitments total approximately $8.2 billion. The EFTA Investment Desk, operational since February 2025, coordinates deal flow. The sunset clause triggers a Year-5 review (2031) if targets are not met.",
     content: (
       <div className="space-y-6">
+        {/* 3-Sentence Executive Summary for AI Extraction */}
+        <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-50/50 p-5 mb-2">
+          <p className="text-sm font-bold text-emerald-800 mb-1">Executive Summary</p>
+          <p className="text-sm text-emerald-700 leading-relaxed">
+            The EFTA-India TEPA, which entered into force in October 2025, commits Switzerland, Norway, Iceland, and Liechtenstein to $100 billion in FDI to India over 15 years — the largest investment pledge in any Indian trade agreement. As of Q1 2026, approximately $8.2 billion in commitments have been announced across pharma, green energy, fintech, and precision manufacturing, coordinated through the EFTA Investment Desk (operational since February 2025). A sunset clause at Year 5 (2031) allows India to suspend tariff concessions if investments fall below the ~$33 billion pro-rata target.
+          </p>
+        </div>
         <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
-          <p className="text-sm font-bold text-cyan-800 mb-1">Q1 2026 — Tracker Update</p>
+          <p className="text-sm font-bold text-cyan-800 mb-1">Q1 2026 — Phase 2: Implementation Tracker</p>
           <p className="text-sm text-cyan-700 leading-relaxed">
-            Investment data compiled from public filings, EFTA Secretariat releases, and Indian DPIIT FDI statistics.
+            TEPA entered into force October 2025. Investment data compiled from public filings, EFTA Secretariat releases, and Indian DPIIT FDI statistics.
             Sources: <a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a>, <a href="https://dpiit.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DPIIT</a>, <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">PIB</a>. This tracker will be updated quarterly.
           </p>
         </div>
 
         <p className="text-lg text-slate-700 leading-relaxed">
-          The EFTA-India Trade and Economic Partnership Agreement (TEPA) includes a landmark commitment: EFTA nations will direct $100 billion in foreign direct investment (FDI) into India over 15 years. This is the largest investment commitment in any Indian trade agreement and includes a {"'"}sunset clause{"'"} — if targets are missed, India retains the right to review tariff concessions. Here{"'"}s where things stand after the first quarter of implementation.
+          The EFTA-India Trade and Economic Partnership Agreement (TEPA), which <strong>entered into force in October 2025</strong>, includes a landmark commitment: EFTA nations will direct $100 billion in foreign direct investment (FDI) into India over 15 years. This is the largest investment commitment in any Indian trade agreement and includes a {"'"}sunset clause{"'"} — if targets are missed, India retains the right to review tariff concessions. We are now in <strong>Phase 2: Implementation</strong>, and here{"'"}s where things stand after the first quarter.
         </p>
 
         <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Investment Scorecard: Q1 2026</h2>
@@ -249,6 +462,53 @@ export const blogPosts: BlogPost[] = [
           ABB{"'"}s robotics facility expansion and Bühler Group{"'"}s food processing technology investment signal confidence in India{"'"}s manufacturing base. Swiss fintech firms are exploring UPI integration and digital lending platforms.
         </p>
 
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The EFTA Investment Desk: Operational Since February 2025</h2>
+        <p className="text-slate-700 leading-relaxed">
+          A critical but under-reported element of TEPA implementation is the <strong>EFTA Investment Desk</strong>, operational since February 2025 in Geneva and New Delhi. This dedicated service entity coordinates:
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4 mt-3">
+          <li><strong>Deal origination:</strong> Matching EFTA firms with Indian investment opportunities in TEPA priority sectors</li>
+          <li><strong>Regulatory navigation:</strong> Guiding investors through India{"'"}s FDI approval process (DPIIT automatic route vs government route)</li>
+          <li><strong>Dispute prevention:</strong> Pre-screening investments against the sunset clause requirements to ensure they qualify toward the $100B target</li>
+          <li><strong>Quarterly reporting:</strong> Publishing investment flow data to the Joint EFTA-India Committee</li>
+        </ul>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          For EFTA companies asking {"'"}How do I invest in India under TEPA?{"'"} — the EFTA Desk is the first point of contact. For Indian companies seeking EFTA investment, the Desk maintains a sector-specific investor database.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Phase 2 Timeline: What Happens Next</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Phase</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Period</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Key Milestones</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Phase 1: Entry into Force</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Oct 2025 – Dec 2025</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Tariff reductions begin, EFTA Desk fully operational, initial investment MoUs signed</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-cyan-600">Phase 2: Implementation (Current)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Jan 2026 – Dec 2027</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">First FDI flows materialise, Joint Committee Q1 review, India Budget 2026 synergies</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Phase 3: Mid-Term Review</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">2028 – 2030</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Investment acceleration expected, second tariff tranche reductions</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-amber-600">Phase 4: Sunset Review</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">2031</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Year-5 checkpoint: ~$33B pro-rata target assessed, tariff concessions may be suspended if missed</td>
+            </tr>
+          </tbody>
+        </table>
+
         <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What This Means for Indian Exporters</h2>
         <p className="text-slate-700 leading-relaxed">
           EFTA investment creates <strong>reverse trade flows</strong>. As Swiss and Norwegian firms build manufacturing capacity in India, they create demand for Indian-made components and sub-assemblies — which can then be exported back to EFTA markets at preferential TEPA rates. eufta.in{"'"}s Rotterdam hub provides the logistics bridge for this two-way flow.
@@ -256,10 +516,10 @@ export const blogPosts: BlogPost[] = [
 
         <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
         <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
-          <li><a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a> — TEPA agreement text and investment provisions</li>
-          <li><a href="https://dpiit.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DPIIT (Dept. for Promotion of Industry and Internal Trade)</a> — FDI statistics</li>
-          <li><a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau</a> — TEPA signing announcements</li>
-          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — TEPA negotiation updates</li>
+          <li><a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a> — TEPA agreement text, investment provisions, and EFTA Investment Desk</li>
+          <li><a href="https://dpiit.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DPIIT (Dept. for Promotion of Industry and Internal Trade)</a> — FDI statistics and automatic route guidelines</li>
+          <li><a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau</a> — TEPA signing and implementation announcements</li>
+          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — TEPA implementation updates</li>
         </ul>
       </div>
     ),
@@ -276,6 +536,13 @@ export const blogPosts: BlogPost[] = [
     answerNugget: "India's Union Budget 2026-27 reduced Basic Customs Duty to 0% on 36 critical minerals including lithium, cobalt, rare earths, and gallium. For EFTA-based tech firms (ABB, Bühler, Equinor), this makes India a cost-competitive manufacturing base for EV batteries, semiconductors, and renewable energy equipment — with finished goods exportable to the EU at 0% duty under the India-EU FTA.",
     content: (
       <div className="space-y-6">
+        {/* 3-Sentence Executive Summary for AI Extraction */}
+        <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-50/50 p-5 mb-2">
+          <p className="text-sm font-bold text-emerald-800 mb-1">Executive Summary</p>
+          <p className="text-sm text-emerald-700 leading-relaxed">
+            India{"'"}s Union Budget 2026-27 eliminated customs duty on 36 critical minerals — including lithium (5%→0%), cobalt (5%→0%), gallium (7.5%→0%), and rare earths (2.5-5%→0%) — creating a zero-duty input corridor for technology manufacturing. EFTA firms like ABB, Bühler, and Equinor can now import raw minerals to India duty-free, manufacture at 40-60% lower cost than Europe, and export finished goods to the EU at 0% duty under the India-EU FTA. This three-step value chain makes India the most cost-competitive manufacturing base for EV batteries, semiconductors, and renewable energy equipment destined for the European market.
+          </p>
+        </div>
         <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
           <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 — Budget Analysis</p>
           <p className="text-sm text-cyan-700 leading-relaxed">
@@ -399,9 +666,16 @@ export const blogPosts: BlogPost[] = [
     date: "2026-02-15",
     keywords: ["India Budget 2026 EU trade", "Union Budget 2026 customs duty", "India EU FTA Budget impact", "EFTA India TEPA 2026", "BCD critical minerals 2026", "India Budget 2026 export"],
     geoKeywords: ["How does India Budget 2026 affect EU trade", "Union Budget 2026 customs duty changes for exporters", "India Budget 2026 EFTA impact"],
-    answerNugget: "The Indian Union Budget 2026-27 (presented February 1, 2026) reduces Basic Customs Duty (BCD) on 36 critical minerals to 0%, cuts nuclear fuel import duties, and rationalises tariff lines — directly complementing the 2026 India-EU FTA and EFTA-India TEPA. For exporters, these changes lower input costs and strengthen Rules of Origin compliance for duty-free EU access.",
+    answerNugget: "The Indian Union Budget 2026-27 (presented February 1, 2026) reduces Basic Customs Duty (BCD) on 36 critical minerals to 0%, halves personal import duty from 20% to 10%, raises seafood input BCD from 1% to 3%, removes the ₹10 lakh courier export cap, and rationalises tariff lines — directly complementing the 2026 India-EU FTA and EFTA-India TEPA.",
     content: (
       <div className="space-y-6">
+        {/* 3-Sentence Executive Summary for AI Extraction */}
+        <div className="rounded-xl border-l-4 border-emerald-500 bg-emerald-50/50 p-5 mb-2">
+          <p className="text-sm font-bold text-emerald-800 mb-1">Executive Summary</p>
+          <p className="text-sm text-emerald-700 leading-relaxed">
+            India{"'"}s Union Budget 2026-27 (February 1, 2026) eliminates BCD on 36 critical minerals, halves customs duty on personal imports from 20% to 10%, removes the ₹10 lakh courier export cap, and adjusts seafood input duties from 1% to 3%. These changes directly complement the India-EU FTA (signed January 27, 2026) by reducing input costs for Indian exporters and simplifying Rules of Origin documentation. Combined with the FTA{"'"}s 99.5% tariff elimination for Indian goods entering the EU, Indian manufacturers face the lowest combined duty burden in Indo-European trade history.
+          </p>
+        </div>
         <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
           <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 Update</p>
           <p className="text-sm text-cyan-700 leading-relaxed">
@@ -464,6 +738,53 @@ export const blogPosts: BlogPost[] = [
         <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">3. Processed Food & Agriculture</h3>
         <p className="text-slate-700 leading-relaxed">
           Select processed food items see BCD reductions to align with India{"'"}s WTO commitments and FTA obligations. European processed foods (pasta, biscuits, chocolates, olive oil) entering India under the India-EU FTA already benefit from the negotiated tariff schedule — the Budget changes further reduce the effective rate on complementary product categories.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Consumer & E-Commerce Changes</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Change</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Previous</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Budget 2026</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Trade Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Personal Import Duty</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">20%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">10%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Halved — boosts cross-border e-commerce from EU to India</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Seafood Inputs (Fish Feed, Additives)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">1%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-amber-600">3%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Raised to protect domestic aquaculture; increases input costs for seafood exporters</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Courier Export Cap</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">₹10 lakh per consignment</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">Removed entirely</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">D2C brands can now ship high-value consignments to EU via courier without cap restrictions</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">Personal Import Duty: Halved to 10%</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The reduction of customs duty on personal imports from 20% to 10% is the biggest consumer-facing change. For EU-India trade, this means European luxury goods, electronics, and personal items shipped to Indian consumers now face half the border cost. Combined with the FTA{"'"}s tariff elimination on commercial shipments, this creates a dual benefit: cheaper B2B trade and cheaper B2C cross-border e-commerce.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">Seafood Inputs: The Counter-Move</h3>
+        <p className="text-slate-700 leading-relaxed">
+          Against the grain of liberalisation, the Budget raises BCD on seafood inputs (fish feed, aquaculture additives) from 1% to 3%. This protects India{"'"}s domestic aquaculture industry but slightly increases production costs for Indian seafood exporters shipping to the EU — a sector worth €1.8 billion annually. EU-bound shrimp and prawns exporters should factor this into their landed cost calculations.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">₹10 Lakh Courier Export Cap: Removed</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The removal of the ₹10 lakh (~€10,800) per-consignment cap on courier exports is transformative for Indian D2C brands. Previously, high-value shipments (premium textiles, jewellery, ayurvedic products) had to use formal customs channels. Now, Indian brands can ship directly to European consumers via DHL, FedEx, or BlueDart International without value restrictions — dramatically reducing delivery times and customs processing costs.
         </p>
 
         <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Interplay with the India-EU FTA 2026</h2>
