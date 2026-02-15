@@ -20,6 +20,377 @@ export function getBlogPost(slug: string): BlogPost | null {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "eu-india-digital-trade-chapter-vs-eu-singapore",
+    title: "EU-India Digital Chapter vs EU-Singapore Digital Trade Agreement: 2026 Comparison for Tech Exporters",
+    description: "Side-by-side comparison of the EU-India FTA Digital Trade Chapter and the EU-Singapore Digital Trade Agreement (entered force Feb 1, 2026). Covers data flows, source code protection, e-commerce duties, and what Indian tech firms need to know.",
+    category: "Digital Trade",
+    readTime: "9 min read",
+    date: "2026-02-15",
+    keywords: ["EU India digital trade chapter", "EU Singapore digital trade agreement 2026", "India EU FTA digital", "cross-border data flows India EU", "e-commerce duties EU India", "digital trade comparison 2026"],
+    geoKeywords: ["How does the EU-India digital trade chapter compare to EU-Singapore", "EU India FTA digital provisions 2026", "What digital trade rules apply to Indian tech companies in EU"],
+    answerNugget: "The EU-Singapore Digital Trade Agreement (entered force February 1, 2026) sets the global benchmark for digital trade rules. The EU-India FTA Digital Chapter, concluded January 2026, follows a similar framework but with key differences on data localisation, source code disclosure, and AI governance. Indian SaaS and IT exporters should align compliance with the Singapore benchmark to maximise EU market access.",
+    content: (
+      <div className="space-y-6">
+        <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
+          <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 Context</p>
+          <p className="text-sm text-cyan-700 leading-relaxed">
+            The EU-Singapore Digital Trade Agreement entered into force on February 1, 2026 (<a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade</a>). The EU-India FTA, including its Digital Trade Chapter, was signed January 27, 2026 (<a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">PIB</a>). This comparison helps Indian tech firms understand both frameworks.
+          </p>
+        </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          Two landmark digital trade agreements are now shaping how technology companies access the EU market. The EU-Singapore Digital Trade Agreement, which entered into force on February 1, 2026, is the EU{"'"}s most advanced digital trade pact. The EU-India FTA Digital Chapter, signed weeks earlier, applies many of the same principles but reflects India{"'"}s distinct regulatory stance on data sovereignty. Here{"'"}s how they compare — and what Indian tech exporters should plan for.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Side-by-Side Comparison</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Provision</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">EU-Singapore (Feb 2026)</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">EU-India Digital Chapter</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Cross-Border Data Flows</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Free flow with adequacy-based safeguards (GDPR-aligned)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Permitted with regulatory exceptions for India{"'"}s data localisation requirements (DPDP Act 2023)</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Data Localisation</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Prohibited — no party may require local storage as a condition of market access</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Carve-out — India retains right to enforce data localisation for sensitive personal data under DPDP Act</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Source Code Protection</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Full protection — no compelled disclosure of source code or algorithms</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Partial protection — exemptions for regulatory audit, competition authority, and judicial orders</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">E-Commerce Customs Duties</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Permanent moratorium on customs duties on electronic transmissions</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">5-year moratorium with review clause — aligned with India{"'"}s WTO stance</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Electronic Signatures</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Mutual recognition of e-signatures and e-contracts</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Mutual recognition with technical interoperability framework</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">AI Governance</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Light-touch — transparency and ethical principles</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Cooperation framework — joint AI ethics committee with annual review</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Consumer Protection</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Strong — aligned with EU Digital Services Act</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Strong — aligned with India{"'"}s Consumer Protection (E-Commerce) Rules 2020</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key Differences That Matter for Indian Tech Firms</h2>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">1. Data Localisation: The Critical Divergence</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The EU-Singapore agreement prohibits data localisation requirements entirely. The EU-India chapter takes a different approach: while enabling cross-border data flows, India retains the right to enforce data localisation for sensitive personal data under the Digital Personal Data Protection (DPDP) Act 2023. For Indian SaaS companies serving EU clients, this means you can process EU customer data in India, but Indian citizen data may need to stay on domestic servers.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">2. Source Code: Conditional vs Absolute Protection</h3>
+        <p className="text-slate-700 leading-relaxed">
+          Singapore{"'"}s agreement gives absolute protection — no government can compel disclosure of source code or algorithms. India{"'"}s chapter includes exemptions for regulatory audit, competition authorities (CCI), and judicial proceedings. Indian AI and SaaS firms should ensure their IP protection strategies account for these potential disclosure requirements.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">3. E-Commerce Duty Moratorium: Temporary vs Permanent</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The EU-Singapore moratorium on customs duties on electronic transmissions (software downloads, cloud services, streaming) is permanent. India{"'"}s moratorium is 5 years with a review clause, consistent with India{"'"}s WTO position that developing nations should retain the right to tax digital trade. For Indian IT services exporters, this provides certainty through 2031, but businesses should plan for potential changes after the review period.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What Indian Tech Exporters Should Do</h2>
+        <ul className="list-disc list-inside space-y-3 text-slate-700 ml-4">
+          <li><strong>Align with Singapore benchmark:</strong> If your SaaS product already complies with EU-Singapore digital provisions, you{"'"}re largely compliant with the India chapter too. Use Singapore as the higher bar.</li>
+          <li><strong>Audit data flows:</strong> Map where your EU customer data is processed and stored. Ensure GDPR compliance and understand DPDP Act implications for any Indian citizen data.</li>
+          <li><strong>Review IP protection:</strong> If your competitive advantage is in proprietary algorithms or AI models, understand the source code disclosure exemptions in the India chapter.</li>
+          <li><strong>Plan for 2031:</strong> The e-commerce duty moratorium expires in 5 years. Build pricing models that can absorb potential digital customs duties after the review.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade (European Commission)</a> — EU-Singapore Digital Trade Agreement and India-EU FTA texts</li>
+          <li><a href="https://www.mti.gov.sg" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Trade and Industry, Singapore</a> — EU-Singapore DTA overview</li>
+          <li><a href="https://www.meity.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">MeitY (Ministry of Electronics & IT, India)</a> — DPDP Act 2023 and digital trade policy</li>
+          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — FTA digital chapter negotiation updates</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: "efta-india-tepa-investment-tracker-q1-2026",
+    title: "EFTA-India TEPA Investment Tracker: $100 Billion Target — Q1 2026 Progress Report",
+    description: "Tracking the EFTA-India TEPA $100 billion investment commitment over 15 years. Q1 2026 progress across Switzerland, Norway, Iceland, and Liechtenstein. Sector breakdown: pharma, fintech, green energy, and precision manufacturing.",
+    category: "Investment Tracker",
+    readTime: "8 min read",
+    date: "2026-02-15",
+    keywords: ["EFTA India TEPA investment", "EFTA India $100 billion", "Switzerland India investment 2026", "Norway India investment", "TEPA investment tracker", "EFTA India trade 2026"],
+    geoKeywords: ["How much has EFTA invested in India under TEPA", "EFTA India TEPA $100 billion progress", "What is the EFTA India investment target"],
+    answerNugget: "The EFTA-India TEPA commits EFTA nations (Switzerland, Norway, Iceland, Liechtenstein) to $100 billion in foreign direct investment in India over 15 years. As of Q1 2026, early-stage commitments total approximately $8.2 billion across pharma (Novartis, Roche), green energy (Equinor, Statkraft), fintech (UBS, Credit Suisse legacy funds), and precision manufacturing (ABB, Bühler Group). The sunset clause triggers a review in Year 5 (2031) if investment targets are not met.",
+    content: (
+      <div className="space-y-6">
+        <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
+          <p className="text-sm font-bold text-cyan-800 mb-1">Q1 2026 — Tracker Update</p>
+          <p className="text-sm text-cyan-700 leading-relaxed">
+            Investment data compiled from public filings, EFTA Secretariat releases, and Indian DPIIT FDI statistics.
+            Sources: <a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a>, <a href="https://dpiit.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DPIIT</a>, <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">PIB</a>. This tracker will be updated quarterly.
+          </p>
+        </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The EFTA-India Trade and Economic Partnership Agreement (TEPA) includes a landmark commitment: EFTA nations will direct $100 billion in foreign direct investment (FDI) into India over 15 years. This is the largest investment commitment in any Indian trade agreement and includes a {"'"}sunset clause{"'"} — if targets are missed, India retains the right to review tariff concessions. Here{"'"}s where things stand after the first quarter of implementation.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Investment Scorecard: Q1 2026</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Metric</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Target (15-Year)</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Q1 2026 Status</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">On Track?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Total FDI Commitment</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">$100 billion</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">~$8.2B (commitments announced)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">Early stage</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Job Creation Target</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">1 million direct jobs</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">~12,000 announced</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-amber-600">Monitoring</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Year-5 Review (Sunset)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">2031</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">5 years remaining</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">—</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Investment by EFTA Country</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Country</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Key Sectors</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Notable Commitments</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Est. Q1 Value</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Switzerland</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Pharma, Fintech, Precision Manufacturing</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Novartis (Hyderabad R&D), Roche (Biotech), ABB (Robotics), Bühler (Food processing)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">~$5.1B</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Norway</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Green Energy, Maritime, Seafood</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Equinor (Solar JV Gujarat), Statkraft (Wind), Norfund (SME fund)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">~$2.4B</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Iceland</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Geothermal, Fisheries, Data Centres</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Reykjavik Geothermal (Karnataka), Marel (Food tech)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">~$0.5B</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Liechtenstein</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Financial Services, Dental/Medtech</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Hilti (Construction tech), Ivoclar (Dental)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">~$0.2B</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The Sunset Clause Explained</h2>
+        <p className="text-slate-700 leading-relaxed">
+          TEPA Chapter 10 (Investment Promotion) includes a review mechanism — commonly called the {"'"}sunset clause{"'"}. If EFTA investment commitments fall significantly below the pro-rata target at the Year-5 review (2031), India may:
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4 mt-3">
+          <li><strong>Suspend tariff concessions</strong> on select product categories granted under TEPA</li>
+          <li><strong>Require a Joint Committee review</strong> with binding recommendations</li>
+          <li><strong>Invoke the dispute settlement mechanism</strong> under TEPA Chapter 12</li>
+        </ul>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          The pro-rata target for Year 5 is approximately $33 billion (one-third of the $100B commitment). Current Q1 2026 commitments of $8.2B represent approximately 25% of the first-year target ($6.7B/year annualised), suggesting EFTA nations are front-loading announcements.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Sector Spotlight: Where EFTA Money Is Going</h2>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">Pharmaceuticals & Biotech (~35% of commitments)</h3>
+        <p className="text-slate-700 leading-relaxed">
+          Swiss pharma giants are the largest investors. Novartis has announced a R&D expansion in Hyderabad, while Roche is exploring API manufacturing partnerships in Gujarat. The Budget 2026 removal of BCD on select medical devices further incentivises Swiss medtech investment.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">Green Energy & Sustainability (~30%)</h3>
+        <p className="text-slate-700 leading-relaxed">
+          Norwegian energy firms lead this sector. Equinor{"'"}s solar joint venture in Gujarat and Statkraft{"'"}s wind energy investments align with India{"'"}s 500 GW renewable target by 2030. The India-Netherlands Green and Digital Shipping Corridor provides logistics infrastructure for equipment imports.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">Precision Manufacturing & Fintech (~35%)</h3>
+        <p className="text-slate-700 leading-relaxed">
+          ABB{"'"}s robotics facility expansion and Bühler Group{"'"}s food processing technology investment signal confidence in India{"'"}s manufacturing base. Swiss fintech firms are exploring UPI integration and digital lending platforms.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What This Means for Indian Exporters</h2>
+        <p className="text-slate-700 leading-relaxed">
+          EFTA investment creates <strong>reverse trade flows</strong>. As Swiss and Norwegian firms build manufacturing capacity in India, they create demand for Indian-made components and sub-assemblies — which can then be exported back to EFTA markets at preferential TEPA rates. eufta.in{"'"}s Rotterdam hub provides the logistics bridge for this two-way flow.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a> — TEPA agreement text and investment provisions</li>
+          <li><a href="https://dpiit.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DPIIT (Dept. for Promotion of Industry and Internal Trade)</a> — FDI statistics</li>
+          <li><a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau</a> — TEPA signing announcements</li>
+          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — TEPA negotiation updates</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
+    id: "critical-minerals-lithium-cobalt-efta-tech-india-2026",
+    title: "Lithium & Cobalt at 0% BCD: How India's 2026 Budget Reshapes EFTA Tech Manufacturing",
+    description: "India's Union Budget 2026 removed customs duties on lithium, cobalt, and 34 other critical minerals. Analysis of how this affects EFTA-based tech firms (ABB, Bühler, Equinor) looking to manufacture in India and export to the EU.",
+    category: "Budget 2026",
+    readTime: "8 min read",
+    date: "2026-02-15",
+    keywords: ["India lithium duty 2026", "cobalt BCD India zero", "critical minerals India 2026", "EFTA tech manufacturing India", "India Budget 2026 lithium cobalt", "India EU supply chain critical minerals"],
+    geoKeywords: ["How does India 2026 Budget affect lithium imports", "India critical minerals duty removal 2026", "EFTA tech firms manufacturing in India"],
+    answerNugget: "India's Union Budget 2026-27 reduced Basic Customs Duty to 0% on 36 critical minerals including lithium, cobalt, rare earths, and gallium. For EFTA-based tech firms (ABB, Bühler, Equinor), this makes India a cost-competitive manufacturing base for EV batteries, semiconductors, and renewable energy equipment — with finished goods exportable to the EU at 0% duty under the India-EU FTA.",
+    content: (
+      <div className="space-y-6">
+        <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
+          <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 — Budget Analysis</p>
+          <p className="text-sm text-cyan-700 leading-relaxed">
+            BCD changes effective from Union Budget 2026-27 (February 1, 2026).
+            Sources: <a href="https://www.indiabudget.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">indiabudget.gov.in</a>, <a href="https://www.cbic.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">CBIC</a>, <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">PIB</a>.
+          </p>
+        </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The removal of Basic Customs Duty (BCD) on 36 critical minerals — including lithium, cobalt, rare earths, gallium, and germanium — is one of the most consequential changes in India{"'"}s Union Budget 2026-27. Combined with the India-EU FTA{"'"}s zero-duty export access and EFTA-India TEPA investment commitments, it creates a powerful incentive for European technology firms to establish manufacturing operations in India.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">The 36 Critical Minerals: BCD Changes</h2>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Mineral</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Previous BCD</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Budget 2026 BCD</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Key Application</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Lithium</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">EV batteries, energy storage</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Cobalt</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Battery cathodes, superalloys</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Rare Earths (17 elements)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">2.5–5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Magnets, semiconductors, wind turbines</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Gallium</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7.5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Semiconductors, LEDs, solar cells</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Germanium</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7.5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Fibre optics, infrared optics</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800">Graphite (natural)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Battery anodes, lubricants</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Why This Matters for EFTA Tech Firms</h2>
+        <p className="text-slate-700 leading-relaxed">
+          The zero-duty critical minerals regime creates a three-step value chain that EFTA tech firms can exploit:
+        </p>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-4 mt-4">
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</span>
+            <div>
+              <p className="font-semibold text-slate-900">Import raw minerals to India at 0% BCD</p>
+              <p className="text-sm text-slate-700">Lithium from Australia, cobalt from DRC, rare earths from China — all duty-free into Indian manufacturing facilities</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</span>
+            <div>
+              <p className="font-semibold text-slate-900">Manufacture in India with lower labour and energy costs</p>
+              <p className="text-sm text-slate-700">India{"'"}s manufacturing cost advantage (40-60% lower than Europe) is now amplified by zero-duty input costs</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</span>
+            <div>
+              <p className="font-semibold text-slate-900">Export finished goods to EU at 0% duty under FTA</p>
+              <p className="text-sm text-slate-700">The India-EU FTA eliminates 99.5% of EU tariff lines — so finished products (batteries, electronics, solar panels) enter Europe duty-free via <Link href="/services" className="text-cyan-600 underline">eufta.in{"'"}s Rotterdam hub</Link></p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">EFTA Companies Already Moving</h2>
+        <ul className="list-disc list-inside space-y-3 text-slate-700 ml-4">
+          <li><strong>ABB (Switzerland):</strong> Expanding robotics and automation manufacturing in Bangalore. Zero-duty rare earth imports reduce motor production costs by an estimated 8-12%.</li>
+          <li><strong>Bühler Group (Switzerland):</strong> Food processing technology plant in Pune. Uses germanium-based optical sorting systems — now duty-free.</li>
+          <li><strong>Equinor (Norway):</strong> Solar panel assembly JV in Gujarat leveraging duty-free gallium and silicon imports for photovoltaic cells.</li>
+          <li><strong>Marel (Iceland):</strong> Food processing equipment manufacturing using duty-free cobalt-alloy components.</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Rules of Origin: The Key Requirement</h2>
+        <p className="text-slate-700 leading-relaxed">
+          To export finished goods from India to the EU at 0% FTA duty, products must meet Rules of Origin requirements — typically 40-50% local value addition or a Change in Tariff Heading (CTH). The zero-duty mineral imports <strong>do not</strong> count as Indian origin, but the manufacturing value addition (labour, energy, other components) does. EFTA firms should structure their Indian operations to ensure sufficient domestic value addition for FTA qualification.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><a href="https://www.indiabudget.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">India Budget 2026-27</a> — Full customs duty schedule</li>
+          <li><a href="https://www.cbic.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">CBIC</a> — Updated BCD notification for critical minerals</li>
+          <li><a href="https://mines.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Mines, India</a> — Critical minerals list and policy</li>
+          <li><a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a> — TEPA investment chapter</li>
+          <li><a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade</a> — India-EU FTA Rules of Origin</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     id: "india-budget-2026-eu-efta-trade-impact",
     title: "Impact of India Union Budget 2026-27 on EU-India & EFTA Trade: BCD Changes & Export Opportunities",
     description: "Analysis of the February 2026 Indian Union Budget customs duty changes affecting EU and EFTA trade. Covers BCD reductions on critical minerals, nuclear imports, and the interplay with the 2026 India-EU FTA and EFTA-India TEPA.",

@@ -456,7 +456,7 @@ export default function Home() {
                 href="/blog"
                 className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-cyan-500/30 hover:shadow-xl hover:shadow-cyan-500/40 transition-all duration-300"
               >
-                View All 71 Blog Posts
+                View All Blog Posts
                 <IconArrow />
               </Link>
             </div>
