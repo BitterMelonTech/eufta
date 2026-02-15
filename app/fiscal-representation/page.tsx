@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import AnswerNugget from "../components/AnswerNugget";
 import VATCalculator from "../components/VATCalculator";
 import Breadcrumbs from "../components/Breadcrumbs";
+import FAQSection from "../components/FAQSection";
+import LastUpdated from "../components/LastUpdated";
 import Link from "next/link";
 import { IconArrow } from "../components/Icons";
 
@@ -233,6 +235,32 @@ export default function FiscalRepresentation() {
               </div>
             </div>
           </div>
+
+          {/* FAQ Section — visible text matches JSON-LD FAQPage schema exactly */}
+          <div className="flex justify-start mt-16">
+            <LastUpdated date="2026-02-15" />
+          </div>
+          <FAQSection
+            title="Article 23 VAT Deferment FAQ"
+            subtitle="Common questions about fiscal representation and VAT deferment in the Netherlands"
+            faqs={[
+              {
+                question: "What is Article 23 VAT Deferment?",
+                answer:
+                  "Article 23 VAT Deferment allows importers to defer the 21% VAT payment at the border. Instead, VAT is recorded as a reverse charge in the periodic return, eliminating upfront cash flow burden.",
+              },
+              {
+                question: "How does General Fiscal Representation work?",
+                answer:
+                  "eufta.in obtains Dutch VAT numbers for exporters and manages all quarterly filings, removing the need for a local Dutch office. We act as your fiscal representative in the Netherlands.",
+              },
+              {
+                question: "What are the benefits of Article 23?",
+                answer:
+                  "The main benefit is cash flow improvement. Instead of paying 21% VAT upfront at the border, you record it as a reverse charge in your periodic VAT return. Net effect on cash flow: Zero upfront burden.",
+              },
+            ]}
+          />
 
           {/* CTA Section */}
           <div className="mt-20 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 text-center">

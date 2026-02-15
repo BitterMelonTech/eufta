@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import AnswerNugget from "../../components/AnswerNugget";
+import AuthorBio from "../../components/AuthorBio";
 import { IconArrow } from "../../components/Icons";
 import { getBlogPost } from "../blogData";
 
@@ -49,18 +50,27 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
     headline: post.title,
     description: post.description,
     datePublished: post.date,
+    dateModified: post.date,
     author: {
       "@type": "Organization",
-      name: "eufta.in",
-      url: "https://eufta.in",
+      name: "eufta.in Trade Intelligence Team",
+      url: "https://eufta.in/about",
+      description:
+        "Trade analysts, customs brokers, and regulatory specialists at Sanjan Venture (Rotterdam, NL). Expertise in India-EU FTA tariff schedules, Article 23 VAT deferment, EFSA/EMA/REACH compliance, and EU marketplace logistics.",
+      sameAs: "https://www.linkedin.com/company/eufta",
     },
     publisher: {
       "@type": "Organization",
       name: "eufta.in",
+      url: "https://eufta.in",
       logo: {
         "@type": "ImageObject",
         url: "https://eufta.in/logo.png",
       },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://eufta.in/blog/${post.id}`,
     },
   };
 
@@ -119,6 +129,9 @@ export default async function BlogPostPage({ params }: { params: Promise<{ slug:
           ">
             {post.content}
           </article>
+
+          {/* Author Bio — H-E-E-A-T human-in-the-loop signal */}
+          <AuthorBio date={post.date} updatedDate={post.date} />
 
           {/* CTA Card */}
           <div className="mt-16 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-10">

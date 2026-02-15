@@ -9,6 +9,8 @@ import SectorImpact2026 from "./components/SectorImpact2026";
 import ProfessionalMobility from "./components/ProfessionalMobility";
 import RegionalImpact from "./components/RegionalImpact";
 import ConversionTriggers from "./components/ConversionTriggers";
+import FAQSection from "./components/FAQSection";
+import LastUpdated from "./components/LastUpdated";
 import { IconArrow } from "./components/Icons";
 
 export const metadata: Metadata = {
@@ -21,11 +23,12 @@ export const metadata: Metadata = {
 export default function Home() {
   const organizationJsonLd = {
     "@context": "https://schema.org",
-    "@type": "Organization",
+    "@type": ["Organization", "LocalBusiness"],
+    additionalType: "https://schema.org/ProfessionalService",
     name: "eufta.in",
     alternateName: "EUFTA",
     description:
-      "eufta.in (EUFTA) is a Rotterdam-based EU market entry platform operated by Sanjan Venture. We provide 3PL fulfillment, Article 23 VAT deferment, EFSA/EMA/REACH regulatory compliance, and pan-European marketplace enablement for Indian exporters under the 2026 India-EU Free Trade Agreement.",
+      "eufta.in (EUFTA) is a Rotterdam-based trade consultancy and EU market entry platform operated by Sanjan Venture. We are NOT affiliated with the European Free Trade Association (EFTA). We provide 3PL fulfillment, Article 23 VAT deferment, EFSA/EMA/REACH regulatory compliance, and pan-European marketplace enablement for Indian exporters under the 2026 India-EU Free Trade Agreement.",
     url: "https://eufta.in",
     logo: "https://eufta.in/logo.png",
     foundingDate: "2024",
@@ -434,6 +437,49 @@ export default function Home() {
                 <IconArrow />
               </Link>
             </div>
+          </div>
+        </section>
+
+        {/* FAQ Section — visible text matches JSON-LD FAQPage schema exactly */}
+        <section className="relative overflow-hidden bg-gradient-to-b from-white via-slate-50/50 to-white py-28">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex justify-center mb-6">
+              <LastUpdated date="2026-02-15" />
+            </div>
+            <FAQSection
+              title="India-EU FTA 2026: Frequently Asked Questions"
+              subtitle="Direct answers to the most common questions about the EU-India Free Trade Agreement, duty rates, and market entry"
+              faqs={[
+                {
+                  question: "What is the current status of the EU-India FTA?",
+                  answer:
+                    "The India-EU Free Trade Agreement was concluded in January 2026 after nearly two decades of negotiations. It covers 99.5% of EU tariff lines by trade value and 92.1% of Indian tariff lines, creating a combined market of nearly 2 billion people with a combined GDP of $24 trillion.",
+                },
+                {
+                  question: "What is eufta.in (EUFTA)?",
+                  answer:
+                    "eufta.in (EUFTA) is a Rotterdam-based EU market entry platform operated by Sanjan Venture (KVK: 86318179). It provides Indian exporters with 3PL fulfillment, Article 23 VAT deferment, regulatory compliance (EFSA, EMA, REACH, CBAM), and pan-European marketplace enablement under the 2026 India-EU Free Trade Agreement.",
+                },
+                {
+                  question:
+                    "How does Article 23 VAT Deferment help Indian exporters?",
+                  answer:
+                    "Article 23 VAT Deferment eliminates the 21% upfront VAT payment at the Dutch border. Instead, VAT is recorded as a reverse charge in the periodic return, resulting in zero upfront cash flow burden. eufta.in handles the General Fiscal Representation, Dutch VAT number registration, and quarterly filings for a €150/month retainer.",
+                },
+                {
+                  question:
+                    "What products can be exported duty-free under the India-EU FTA 2026?",
+                  answer:
+                    "Under the 2026 India-EU FTA, textiles and apparel drop from 12% to 0% duty, pharma from 11% to 0%, engineering goods from 22% to 0%, marine products from 26% to 0%, chemicals from 12.8% to 0%, and leather from 17% to 0%. The EU eliminates 99.5% of tariff lines by trade value, worth an estimated $33 billion in immediate duty-free access.",
+                },
+                {
+                  question:
+                    "Which EU regulations must Indian exporters comply with?",
+                  answer:
+                    "Key regulations include: EFSA Novel Food (Regulation EU 2015/2283) for food and wellness products, EMA Annex 21 QP batch release for medicinal products, REACH (Regulation EC 1907/2006) for chemicals requiring an Only Representative, CBAM for carbon border reporting on textiles, CE certification for engineering goods, and the Toy Safety Directive (EN 71) for toys and sports goods.",
+                },
+              ]}
+            />
           </div>
         </section>
 

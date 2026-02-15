@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import AnswerNugget from "../components/AnswerNugget";
 import Breadcrumbs from "../components/Breadcrumbs";
+import FAQSection from "../components/FAQSection";
+import LastUpdated from "../components/LastUpdated";
 import Link from "next/link";
 import { IconArrow } from "../components/Icons";
 
@@ -343,6 +345,37 @@ export default function MarketplaceEnablement() {
               </div>
             </div>
           </section>
+
+          {/* FAQ Section — visible text matches JSON-LD FAQPage schema exactly */}
+          <div className="flex justify-start mt-16">
+            <LastUpdated date="2026-02-15" />
+          </div>
+          <FAQSection
+            title="EU Marketplace FAQ for Indian Brands"
+            subtitle="Answers about selling on Amazon EU5, Zalando, Allegro, and other European platforms"
+            faqs={[
+              {
+                question: "Which European marketplaces can Indian brands sell on?",
+                answer:
+                  "Indian brands can sell on Amazon EU5 (UK, Germany, France, Italy, Spain), Zalando (121M visitors, fashion-focused), Allegro (289M visitors, Poland market leader), Bol.com (13.8M visitors, Benelux leader), Otto (50M+ visitors, Germany's largest online retailer), and Wehkamp (invite-only Dutch fashion marketplace). eufta.in provides integration with all six platforms from a single Rotterdam hub.",
+              },
+              {
+                question: "How much does European marketplace fulfillment cost?",
+                answer:
+                  "eufta.in offers competitive rates: Pick & Pack from €2.75/order (market rate €3.20+), extra items €0.40/SKU, storage €15/pallet/month, inbound processing €6/pallet, returns handling €4.50/return, and Fiscal Representation €150/month. These rates are 25-40% below typical European 3PL providers.",
+              },
+              {
+                question: "How long does marketplace integration take?",
+                answer:
+                  "The integration process follows 4 steps: (1) Account Setup — marketplace account creation and verification, (2) API Integration — connecting Shopify, WooCommerce, or custom stores to the WMS with real-time inventory sync, (3) Product Onboarding — bulk catalog upload with localized descriptions and compliance labeling, (4) Fulfillment Activation — go-live with automated pick-and-pack from the Rotterdam warehouse. The typical timeline is 2-4 weeks from start to first order.",
+              },
+              {
+                question: "What is Amazon Multi-Channel Fulfillment (MCF) for EU5?",
+                answer:
+                  "Amazon Multi-Channel Fulfillment (MCF) allows sellers to fulfill orders from non-Amazon channels (Shopify, own website) using Amazon's EU5 fulfillment network across UK, Germany, France, Italy, and Spain. eufta.in provides full MCF integration with pan-European inventory management, Prime eligibility, and automated returns processing.",
+              },
+            ]}
+          />
 
           {/* CTA */}
           <div className="mt-20 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 text-center">

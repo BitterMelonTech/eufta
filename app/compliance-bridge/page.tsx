@@ -3,6 +3,8 @@
 import { motion } from "framer-motion";
 import AnswerNugget from "../components/AnswerNugget";
 import Breadcrumbs from "../components/Breadcrumbs";
+import FAQSection from "../components/FAQSection";
+import LastUpdated from "../components/LastUpdated";
 import Link from "next/link";
 import { IconArrow } from "../components/Icons";
 
@@ -327,6 +329,37 @@ export default function ComplianceBridge() {
               ))}
             </div>
           </section>
+
+          {/* FAQ Section — visible text matches JSON-LD FAQPage schema exactly */}
+          <div className="flex justify-start mt-16">
+            <LastUpdated date="2026-02-15" />
+          </div>
+          <FAQSection
+            title="EU Compliance FAQ for Indian Exporters"
+            subtitle="Direct answers about EFSA, REACH, CBAM, and other EU regulatory requirements"
+            faqs={[
+              {
+                question: "What EU regulations do Indian exporters need to comply with?",
+                answer:
+                  "Indian exporters to the EU must comply with several regulations depending on their product: EFSA Novel Food (Regulation EU 2015/2283) for food and Ayush wellness products, EMA Annex 21 for medicinal products requiring QP batch release, REACH (Regulation EC 1907/2006) for chemicals requiring an Only Representative (OR), CBAM for mandatory carbon footprint reporting on textiles, CE certification for engineering goods, and EN 71 Toy Safety Directive for toys and sports goods.",
+              },
+              {
+                question: "What is a REACH Only Representative (OR) and why do Indian companies need one?",
+                answer:
+                  "Non-EU manufacturers cannot register chemicals directly with ECHA (European Chemicals Agency). A REACH Only Representative (OR) is an EU-based entity that handles all ECHA registrations on behalf of the non-EU manufacturer. eufta.in acts as OR for Indian chemical and plastics exporters, managing dossier preparation, fee structures (including the 19.5% registration fee increase from late 2025), and ongoing compliance monitoring.",
+              },
+              {
+                question: "How long does EFSA Novel Food registration take?",
+                answer:
+                  "EFSA Novel Food registration typically takes 9-24 months. The process begins with an Article 4 Consultation to determine if the ingredient has a safe history of consumption in the EU pre-May 1997. If classified as novel, a full EFSA dossier is required. eufta.in manages the entire process including initial ingredient assessment, Article 4 submission, dossier preparation, and health claims audit per Regulation EC 1924/2006.",
+              },
+              {
+                question: "What is CBAM and how does it affect Indian textile exports to the EU?",
+                answer:
+                  "CBAM (Carbon Border Adjustment Mechanism) requires mandatory carbon footprint reporting for certain imports into the EU, including textiles. Indian textile exporters must calculate the carbon footprint per product category, prepare CBAM reporting documentation, and submit quarterly reports to EU authorities. Non-compliance results in customs delays and penalties of up to 10% of shipment value.",
+              },
+            ]}
+          />
 
           {/* CTA */}
           <div className="mt-20 relative overflow-hidden rounded-2xl bg-gradient-to-br from-slate-900 via-indigo-950 to-slate-900 p-12 text-center">

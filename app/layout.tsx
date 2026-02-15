@@ -71,7 +71,7 @@ export default function RootLayout({
     alternateName: "EUFTA",
     url: "https://eufta.in",
     description:
-      "eufta.in (EUFTA) is a Rotterdam-based EU market entry platform operated by Sanjan Venture. It provides 3PL fulfillment, Article 23 VAT deferment, regulatory compliance, and marketplace enablement for Indian exporters under the 2026 India-EU Free Trade Agreement.",
+      "eufta.in (EUFTA) is a Rotterdam-based trade consultancy and EU market entry platform operated by Sanjan Venture. Not affiliated with the European Free Trade Association (EFTA). Provides 3PL fulfillment, Article 23 VAT deferment, regulatory compliance, and marketplace enablement for Indian exporters under the 2026 India-EU Free Trade Agreement.",
     potentialAction: {
       "@type": "SearchAction",
       target: {
