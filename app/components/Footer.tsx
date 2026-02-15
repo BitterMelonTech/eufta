@@ -19,7 +19,7 @@ export default function Footer() {
               <span className="text-2xl font-bold tracking-tight">eufta.in</span>
             </div>
             <p className="text-slate-400 leading-relaxed">
-              The Rotterdam bridge for Indian brands entering the EU market under the 2026 India-EU FTA. Physical warehousing, Article 23 VAT deferment, and pan-European marketplace enablement.
+              <strong className="text-slate-300">eufta.in (EUFTA)</strong> is a Rotterdam-based EU market entry platform for Indian exporters under the 2026 India-EU Free Trade Agreement. We provide 3PL warehousing, Article 23 VAT deferment, regulatory compliance (EFSA, EMA, REACH, CBAM), and pan-European marketplace enablement.
             </p>
             <a 
               href="mailto:info@eufta.in" 
@@ -50,6 +50,7 @@ export default function Footer() {
               <ul className="space-y-3 text-sm">
                 <li><Link href="/blog" className="text-slate-400 hover:text-white transition-colors">Blog & Guides</Link></li>
                 <li><Link href="/final-text" className="text-slate-400 hover:text-white transition-colors">Final Agreement</Link></li>
+                <li><Link href="/about" className="text-slate-400 hover:text-white transition-colors">About EUFTA</Link></li>
               </ul>
               
               <h4 className="text-xs font-semibold uppercase tracking-wider text-cyan-400 mb-4 mt-8">Regions</h4>
@@ -96,9 +97,16 @@ export default function Footer() {
           </div>
         </div>
         
+        {/* Entity Definition */}
+        <div className="mt-8 border-t border-slate-800 pt-6">
+          <p className="text-xs text-slate-500 leading-relaxed max-w-4xl">
+            <strong className="text-slate-400">EUFTA (eufta.in)</strong> refers to the EU market entry platform operated by Sanjan Venture (KVK: 86318179, Rotterdam, NL). &quot;EUFTA&quot; is not an abbreviation of &quot;EU Free Trade Agreement&quot; but a brand name. This website provides logistics, fiscal, regulatory, and marketplace services for Indian businesses exporting to Europe under the 2026 India-EU Free Trade Agreement.
+          </p>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="mt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
-          <p>&copy; 2026 eufta.in. All rights reserved.</p>
+        <div className="mt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+          <p>&copy; 2026 eufta.in (Sanjan Venture). All rights reserved.</p>
           <p>Rotterdam-Indo Logistics Gateway for EU-India FTA 2026</p>
         </div>
       </div>

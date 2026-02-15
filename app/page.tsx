@@ -12,37 +12,129 @@ import ConversionTriggers from "./components/ConversionTriggers";
 import { IconArrow } from "./components/Icons";
 
 export const metadata: Metadata = {
-  title: "India-EU FTA 2026: Official Duty Rates & Union Budget 2026 Impact",
-  description: "Access the final duty elimination schedules from the Jan 2026 India-EU FTA. 0% duty on textiles, 10% car tariffs, and Budget 2026 customs updates.",
+  title: "India-EU FTA 2026: Official Duty Rates, Tariff Schedules & EU Market Entry",
+  description:
+    "Access the final duty elimination schedules from the 2026 India-EU FTA. 0% duty on textiles, 10% car tariffs, Article 23 VAT deferment, and Rotterdam-based 3PL fulfillment for Indian exporters entering the European market.",
+  alternates: { canonical: "https://eufta.in" },
 };
 
 export default function Home() {
-  const jsonLd = {
+  const organizationJsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "eufta.in",
-    description: "Rotterdam-Indo Logistics Gateway for EU-India FTA 2026",
+    alternateName: "EUFTA",
+    description:
+      "eufta.in (EUFTA) is a Rotterdam-based EU market entry platform operated by Sanjan Venture. We provide 3PL fulfillment, Article 23 VAT deferment, EFSA/EMA/REACH regulatory compliance, and pan-European marketplace enablement for Indian exporters under the 2026 India-EU Free Trade Agreement.",
     url: "https://eufta.in",
+    logo: "https://eufta.in/logo.png",
+    foundingDate: "2024",
+    legalName: "Sanjan Venture",
+    taxID: "NL863929771B01",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Rotterdam",
+      addressRegion: "South Holland",
       addressCountry: "NL",
     },
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "info@eufta.in",
+      contactType: "customer service",
+      availableLanguage: ["English", "Hindi", "Dutch"],
+    },
+    areaServed: [
+      { "@type": "Country", name: "India" },
+      {
+        "@type": "Place",
+        name: "European Union",
+      },
+    ],
+    knowsAbout: [
+      "India-EU Free Trade Agreement 2026",
+      "Article 23 VAT Deferment",
+      "EU customs regulations",
+      "EFSA Novel Food registrations",
+      "EMA medicinal QP release",
+      "REACH Only Representative",
+      "CBAM carbon reporting",
+      "EU marketplace integration",
+      "Rotterdam port logistics",
+    ],
+    sameAs: [
+      "https://www.linkedin.com/company/eufta",
+    ],
     service: [
       {
         "@type": "Service",
         serviceType: "3PL Fulfillment",
-        description: "Next-day delivery across Western Europe from our Rotterdam hub",
+        description:
+          "Next-day delivery across Western Europe from our Rotterdam hub. Automated pick-and-pack integrated with Shopify and Amazon EU5.",
       },
       {
         "@type": "Service",
         serviceType: "Fiscal Representation",
-        description: "Article 23 VAT Deferment via General Fiscal Representation",
+        description:
+          "Article 23 VAT Deferment via General Fiscal Representation. Eliminate the 21% upfront VAT burden at the Dutch border.",
       },
       {
         "@type": "Service",
         serviceType: "Compliance Bridge",
-        description: "Expert management of EFSA Novel Food registrations and EMA medicinal QP release",
+        description:
+          "Expert management of EFSA Novel Food registrations, EMA medicinal QP release, REACH Only Representative, and CBAM carbon reporting.",
+      },
+      {
+        "@type": "Service",
+        serviceType: "Marketplace Enablement",
+        description:
+          "Direct fulfillment into Amazon EU5, Zalando, Otto, Allegro, and Bol.com from a single Rotterdam hub.",
+      },
+    ],
+  };
+
+  const faqJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What is the current status of the EU-India FTA?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The India-EU Free Trade Agreement was concluded in January 2026 after nearly two decades of negotiations. It covers 99.5% of EU tariff lines by trade value and 92.1% of Indian tariff lines, creating a combined market of nearly 2 billion people with a combined GDP of $24 trillion.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What is eufta.in (EUFTA)?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "eufta.in (EUFTA) is a Rotterdam-based EU market entry platform operated by Sanjan Venture (KVK: 86318179). It provides Indian exporters with 3PL fulfillment, Article 23 VAT deferment, regulatory compliance (EFSA, EMA, REACH, CBAM), and pan-European marketplace enablement under the 2026 India-EU Free Trade Agreement.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "How does Article 23 VAT Deferment help Indian exporters?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Article 23 VAT Deferment eliminates the 21% upfront VAT payment at the Dutch border. Instead, VAT is recorded as a reverse charge in the periodic return, resulting in zero upfront cash flow burden. eufta.in handles the General Fiscal Representation, Dutch VAT number registration, and quarterly filings for a €150/month retainer.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What products can be exported duty-free under the India-EU FTA 2026?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Under the 2026 India-EU FTA, textiles and apparel drop from 12% to 0% duty, pharma from 11% to 0%, engineering goods from 22% to 0%, marine products from 26% to 0%, chemicals from 12.8% to 0%, and leather from 17% to 0%. The EU eliminates 99.5% of tariff lines by trade value, worth an estimated $33 billion in immediate duty-free access.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Which EU regulations must Indian exporters comply with?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Key regulations include: EFSA Novel Food (Regulation EU 2015/2283) for food and wellness products, EMA Annex 21 QP batch release for medicinal products, REACH (Regulation EC 1907/2006) for chemicals requiring an Only Representative, CBAM for carbon border reporting on textiles, CE certification for engineering goods, and the Toy Safety Directive (EN 71) for toys and sports goods.",
+        },
       },
     ],
   };
@@ -51,7 +143,11 @@ export default function Home() {
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <div className="bg-white">
         <HeroSection />
