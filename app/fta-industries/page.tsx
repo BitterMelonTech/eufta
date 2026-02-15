@@ -2,6 +2,7 @@
 
 import AnswerNugget from "../components/AnswerNugget";
 import Breadcrumbs from "../components/Breadcrumbs";
+import LastUpdated from "../components/LastUpdated";
 import ServiceCostCalculator from "../components/ServiceCostCalculator";
 import FTADutyCalculator from "../components/FTADutyCalculator";
 import { useState } from "react";
@@ -153,6 +154,18 @@ export default function FTAIndustries() {
 
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <AnswerNugget content="Specialized logistics for Textiles (CBAM), Pharma (QP), Marine (BCP), and Engineering (CE). Deep-dives into tariff schedules for 15+ sectors." />
+
+          {/* February 2026 Update Notice */}
+          <div className="mt-8 flex flex-wrap items-center gap-4">
+            <LastUpdated date="2026-02-15" />
+            <div className="rounded-xl border-l-4 border-amber-500 bg-amber-50/50 p-4 flex-1 min-w-[300px]">
+              <p className="text-sm font-bold text-amber-800 mb-1">February 2026 Update</p>
+              <p className="text-sm text-amber-700 leading-relaxed">
+                Tariff rates reflect the India-EU FTA (signed Jan 27, 2026) and Union Budget 2026-27 BCD changes (Feb 1, 2026). Critical minerals now at 0% BCD unilaterally.
+                Sources: <a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">Min. of Commerce</a>, <a href="https://www.cbic.gov.in" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">CBIC</a>, <a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">DG Trade</a>.
+              </p>
+            </div>
+          </div>
 
           {/* Tabbed Interface */}
           <div className="mt-12">

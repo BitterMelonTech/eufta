@@ -139,6 +139,22 @@ export default function Home() {
           text: "Key regulations include: EFSA Novel Food (Regulation EU 2015/2283) for food and wellness products, EMA Annex 21 QP batch release for medicinal products, REACH (Regulation EC 1907/2006) for chemicals requiring an Only Representative, CBAM for carbon border reporting on textiles, CE certification for engineering goods, and the Toy Safety Directive (EN 71) for toys and sports goods.",
         },
       },
+      {
+        "@type": "Question",
+        name: "How does the India Union Budget 2026 affect EU-India trade?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The Union Budget 2026-27 (presented February 1, 2026) reduces Basic Customs Duty (BCD) on 36 critical minerals to 0%, cuts nuclear fuel import duties, and rationalises tariff lines. These changes complement the India-EU FTA by providing immediate duty relief on items with longer FTA staging periods, lowering input costs for Indian exporters, and simplifying Rules of Origin documentation for FTA preference claims at EU customs.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "What is the EFTA-India TEPA and how does it relate to the EU-India FTA?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "The EFTA-India TEPA (Trade and Economic Partnership Agreement) covers trade between India and EFTA nations (Switzerland, Norway, Iceland, Liechtenstein). It runs parallel to but is separate from the India-EU FTA. The Union Budget 2026 BCD changes on medical devices, precision instruments, and nuclear equipment directly benefit EFTA exporters, particularly Swiss pharmaceutical and Norwegian energy companies.",
+        },
+      },
     ],
   };
 
@@ -155,9 +171,16 @@ export default function Home() {
       <div className="bg-white">
         <HeroSection />
 
-        {/* Answer Nugget */}
+        {/* Answer Nugget + February 2026 Update */}
         <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
           <AnswerNugget content="The definitive Rotterdam bridge for Indian D2C and B2B brands to exploit the 2026 EU-India FTA. We provide physical warehousing, Article 23 VAT deferment, and pan-European marketplace enablement." />
+          <div className="mt-4 rounded-xl border-l-4 border-amber-500 bg-amber-50/50 p-5">
+            <p className="text-sm font-bold text-amber-800 mb-1">February 2026 Update</p>
+            <p className="text-sm text-amber-700 leading-relaxed">
+              Data updated following the India-EU FTA signing (Jan 27, 2026), India-EU 16th Summit outcomes, and Union Budget 2026-27 customs duty changes (Feb 1, 2026).
+              Sources: <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">PIB</a>, <a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">Min. of Commerce</a>, <a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">DG Trade (EC)</a>, <a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">EFTA Secretariat</a>.
+            </p>
+          </div>
         </section>
 
         <ValuePropositions />
@@ -404,9 +427,9 @@ export default function Home() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               {[
+                { title: "Impact of India Budget 2026 on EU-India & EFTA Trade", category: "Budget 2026", link: "/blog/india-budget-2026-eu-efta-trade-impact", gradient: "from-amber-500 to-orange-600" },
                 { title: "How to Export from India to EU in 2026", category: "Export Guide", link: "/blog/how-to-export-india-to-eu-2026", gradient: "from-cyan-500 to-cyan-600" },
                 { title: "Article 23 VAT Deferment Guide", category: "Fiscal Strategy", link: "/blog/article-23-vat-deferment-guide", gradient: "from-indigo-500 to-indigo-600" },
-                { title: "Gujarat Pharma Export to EU", category: "Regional Focus", link: "/blog/gujarat-pharma-export-eu", gradient: "from-violet-500 to-violet-600" },
               ].map((post, index) => (
                 <Link
                   key={index}
@@ -433,7 +456,7 @@ export default function Home() {
                 href="/blog"
                 className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-cyan-600 to-cyan-500 px-8 py-4 text-base font-semibold text-white shadow-lg shadow-cyan-500/30 hover:shadow-xl hover:shadow-cyan-500/40 transition-all duration-300"
               >
-                View All 70 Blog Posts
+                View All 71 Blog Posts
                 <IconArrow />
               </Link>
             </div>
@@ -477,6 +500,18 @@ export default function Home() {
                     "Which EU regulations must Indian exporters comply with?",
                   answer:
                     "Key regulations include: EFSA Novel Food (Regulation EU 2015/2283) for food and wellness products, EMA Annex 21 QP batch release for medicinal products, REACH (Regulation EC 1907/2006) for chemicals requiring an Only Representative, CBAM for carbon border reporting on textiles, CE certification for engineering goods, and the Toy Safety Directive (EN 71) for toys and sports goods.",
+                },
+                {
+                  question:
+                    "How does the India Union Budget 2026 affect EU-India trade?",
+                  answer:
+                    "The Union Budget 2026-27 (presented February 1, 2026) reduces Basic Customs Duty (BCD) on 36 critical minerals to 0%, cuts nuclear fuel import duties, and rationalises tariff lines. These changes complement the India-EU FTA by providing immediate duty relief on items with longer FTA staging periods, lowering input costs for Indian exporters, and simplifying Rules of Origin documentation for FTA preference claims at EU customs.",
+                },
+                {
+                  question:
+                    "What is the EFTA-India TEPA and how does it relate to the EU-India FTA?",
+                  answer:
+                    "The EFTA-India TEPA (Trade and Economic Partnership Agreement) covers trade between India and EFTA nations (Switzerland, Norway, Iceland, Liechtenstein). It runs parallel to but is separate from the India-EU FTA. The Union Budget 2026 BCD changes on medical devices, precision instruments, and nuclear equipment directly benefit EFTA exporters, particularly Swiss pharmaceutical and Norwegian energy companies.",
                 },
               ]}
             />

@@ -177,6 +177,15 @@ export default function ComplianceBridge() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <AnswerNugget content="Expert management of EFSA Novel Food registrations and EMA medicinal QP release. We decipher REACH and CBAM regulations to prevent customs seizures." />
 
+          {/* February 2026 Update Notice */}
+          <div className="mt-8 rounded-xl border-l-4 border-amber-500 bg-amber-50/50 p-5">
+            <p className="text-sm font-bold text-amber-800 mb-1">February 2026 Update</p>
+            <p className="text-sm text-amber-700 leading-relaxed">
+              Regulation data updated following the India-EU FTA signing (January 27, 2026) and the India Union Budget 2026-27 (February 1, 2026). REACH registration fees increased 19.5% for large companies effective late 2025.
+              Sources: <a href="https://echa.europa.eu" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">ECHA</a>, <a href="https://www.efsa.europa.eu" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">EFSA</a>, <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">PIB</a>.
+            </p>
+          </div>
+
           {/* Problem Statement */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}

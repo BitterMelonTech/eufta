@@ -20,6 +20,158 @@ export function getBlogPost(slug: string): BlogPost | null {
 
 export const blogPosts: BlogPost[] = [
   {
+    id: "india-budget-2026-eu-efta-trade-impact",
+    title: "Impact of India Union Budget 2026-27 on EU-India & EFTA Trade: BCD Changes & Export Opportunities",
+    description: "Analysis of the February 2026 Indian Union Budget customs duty changes affecting EU and EFTA trade. Covers BCD reductions on critical minerals, nuclear imports, and the interplay with the 2026 India-EU FTA and EFTA-India TEPA.",
+    category: "Budget 2026",
+    readTime: "10 min read",
+    date: "2026-02-15",
+    keywords: ["India Budget 2026 EU trade", "Union Budget 2026 customs duty", "India EU FTA Budget impact", "EFTA India TEPA 2026", "BCD critical minerals 2026", "India Budget 2026 export"],
+    geoKeywords: ["How does India Budget 2026 affect EU trade", "Union Budget 2026 customs duty changes for exporters", "India Budget 2026 EFTA impact"],
+    answerNugget: "The Indian Union Budget 2026-27 (presented February 1, 2026) reduces Basic Customs Duty (BCD) on 36 critical minerals to 0%, cuts nuclear fuel import duties, and rationalises tariff lines — directly complementing the 2026 India-EU FTA and EFTA-India TEPA. For exporters, these changes lower input costs and strengthen Rules of Origin compliance for duty-free EU access.",
+    content: (
+      <div className="space-y-6">
+        <div className="rounded-xl border-l-4 border-cyan-500 bg-cyan-50/50 p-5 mb-8">
+          <p className="text-sm font-bold text-cyan-800 mb-1">February 2026 Update</p>
+          <p className="text-sm text-cyan-700 leading-relaxed">
+            This analysis is based on the Union Budget 2026-27 presented by Finance Minister Nirmala Sitharaman on February 1, 2026. Source: <a href="https://www.indiabudget.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">indiabudget.gov.in</a> and <a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau (PIB)</a>.
+          </p>
+        </div>
+
+        <p className="text-lg text-slate-700 leading-relaxed">
+          The Indian Union Budget 2026-27 introduces significant customs duty changes that directly impact bilateral trade with the European Union and EFTA nations. Coming just weeks after the historic India-EU FTA signing (January 27, 2026) and alongside the ongoing EFTA-India TEPA (Trade and Economic Partnership Agreement) implementation, these budgetary measures reshape the trade landscape for exporters on both sides.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Key BCD Changes Affecting EU-India Trade</h2>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">1. Critical Minerals: 0% BCD on 36 Items</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The Budget 2026 eliminates Basic Customs Duty on 36 critical minerals essential for electronics, renewable energy, and advanced manufacturing. This directly benefits European companies exporting rare earths and processed minerals to India, while Indian manufacturers gain cheaper inputs for EU-bound exports.
+        </p>
+        <table className="w-full border-collapse border border-slate-200 mt-4 mb-6">
+          <thead>
+            <tr className="bg-slate-50">
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Category</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Previous BCD</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">Budget 2026 BCD</th>
+              <th className="border border-slate-200 px-4 py-3 text-left text-sm font-semibold text-slate-700">EU/EFTA Impact</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Critical Minerals (36 items)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">2.5–7.5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">EU/EFTA rare earth exporters gain duty-free access</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Nuclear Fuel & Equipment</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7.5–10%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0–2.5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">French (EDF/Areva) and EFTA nuclear suppliers benefit</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">EV Components & Batteries</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">15–21%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">5–10%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">German and Swedish EV supply chain gains margin</td>
+            </tr>
+            <tr>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Medical Devices (Select)</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">7.5%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm font-bold text-cyan-600">0%</td>
+              <td className="border border-slate-200 px-4 py-3 text-sm text-slate-700">Swiss and German medtech exporters benefit under TEPA</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">2. Tariff Rationalisation: Fewer HS Lines</h3>
+        <p className="text-slate-700 leading-relaxed">
+          The Budget consolidates and reduces the number of BCD rate slabs, simplifying tariff classification. For Indian exporters, this directly improves Rules of Origin documentation — a simpler tariff structure means fewer classification disputes when claiming FTA preferences at EU customs.
+        </p>
+
+        <h3 className="text-xl font-bold text-slate-800 mt-6 mb-3">3. Processed Food & Agriculture</h3>
+        <p className="text-slate-700 leading-relaxed">
+          Select processed food items see BCD reductions to align with India{"'"}s WTO commitments and FTA obligations. European processed foods (pasta, biscuits, chocolates, olive oil) entering India under the India-EU FTA already benefit from the negotiated tariff schedule — the Budget changes further reduce the effective rate on complementary product categories.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Interplay with the India-EU FTA 2026</h2>
+        <p className="text-slate-700 leading-relaxed">
+          The India-EU Free Trade Agreement (signed January 27, 2026) and the Union Budget 2026 are complementary. While the FTA eliminates tariffs on 99.5% of EU tariff lines and 92.1% of Indian tariff lines over a phased timeline, the Budget{"'"}s unilateral BCD reductions provide <strong>immediate</strong> relief on items that may have longer FTA staging periods.
+        </p>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          For example, critical minerals under the FTA had a 5-year phase-down schedule, but the Budget eliminates duty immediately — giving European exporters zero-duty access from Day 1 rather than Year 5.
+        </p>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">EFTA-India TEPA: Budget Alignment</h2>
+        <p className="text-slate-700 leading-relaxed">
+          The EFTA-India Trade and Economic Partnership Agreement (TEPA), covering Switzerland, Norway, Iceland, and Liechtenstein, runs parallel to the EU FTA. The Budget 2026 BCD changes on medical devices, precision instruments, and nuclear equipment directly benefit EFTA exporters, particularly Swiss pharmaceutical and Norwegian energy companies.
+        </p>
+        <p className="text-slate-700 leading-relaxed mt-3">
+          Key TEPA-Budget synergies:
+        </p>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><strong>Swiss Medtech:</strong> 0% BCD on select medical devices complements TEPA Chapter 3 (Market Access) provisions</li>
+          <li><strong>Norwegian Energy:</strong> Reduced nuclear import duties align with bilateral energy cooperation under TEPA Chapter 8</li>
+          <li><strong>Swiss Pharma:</strong> BCD rationalisation on API intermediates reduces input costs for Swiss-Indian pharma supply chains</li>
+          <li><strong>Precision Instruments:</strong> Lower duties on scientific equipment benefit Swiss watchmaking and precision engineering exports</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Impact on Indian Exporters to the EU</h2>
+        <p className="text-slate-700 leading-relaxed">
+          For Indian companies exporting to Europe, the Budget changes deliver three key benefits:
+        </p>
+        <ul className="list-disc list-inside space-y-3 text-slate-700 ml-4 mt-3">
+          <li><strong>Lower Input Costs:</strong> Zero BCD on critical minerals reduces production costs for electronics, solar panels, and battery manufacturers — improving price competitiveness in EU markets</li>
+          <li><strong>Simpler Rules of Origin:</strong> Tariff rationalisation reduces HS classification complexity, making it easier to prove {"'"}Change in Tariff Heading{"'"} for FTA preferential access</li>
+          <li><strong>EV Supply Chain:</strong> Reduced EV component duties encourage Indian manufacturers to source globally (including EU parts) and re-export finished goods to Europe at 0% duty under the FTA</li>
+        </ul>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">What Indian Exporters Should Do Now</h2>
+        <div className="bg-slate-50 rounded-lg p-6 space-y-4 mt-4">
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">1</span>
+            <div>
+              <p className="font-semibold text-slate-900">Audit Input Tariffs</p>
+              <p className="text-sm text-slate-700">Review your raw material imports against the new BCD schedule. If you import critical minerals or EV components, your landed cost has dropped significantly.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">2</span>
+            <div>
+              <p className="font-semibold text-slate-900">Update Rules of Origin Documentation</p>
+              <p className="text-sm text-slate-700">With tariff rationalisation, verify that your HS classifications and CTH calculations are up to date for FTA preference claims at EU customs.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">3</span>
+            <div>
+              <p className="font-semibold text-slate-900">Re-Price EU-Bound Products</p>
+              <p className="text-sm text-slate-700">Lower input costs + 0% EU duty under the FTA = significant margin improvement. Update your pricing for Amazon EU5, Zalando, and wholesale channels.</p>
+            </div>
+          </div>
+          <div className="flex items-start gap-3">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-cyan-500 text-white text-xs font-bold flex-shrink-0 mt-0.5">4</span>
+            <div>
+              <p className="font-semibold text-slate-900">Contact eufta.in for Rotterdam Setup</p>
+              <p className="text-sm text-slate-700">If you haven{"'"}t yet established your EU logistics base, the combined effect of Budget BCD cuts + FTA zero-duty access makes Q1 2026 the optimal entry window. <Link href="/services" className="text-cyan-600 underline">View our services</Link>.</p>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="text-2xl font-bold text-slate-900 mt-8 mb-4">Official Sources</h2>
+        <ul className="list-disc list-inside space-y-2 text-slate-700 ml-4">
+          <li><a href="https://www.indiabudget.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">India Budget 2026-27 — Official Documents</a> (Ministry of Finance)</li>
+          <li><a href="https://pib.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Press Information Bureau</a> — Budget Highlights</li>
+          <li><a href="https://www.cbic.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">CBIC</a> — Central Board of Indirect Taxes and Customs (Updated BCD Schedule)</li>
+          <li><a href="https://www.efta.int" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">EFTA Secretariat</a> — EFTA-India TEPA documentation</li>
+          <li><a href="https://policy.trade.ec.europa.eu" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">DG Trade (European Commission)</a> — India-EU FTA texts</li>
+          <li><a href="https://www.commerce.gov.in" target="_blank" rel="noopener noreferrer" className="text-cyan-600 underline">Ministry of Commerce, India</a> — Trade negotiation updates</li>
+        </ul>
+      </div>
+    ),
+  },
+  {
     id: "how-to-export-india-to-eu-2026",
     title: "How to Export from India to EU in 2026: Complete Guide for Indian Manufacturers",
     description: "Step-by-step guide for Indian companies entering the European market under the 2026 EU-India FTA. Learn about duty elimination, compliance requirements, and logistics setup.",

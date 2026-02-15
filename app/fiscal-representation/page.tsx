@@ -98,6 +98,15 @@ export default function FiscalRepresentation() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <AnswerNugget content="Access Article 23 VAT Deferment via our General Fiscal Representation. Eliminate the 21% upfront VAT burden at the border and improve cash flow instantly." />
 
+          {/* February 2026 Update Notice */}
+          <div className="mt-8 rounded-xl border-l-4 border-amber-500 bg-amber-50/50 p-5">
+            <p className="text-sm font-bold text-amber-800 mb-1">February 2026 Update</p>
+            <p className="text-sm text-amber-700 leading-relaxed">
+              Article 23 VAT Deferment rates and procedures current as of February 2026. Dutch VAT rate remains 21%.
+              Source: <a href="https://www.belastingdienst.nl" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">Dutch Tax Authority (Belastingdienst)</a>, <a href="https://www.rijksoverheid.nl" target="_blank" rel="noopener noreferrer" className="text-amber-600 underline">Government of the Netherlands</a>.
+            </p>
+          </div>
+
           <div className="mt-12 grid grid-cols-1 gap-12 lg:grid-cols-2">
             {/* Main Content */}
             <div className="space-y-8">
